@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "atrox:block/spookywood_log_side",
+    "particle": "atrox:block/spookywood_log_side"
+  },
+  "render_type": "solid"
+}

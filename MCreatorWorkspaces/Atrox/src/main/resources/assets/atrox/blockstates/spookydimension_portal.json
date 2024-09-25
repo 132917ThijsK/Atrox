@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "atrox:block/spookydimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "atrox:block/spookydimension_portal_ns"
+    }
+  }
+}

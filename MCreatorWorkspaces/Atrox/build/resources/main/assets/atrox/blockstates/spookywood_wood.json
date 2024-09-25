@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "atrox:block/spookywood_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "atrox:block/spookywood_wood"
+    },
+    "axis=z": {
+      "model": "atrox:block/spookywood_wood",
+      "x": 90
+    }
+  }
+}

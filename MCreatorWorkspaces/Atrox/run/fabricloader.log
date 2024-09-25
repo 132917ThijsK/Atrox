@@ -1,0 +1,4 @@
+[10:34:29] [WARN] [FabricLoader/Resolution]: Mod resolution failed
+[10:34:29] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE axiom 4.1.0 {depends fabric-api @ [*]}, ROOT_FORCELOAD_SINGLE axiom 4.1.0]
+[10:34:29] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP axiom 4.1.0 {depends fabric-api @ [*]}]
+[10:34:29] [INFO] [FabricLoader/Resolution]: Fix: add [add:fabric-api 1 ([(-∞,∞)])], remove [], replace []

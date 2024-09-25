@@ -1,0 +1,46 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "particle": {
+      "options": {
+        "type": "ash"
+      },
+      "probability": 0.007
+    },
+    "foliage_color": 10387789,
+    "grass_color": 9470285,
+    "sky_color": -16172791,
+    "fog_color": -16172791,
+    "water_color": -15036902,
+    "water_fog_color": -16172791
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "atrox:spookyworld_tree"
+    ],
+    []
+  ]
+}

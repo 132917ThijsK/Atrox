@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "atrox:block/spookywood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "atrox:block/spookywood_pressure_plate_down"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "atrox:spookywood_planks"
+    }
+  ],
+  "result": {
+    "item": "atrox:spookywood_button",
+    "count": 1
+  }
+}

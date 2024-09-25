@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "atrox:block/spookywood_planks",
+    "particle": "atrox:block/spookywood_planks"
+  },
+  "render_type": "solid"
+}

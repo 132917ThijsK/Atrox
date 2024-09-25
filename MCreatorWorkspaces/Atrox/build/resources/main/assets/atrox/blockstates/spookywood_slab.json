@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "atrox:block/spookywood_slab"
+    },
+    "type=top": {
+      "model": "atrox:block/spookywood_slab_top"
+    },
+    "type=double": {
+      "model": "atrox:block/spookywood_slab_full"
+    }
+  }
+}

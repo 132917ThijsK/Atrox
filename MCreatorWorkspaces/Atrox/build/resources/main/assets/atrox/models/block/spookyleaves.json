@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "atrox:block/spookyleave",
+    "particle": "atrox:block/spookyleave"
+  }
+}

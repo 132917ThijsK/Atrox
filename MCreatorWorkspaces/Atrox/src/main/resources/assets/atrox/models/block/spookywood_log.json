@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "atrox:block/spookywood_log_top",
+    "up": "atrox:block/spookywood_log_top",
+    "north": "atrox:block/spookywood_log_side",
+    "east": "atrox:block/spookywood_log_side",
+    "south": "atrox:block/spookywood_log_side",
+    "west": "atrox:block/spookywood_log_side",
+    "particle": "atrox:block/spookywood_log_top"
+  },
+  "render_type": "solid"
+}

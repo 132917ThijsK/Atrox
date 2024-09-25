@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "atrox:spookywood_wood"
+    }
+  ],
+  "result": {
+    "item": "atrox:spookywood_planks",
+    "count": 4
+  }
+}

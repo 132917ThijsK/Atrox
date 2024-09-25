@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "atrox:spookyrack",
+    "count": 1
+  }
+}

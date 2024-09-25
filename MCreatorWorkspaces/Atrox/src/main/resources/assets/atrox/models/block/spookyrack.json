@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "atrox:block/bottomnether",
+    "top": "atrox:block/top",
+    "side": "atrox:block/front",
+    "overlay": "atrox:block/left",
+    "particle": "atrox:block/spookyparticle"
+  },
+  "render_type": "solid"
+}
