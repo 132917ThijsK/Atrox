@@ -12,7 +12,8 @@
           "src/main/resources/data/atrox/worldgen/template_pool/spookyportal.json",
           "src/main/resources/data/atrox/worldgen/structure_set/spookyportal.json"
         ]
-      }
+      },
+      "path": "~/Structures"
     },
     {
       "name": "Spookydimension",
@@ -34,7 +35,8 @@
           "src/main/java/net/mcreator/atrox/world/dimension/SpookydimensionDimension.java",
           "src/main/resources/data/atrox/dimension_type/spookydimension.json"
         ]
-      }
+      },
+      "path": "~/Dimensions-portals"
     },
     {
       "name": "Spookychurch",
@@ -48,7 +50,8 @@
           "src/main/resources/data/atrox/worldgen/structure_set/spookychurch.json",
           "src/main/resources/data/atrox/worldgen/structure/spookychurch.json"
         ]
-      }
+      },
+      "path": "~/Structures"
     },
     {
       "name": "Spookyrack",
@@ -64,7 +67,8 @@
           "src/main/resources/assets/atrox/models/item/spookyrack.json",
           "src/main/resources/assets/atrox/blockstates/spookyrack.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "Spookyrackcraftingrecipe",
@@ -76,7 +80,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/spookyrackcraftingrecipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "Spookyworld",
@@ -93,7 +98,8 @@
           "src/main/resources/data/atrox/worldgen/placed_feature/spookyworld_tree.json",
           "src/main/resources/data/atrox/worldgen/biome/spookyworld.json"
         ]
-      }
+      },
+      "path": "~/Dimensions-portals"
     },
     {
       "name": "Spookyleaves",
@@ -109,7 +115,8 @@
           "src/main/resources/assets/atrox/blockstates/spookyleaves.json",
           "src/main/resources/assets/atrox/models/block/spookyleaves.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodWood",
@@ -125,7 +132,8 @@
           "src/main/resources/assets/atrox/models/block/spookywood_wood.json",
           "src/main/resources/assets/atrox/models/item/spookywood_wood.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodLog",
@@ -141,7 +149,8 @@
           "src/main/resources/data/atrox/loot_tables/blocks/spookywood_log.json",
           "src/main/resources/assets/atrox/models/item/spookywood_log.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodPlanks",
@@ -157,7 +166,8 @@
           "src/main/resources/assets/atrox/models/item/spookywood_planks.json",
           "src/main/resources/data/atrox/loot_tables/blocks/spookywood_planks.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodStairs",
@@ -175,7 +185,8 @@
           "src/main/resources/assets/atrox/models/block/spookywood_stairs.json",
           "src/main/resources/assets/atrox/models/block/spookywood_stairs_outer.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodSlab",
@@ -193,7 +204,8 @@
           "src/main/java/net/mcreator/atrox/block/SpookywoodSlabBlock.java",
           "src/main/resources/data/atrox/loot_tables/blocks/spookywood_slab.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodFence",
@@ -211,7 +223,8 @@
           "src/main/resources/assets/atrox/models/item/spookywood_fence.json",
           "src/main/resources/assets/atrox/blockstates/spookywood_fence.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodFenceGate",
@@ -230,7 +243,8 @@
           "src/main/resources/assets/atrox/models/block/spookywood_fence_gate.json",
           "src/main/resources/assets/atrox/models/block/spookywood_fence_gate_wall_open.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodPressurePlate",
@@ -247,7 +261,8 @@
           "src/main/resources/data/atrox/loot_tables/blocks/spookywood_pressure_plate.json",
           "src/main/java/net/mcreator/atrox/block/SpookywoodPressurePlateBlock.java"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodButton",
@@ -265,7 +280,8 @@
           "src/main/resources/assets/atrox/blockstates/spookywood_button.json",
           "src/main/resources/assets/atrox/models/block/spookywood_button_pressed.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodWoodRecipe",
@@ -277,7 +293,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/spookywood_wood_recipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodPlanksLogRecipe",
@@ -289,7 +306,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/spookywood_planks_log_recipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodPlanksWoodRecipe",
@@ -301,7 +319,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/spookywood_planks_wood_recipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodStairsRecipe",
@@ -313,7 +332,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/spookywood_stairs_recipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodSlabRecipe",
@@ -325,7 +345,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/spookywood_slab_recipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodFenceRecipe",
@@ -337,7 +358,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/spookywood_fence_recipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodFenceGateRecipe",
@@ -349,7 +371,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/spookywood_fence_gate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodPressurePlateRecipe",
@@ -361,7 +384,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/spookywood_pressure_plate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodButtonRecipe",
@@ -373,7 +397,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/spookywood_button_recipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SpookywoodStickRecipe",
@@ -385,7 +410,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/spookywood_stick_recipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "Spookycraftingtablerecipe",
@@ -397,7 +423,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/spookycraftingtablerecipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "Spooky",
@@ -407,7 +434,8 @@
       "registry_name": "spooky",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "Spookypoison",
@@ -419,7 +447,8 @@
         "files": [
           "src/main/resources/data/atrox/damage_type/spookypoison.json"
         ]
-      }
+      },
+      "path": "~/Acid"
     },
     {
       "name": "AcidMobplayerCollidesBlock",
@@ -441,7 +470,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Acid"
     },
     {
       "name": "Acid",
@@ -459,7 +489,8 @@
           "src/main/java/net/mcreator/atrox/item/AcidItem.java",
           "src/main/resources/assets/atrox/blockstates/acid.json"
         ]
-      }
+      },
+      "path": "~/Acid"
     },
     {
       "name": "Spookyroamer",
@@ -474,7 +505,8 @@
           "src/main/resources/data/atrox/forge/biome_modifier/spookyroamer_biome_modifier.json",
           "src/main/resources/assets/atrox/models/item/spookyroamer_spawn_egg.json"
         ]
-      }
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
@@ -544,7 +576,28 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Acid",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Dimensions-portals",
+        "children": []
+      },
+      {
+        "name": "Items-blocks",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "atrox",

@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "enchanting_table_book",
+        "1": "enchanting_table_side",
+        "2": "enchanting_table_top",
+        "3": "enchanting_table_bottom",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

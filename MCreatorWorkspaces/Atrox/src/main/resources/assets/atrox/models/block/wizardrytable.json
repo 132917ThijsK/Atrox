@@ -1,0 +1,13 @@
+{
+  "parent": "atrox:custom/wizardrytable",
+  "textures": {
+    "all": "atrox:block/wizardrytableitem",
+    "particle": "atrox:block/wizardrytableitem",
+    "0": "atrox:block/enchanting_table_book",
+    "1": "atrox:block/enchanting_table_side",
+    "2": "atrox:block/enchanting_table_top",
+    "3": "atrox:block/enchanting_table_bottom",
+    "missing": "atrox:block/"
+  },
+  "render_type": "solid"
+}

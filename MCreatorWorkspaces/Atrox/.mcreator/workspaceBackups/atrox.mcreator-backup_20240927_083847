@@ -441,7 +441,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Acid"
     },
     {
       "name": "Acid",
@@ -459,7 +460,8 @@
           "src/main/java/net/mcreator/atrox/item/AcidItem.java",
           "src/main/resources/assets/atrox/blockstates/acid.json"
         ]
-      }
+      },
+      "path": "~/Acid"
     },
     {
       "name": "Spookyroamer",
@@ -474,7 +476,8 @@
           "src/main/resources/data/atrox/forge/biome_modifier/spookyroamer_biome_modifier.json",
           "src/main/resources/assets/atrox/models/item/spookyroamer_spawn_egg.json"
         ]
-      }
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
@@ -519,13 +522,13 @@
   "language_map": {
     "en_us": {
       "block.atrox.spookywood_button": "Spooky Button",
-      "entity.atrox.spookyroamer": "Spookyroamer",
+      "entity.atrox.spookyroamer": "roamer",
       "block.atrox.spookywood_log": "Spooky Log",
       "block.atrox.spookywood_slab": "Spooky Slab",
       "block.atrox.acid": "Acid",
       "death.attack.spookypoison.item": "%1$s was killed by %2$s using %3$s",
       "block.atrox.spookywood_pressure_plate": "Spooky Pressure Plate",
-      "item.atrox.spookyroamer_spawn_egg": "Spookyroamer Spawn Egg",
+      "item.atrox.spookyroamer_spawn_egg": "roamer Spawn Egg",
       "block.atrox.spookyrack": "Spookyrack",
       "death.attack.spookypoison": "%1$s was envenomed by acid",
       "death.attack.spookypoison.player": "%1$s died whilst trying to escape %2$s",
@@ -544,7 +547,16 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Acid",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "atrox",

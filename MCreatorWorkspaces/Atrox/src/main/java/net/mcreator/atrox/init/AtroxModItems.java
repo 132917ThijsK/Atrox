@@ -33,6 +33,7 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> SPOOKYWOOD_BUTTON = block(AtroxModBlocks.SPOOKYWOOD_BUTTON);
 	public static final RegistryObject<Item> ACID_BUCKET = REGISTRY.register("acid_bucket", () -> new AcidItem());
 	public static final RegistryObject<Item> SPOOKYROAMER_SPAWN_EGG = REGISTRY.register("spookyroamer_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.SPOOKYROAMER, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> WIZARDRYTABLE = block(AtroxModBlocks.WIZARDRYTABLE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

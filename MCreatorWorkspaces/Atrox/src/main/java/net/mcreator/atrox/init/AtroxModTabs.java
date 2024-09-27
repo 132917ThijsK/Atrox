@@ -32,6 +32,7 @@ public class AtroxModTabs {
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_BUTTON.get().asItem());
 				tabData.accept(AtroxModItems.ACID_BUCKET.get());
 				tabData.accept(AtroxModItems.SPOOKYROAMER_SPAWN_EGG.get());
+				tabData.accept(AtroxModBlocks.WIZARDRYTABLE.get().asItem());
 			})
 
 					.build());

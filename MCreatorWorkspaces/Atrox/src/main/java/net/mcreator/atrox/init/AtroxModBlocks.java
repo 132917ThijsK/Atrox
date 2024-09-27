@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.atrox.block.WizardrytableBlock;
 import net.mcreator.atrox.block.SpookywoodWoodBlock;
 import net.mcreator.atrox.block.SpookywoodStairsBlock;
 import net.mcreator.atrox.block.SpookywoodSlabBlock;
@@ -40,6 +41,7 @@ public class AtroxModBlocks {
 	public static final RegistryObject<Block> SPOOKYWOOD_PRESSURE_PLATE = REGISTRY.register("spookywood_pressure_plate", () -> new SpookywoodPressurePlateBlock());
 	public static final RegistryObject<Block> SPOOKYWOOD_BUTTON = REGISTRY.register("spookywood_button", () -> new SpookywoodButtonBlock());
 	public static final RegistryObject<Block> ACID = REGISTRY.register("acid", () -> new AcidBlock());
+	public static final RegistryObject<Block> WIZARDRYTABLE = REGISTRY.register("wizardrytable", () -> new WizardrytableBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
