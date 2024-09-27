@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "atrox:spookywood_planks"
+    }
+  },
+  "result": {
+    "item": "atrox:boatspawner",
+    "count": 1
+  }
+}

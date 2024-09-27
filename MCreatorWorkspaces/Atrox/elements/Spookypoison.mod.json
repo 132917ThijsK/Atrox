@@ -7,6 +7,6 @@
     "effects": "hurt",
     "normalDeathMessage": "%1$s was envenomed by acid",
     "itemDeathMessage": "%1$s was killed by %2$s using %3$s",
-    "playerDeathMessage": "%1$s died whilst trying to escape %2$s"
+    "playerDeathMessage": "%1$s was envenomed whilst trying to escape %2$s"
   }
 }

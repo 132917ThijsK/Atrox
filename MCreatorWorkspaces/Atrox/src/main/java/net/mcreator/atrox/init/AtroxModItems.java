@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.atrox.item.SpookydimensionItem;
+import net.mcreator.atrox.item.BoatspawnerItem;
 import net.mcreator.atrox.item.AcidItem;
 import net.mcreator.atrox.AtroxMod;
 
@@ -34,6 +35,8 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> ACID_BUCKET = REGISTRY.register("acid_bucket", () -> new AcidItem());
 	public static final RegistryObject<Item> SPOOKYROAMER_SPAWN_EGG = REGISTRY.register("spookyroamer_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.SPOOKYROAMER, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> WIZARDRYTABLE = block(AtroxModBlocks.WIZARDRYTABLE);
+	public static final RegistryObject<Item> SPOOKY_BOAT_SPAWN_EGG = REGISTRY.register("spooky_boat_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.SPOOKY_BOAT, -14605279, -14600681, new Item.Properties()));
+	public static final RegistryObject<Item> BOATSPAWNER = REGISTRY.register("boatspawner", () -> new BoatspawnerItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

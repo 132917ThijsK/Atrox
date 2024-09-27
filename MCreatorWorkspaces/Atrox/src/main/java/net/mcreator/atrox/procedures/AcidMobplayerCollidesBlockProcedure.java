@@ -9,16 +9,20 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.atrox.entity.SpookyroamerEntity;
+import net.mcreator.atrox.entity.SpookyBoatEntity;
+import net.mcreator.atrox.AtroxMod;
 
 public class AcidMobplayerCollidesBlockProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof SpookyroamerEntity) {
+		if (entity instanceof SpookyBoatEntity || entity instanceof SpookyroamerEntity || entity.isPassenger()) {
 			if (entity instanceof Player _player)
 				_player.giveExperiencePoints(-(0));
 		} else {
-			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("atrox:spookypoison")))), 2);
+			AtroxMod.queueServerWork(10, () -> {
+				entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("atrox:spookypoison")))), 2);
+			});
 		}
 	}
 }
