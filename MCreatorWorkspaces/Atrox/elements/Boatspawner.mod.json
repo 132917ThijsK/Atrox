@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "spookyboatinvmodel",
+    "texture": "spooky_boat",
     "customModelName": "Tool",
     "customProperties": {},
     "states": [],

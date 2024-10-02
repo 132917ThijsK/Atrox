@@ -28,7 +28,7 @@ public class AtroxModEntities {
 	public static final RegistryObject<EntityType<SpookyBoatEntity>> SPOOKY_BOAT = register("spooky_boat",
 			EntityType.Builder.<SpookyBoatEntity>of(SpookyBoatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpookyBoatEntity::new)
 
-					.sized(0.6f, 1.5f));
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

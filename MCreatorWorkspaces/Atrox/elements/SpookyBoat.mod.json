@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Spooky Boat",
     "mobLabel": "",
-    "mobModelName": "Modelboat2",
+    "mobModelName": "Modelspookyboat",
     "mobModelTexture": "spookyboat.png",
     "transparentModelCondition": {
       "fixedValue": false
@@ -23,9 +23,9 @@
     },
     "modelLayers": [],
     "modelWidth": 0.6,
-    "modelHeight": 1.5,
+    "modelHeight": 1.8,
     "modelShadowSize": 0.5,
-    "mountedYOffset": -1.2,
+    "mountedYOffset": -1.4000000000000001,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
       "value": -14605279,
@@ -67,7 +67,7 @@
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 0,
-    "health": 16,
+    "health": 6,
     "xpAmount": 0,
     "waterMob": false,
     "breatheUnderwater": {
