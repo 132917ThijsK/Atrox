@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Wizard",
+    "pointOfInterest": {
+      "value": "CUSTOM:Wizardrytable"
+    },
+    "actionSound": {
+      "value": "entity.villager.trading"
+    },
+    "hat": "None",
+    "professionTextureFile": "wizard.png",
+    "zombifiedProfessionTextureFile": "zombiewizard.png"
+  }
+}

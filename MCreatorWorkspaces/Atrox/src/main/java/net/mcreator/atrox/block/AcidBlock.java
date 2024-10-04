@@ -17,12 +17,13 @@ import net.mcreator.atrox.init.AtroxModFluids;
 
 public class AcidBlock extends LiquidBlock {
 	public AcidBlock() {
-		super(() -> AtroxModFluids.ACID.get(), BlockBehaviour.Properties.of().mapColor(MapColor.WATER).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(() -> AtroxModFluids.ACID.get(), BlockBehaviour.Properties.of().mapColor(MapColor.WATER).strength(100f).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).noCollission().noLootTable().liquid()
+				.pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 12;
+		return 4;
 	}
 
 	@Override

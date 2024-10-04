@@ -1,0 +1,30 @@
+{
+  "_fv": 66,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Acid",
+    "splashName": "Splash Potion of Acid",
+    "lingeringName": "Lingering Potion of Acid",
+    "arrowName": "Arrow of Acid",
+    "effects": [
+      {
+        "effect": {
+          "value": "WEAKNESS"
+        },
+        "duration": 300,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "POISON"
+        },
+        "duration": 300,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

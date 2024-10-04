@@ -10,6 +10,6 @@ import net.mcreator.atrox.init.AtroxModFluids;
 
 public class AcidItem extends BucketItem {
 	public AcidItem() {
-		super(AtroxModFluids.ACID, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1).rarity(Rarity.COMMON));
+		super(AtroxModFluids.ACID, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1).rarity(Rarity.RARE));
 	}
 }

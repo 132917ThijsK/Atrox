@@ -1,0 +1,105 @@
+{
+  "_fv": 66,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Wizard"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": "Blocks.SOUL_SAND"
+            },
+            "countPrice2": 4,
+            "offer": {
+              "value": "CUSTOM:Spookyrack"
+            },
+            "countOffer": 4,
+            "level": 1,
+            "maxTrades": 5,
+            "xp": 15,
+            "priceMultiplier": 0.5
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 12,
+            "price2": {
+              "value": "Blocks.SOUL_SAND"
+            },
+            "countPrice2": 8,
+            "offer": {
+              "value": "CUSTOM:Spookydimension"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 2,
+            "xp": 60,
+            "priceMultiplier": 1.0
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SpookywoodLog"
+            },
+            "countOffer": 2,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 15,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.FEATHER"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 2,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.STRING"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 6,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}
