@@ -22,7 +22,19 @@ authors="msi, MCreator"
 
 
 [[dependencies.atrox]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.atrox]]
     modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.atrox]]
+    modId="jei"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

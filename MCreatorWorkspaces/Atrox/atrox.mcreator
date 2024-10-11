@@ -816,6 +816,74 @@
         ]
       },
       "path": "~/Advancements"
+    },
+    {
+      "name": "Spookyroamersdrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spookyroamersdrop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/atrox/loot_tables/entities/spookyroamersdrop.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Baubleslot",
+      "type": "curiosslot",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baubleslot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/baubleslot.json"
+        ]
+      },
+      "path": "~/Baubles"
+    },
+    {
+      "name": "GhostbaubleBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghostbauble_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/atrox/procedures/GhostbaubleBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Baubles"
+    },
+    {
+      "name": "GhostbaubleWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghostbauble_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/atrox/procedures/GhostbaubleWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Baubles"
+    },
+    {
+      "name": "Ghostbauble",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghostbauble",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/atrox/item/GhostbaubleItem.java",
+          "src/main/resources/assets/atrox/models/item/ghostbauble.json"
+        ]
+      },
+      "path": "~/Baubles"
     }
   ],
   "variable_elements": [],
@@ -870,6 +938,7 @@
       "item.atrox.boatspawner": "Spooky Boat",
       "block.atrox.spookywood_log": "Spooky Log",
       "death.attack.spookypoison.item": "%1$s was killed by %2$s using %3$s",
+      "curios.identifier.baubleslot": "Baubleslot",
       "block.atrox.spookywood_pressure_plate": "Spooky Pressure Plate",
       "advancements.thatsnew.title": "That is, new?",
       "advancements.thatwasspooky.title": "That was spooky",
@@ -887,6 +956,7 @@
       "block.atrox.acid": "Acid",
       "advancements.thatwasspooky.descr": "Enter the spooky dimension.",
       "item.atrox.spookyroamer_spawn_egg": "roamer Spawn Egg",
+      "item.atrox.ghostbauble": "Spooky Bauble",
       "advancements.achiementacid.descr": "Optain a Bucket of Acid",
       "advancements.thatsnew.descr": "Obtain Spookywood.",
       "block.atrox.spookyrack": "Spookyrack",
@@ -930,6 +1000,10 @@
       {
         "name": "Advancements",
         "children": []
+      },
+      {
+        "name": "Baubles",
+        "children": []
       }
     ]
   },
@@ -945,7 +1019,9 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "geckolib"
+      "curios_api",
+      "geckolib",
+      "jei"
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",

@@ -1,0 +1,9 @@
+{
+  "_fv": 66,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "ghost_bauble_slot.png",
+    "name": "Baubleslot",
+    "amount": 1
+  }
+}

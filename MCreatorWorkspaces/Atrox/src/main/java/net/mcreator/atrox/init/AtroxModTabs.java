@@ -34,6 +34,7 @@ public class AtroxModTabs {
 				tabData.accept(AtroxModItems.SPOOKYROAMER_SPAWN_EGG.get());
 				tabData.accept(AtroxModBlocks.WIZARDRYTABLE.get().asItem());
 				tabData.accept(AtroxModItems.BOATSPAWNER.get());
+				tabData.accept(AtroxModItems.GHOSTBAUBLE.get());
 			})
 
 					.build());
