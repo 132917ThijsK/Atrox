@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "atrox:acid_bucket"
+    },
+    "title": {
+      "translate": "advancements.achiementacid.title"
+    },
+    "description": {
+      "translate": "advancements.achiementacid.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "achiementacid_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "atrox:acid_bucket"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 12,
+    "recipes": [
+      "atrox:acidpotionrecipe"
+    ]
+  },
+  "parent": "atrox:thatwasspooky"
+}

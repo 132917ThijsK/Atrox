@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "atrox:spookyrack",
-    "minecraft:stone"
+    "atrox:spookyrack"
   ]
 }

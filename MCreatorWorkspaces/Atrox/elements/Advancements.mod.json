@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "That was spooky",
+    "achievementDescription": "Enter the spooky dimension.",
+    "achievementIcon": {
+      "value": "CUSTOM:Spookydimension"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 8,
+    "achievementType": "goal",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"dimension_entered\"><field name=\"dimension\">CUSTOM:Spookydimension</field></block></next></block></xml>"
+  }
+}
