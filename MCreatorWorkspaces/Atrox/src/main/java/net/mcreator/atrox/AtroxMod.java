@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.atrox.init.AtroxModVillagerProfessions;
 import net.mcreator.atrox.init.AtroxModTabs;
 import net.mcreator.atrox.init.AtroxModPotions;
+import net.mcreator.atrox.init.AtroxModMobEffects;
 import net.mcreator.atrox.init.AtroxModItems;
 import net.mcreator.atrox.init.AtroxModFluids;
 import net.mcreator.atrox.init.AtroxModFluidTypes;
@@ -53,6 +54,7 @@ public class AtroxMod {
 
 		AtroxModTabs.REGISTRY.register(bus);
 
+		AtroxModMobEffects.REGISTRY.register(bus);
 		AtroxModPotions.REGISTRY.register(bus);
 
 		AtroxModVillagerProfessions.PROFESSIONS.register(bus);

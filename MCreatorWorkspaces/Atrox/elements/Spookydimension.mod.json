@@ -9,10 +9,10 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:Spookyrack"
+      "value": "Blocks.AIR"
     },
     "fluidBlock": {
-      "value": "CUSTOM:Acid"
+      "value": "Blocks.AIR"
     },
     "airColor": {
       "value": -15036902,

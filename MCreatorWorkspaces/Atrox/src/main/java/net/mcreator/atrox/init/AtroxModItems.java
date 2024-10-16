@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.atrox.item.SpookydimensionItem;
+import net.mcreator.atrox.item.GhostbaubleItem;
 import net.mcreator.atrox.item.BoatspawnerItem;
 import net.mcreator.atrox.item.AcidItem;
 import net.mcreator.atrox.AtroxMod;

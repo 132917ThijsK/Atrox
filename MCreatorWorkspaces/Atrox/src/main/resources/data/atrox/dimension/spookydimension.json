@@ -27,13 +27,10 @@
       "aquifers_enabled": true,
       "ore_veins_enabled": true,
       "default_block": {
-        "Name": "atrox:spookyrack"
+        "Name": "minecraft:air"
       },
       "default_fluid": {
-        "Name": "atrox:acid",
-        "Properties": {
-          "level": "0"
-        }
+        "Name": "minecraft:air"
       },
       "spawn_target": [],
       "noise": {
@@ -417,14 +414,14 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "atrox:spookyrack"
+                              "Name": "minecraft:air"
                             }
                           }
                         },
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "atrox:spookyrack"
+                            "Name": "minecraft:air"
                           }
                         }
                       ]
@@ -442,7 +439,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "atrox:spookyrack"
+                        "Name": "minecraft:air"
                       }
                     }
                   }

@@ -14,7 +14,7 @@ import net.mcreator.atrox.procedures.GhostbaubleBaubleIsEquippedProcedure;
 
 public class GhostbaubleItem extends Item implements ICurioItem {
 	public GhostbaubleItem() {
-		super(new Item.Properties().stacksTo(0).rarity(Rarity.EPIC));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override
@@ -29,11 +29,11 @@ public class GhostbaubleItem extends Item implements ICurioItem {
 
 	@Override
 	public void curioTick(SlotContext slotContext, ItemStack stack) {
-		GhostbaubleWhileBaubleIsEquippedTickProcedure.execute();
+		GhostbaubleWhileBaubleIsEquippedTickProcedure.execute(slotContext.entity());
 	}
 
 	@Override
 	public void onEquip(SlotContext slotContext, ItemStack prevStack, ItemStack stack) {
-		GhostbaubleBaubleIsEquippedProcedure.execute();
+		GhostbaubleBaubleIsEquippedProcedure.execute(slotContext.entity());
 	}
 }

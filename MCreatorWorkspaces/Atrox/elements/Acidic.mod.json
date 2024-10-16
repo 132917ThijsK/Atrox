@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Acid Resistance",
+    "icon": "acidicity",
+    "color": {
+      "value": -16751104,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true
+  }
+}

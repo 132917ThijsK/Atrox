@@ -4,13 +4,13 @@
   "definition": {
     "name": "Spookyworld",
     "groundBlock": {
-      "value": "CUSTOM:Spookyrack"
+      "value": "Blocks.AIR"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:Spookyrack"
+      "value": "Blocks.AIR"
     },
     "underwaterBlock": {
-      "value": "CUSTOM:Spookyrack"
+      "value": "Blocks.AIR"
     },
     "airColor": {
       "value": -16172791,
@@ -67,7 +67,7 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 4,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Big trees",
     "treeType": 1,
     "minHeight": 7,
@@ -100,7 +100,7 @@
     "spawnBuriedTreasure": false,
     "oceanRuinType": "NONE",
     "spawnNetherBridge": false,
-    "spawnNetherFossil": true,
+    "spawnNetherFossil": false,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
