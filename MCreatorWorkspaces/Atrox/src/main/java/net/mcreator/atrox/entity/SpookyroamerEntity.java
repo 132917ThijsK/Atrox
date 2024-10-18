@@ -89,8 +89,6 @@ public class SpookyroamerEntity extends Zombie {
 
 	@Override
 	public boolean hurt(DamageSource damagesource, float amount) {
-		if (damagesource.is(DamageTypes.IN_FIRE))
-			return false;
 		if (damagesource.getDirectEntity() instanceof ThrownPotion || damagesource.getDirectEntity() instanceof AreaEffectCloud)
 			return false;
 		if (damagesource.is(DamageTypes.DROWN))
@@ -98,11 +96,6 @@ public class SpookyroamerEntity extends Zombie {
 		if (damagesource.is(DamageTypes.DRAGON_BREATH))
 			return false;
 		return super.hurt(damagesource, amount);
-	}
-
-	@Override
-	public boolean fireImmune() {
-		return true;
 	}
 
 	@Override

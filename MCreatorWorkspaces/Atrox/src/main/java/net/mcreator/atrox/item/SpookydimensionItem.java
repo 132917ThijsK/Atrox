@@ -14,7 +14,7 @@ import net.mcreator.atrox.block.SpookydimensionPortalBlock;
 
 public class SpookydimensionItem extends Item {
 	public SpookydimensionItem() {
-		super(new Item.Properties().rarity(Rarity.RARE).durability(64));
+		super(new Item.Properties().rarity(Rarity.COMMON).durability(64));
 	}
 
 	@Override

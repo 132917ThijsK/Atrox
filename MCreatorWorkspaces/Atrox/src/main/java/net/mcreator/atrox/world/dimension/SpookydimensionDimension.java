@@ -3,13 +3,20 @@ package net.mcreator.atrox.world.dimension;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.client.event.RegisterDimensionSpecialEffectsEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.client.renderer.DimensionSpecialEffects;
+
+import net.mcreator.atrox.procedures.SpookydimensionPlayerEntersDimensionProcedure;
 
 @Mod.EventBusSubscriber
 public class SpookydimensionDimension {
@@ -30,6 +37,18 @@ public class SpookydimensionDimension {
 				}
 			};
 			event.register(new ResourceLocation("atrox:spookydimension"), customEffect);
+		}
+	}
+
+	@SubscribeEvent
+	public static void onPlayerChangedDimensionEvent(PlayerEvent.PlayerChangedDimensionEvent event) {
+		Entity entity = event.getEntity();
+		Level world = entity.level();
+		double x = entity.getX();
+		double y = entity.getY();
+		double z = entity.getZ();
+		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("atrox:spookydimension"))) {
+			SpookydimensionPlayerEntersDimensionProcedure.execute(y, entity);
 		}
 	}
 }

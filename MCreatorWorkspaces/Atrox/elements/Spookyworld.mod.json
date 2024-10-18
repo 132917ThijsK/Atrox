@@ -4,10 +4,10 @@
   "definition": {
     "name": "Spookyworld",
     "groundBlock": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:Spookyrack"
     },
     "undergroundBlock": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:Spookyrack"
     },
     "underwaterBlock": {
       "value": "Blocks.AIR"
@@ -67,7 +67,7 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 0,
+    "treesPerChunk": 1,
     "vanillaTreeType": "Big trees",
     "treeType": 1,
     "minHeight": 7,

@@ -7,12 +7,12 @@
         "value": "CUSTOM:Spookyworld"
       }
     ],
-    "worldGenType": "Normal world gen",
+    "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:Spookyrack"
     },
     "fluidBlock": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:Acid"
     },
     "airColor": {
       "value": -15036902,
@@ -21,10 +21,13 @@
     "canRespawnHere": false,
     "hasFog": true,
     "isDark": false,
-    "doesWaterVaporize": false,
+    "doesWaterVaporize": true,
     "sleepResult": "BED_EXPLODES",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "SpookydimensionPlayerEntersDimension"
+    },
     "portalFrame": {
       "value": "CUSTOM:Spookyrack"
     },
@@ -37,7 +40,7 @@
     },
     "enableIgniter": true,
     "igniterName": "Skull Igniter",
-    "igniterRarity": "RARE",
+    "igniterRarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },

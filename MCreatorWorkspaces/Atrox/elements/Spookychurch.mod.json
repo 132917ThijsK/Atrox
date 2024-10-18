@@ -9,16 +9,16 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 12,
-    "separation": 10,
+    "spacing": 30,
+    "separation": 29,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Spookyworld"
       }
     ],
-    "terrainAdaptation": "none",
-    "generationStep": "RAW_GENERATION",
-    "surfaceDetectionType": "MOTION_BLOCKING",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE",
     "useStartHeight": false,
     "startHeightProviderType": "UNIFORM",
     "startHeightMin": 0,

@@ -1,0 +1,22 @@
+{
+  "atrox:thatwasspooky": {
+    "criteria": {
+      "thatwasspooky_0": "2024-10-18 09:08:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-10-18 09:08:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:windswept_savanna": "2024-10-18 09:08:27 +0200",
+      "minecraft:plains": "2024-10-18 09:08:24 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

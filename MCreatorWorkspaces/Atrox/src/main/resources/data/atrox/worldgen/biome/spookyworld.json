@@ -38,7 +38,9 @@
     [],
     [],
     [],
-    [],
+    [
+      "atrox:spookyworld_tree"
+    ],
     []
   ]
 }
