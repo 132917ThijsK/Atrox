@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "roamer",
     "mobLabel": "",
-    "mobModelName": "Biped",
-    "mobModelTexture": "hazmattie.png",
+    "mobModelName": "ModelManspook",
+    "mobModelTexture": "newskel.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
