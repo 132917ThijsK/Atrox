@@ -964,9 +964,9 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.atrox.spooky_boat_spawn_egg": "Spooky Boat Spawn Egg",
-      "block.atrox.spookywood_button": "Spooky Button",
       "advancements.ghostbaubleequipped.title": "That was haunting... whoaaah~",
+      "block.atrox.spookywood_button": "Spooky Button",
+      "item.atrox.spooky_boat_spawn_egg": "Spooky Boat Spawn Egg",
       "item.atrox.boatspawner": "Spooky Boat",
       "block.atrox.spookywood_log": "Spooky Log",
       "death.attack.spookypoison.item": "%1$s was killed by %2$s using %3$s",

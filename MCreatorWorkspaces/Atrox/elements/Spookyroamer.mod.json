@@ -5,7 +5,7 @@
     "mobName": "roamer",
     "mobLabel": "",
     "mobModelName": "ModelManspook",
-    "mobModelTexture": "newskel.png",
+    "mobModelTexture": "skeletontexture.png",
     "transparentModelCondition": {
       "fixedValue": false
     },

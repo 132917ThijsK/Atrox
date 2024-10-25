@@ -22,6 +22,6 @@ public class SpookyroamerRenderer extends MobRenderer<SpookyroamerEntity, ModelM
 
 	@Override
 	public ResourceLocation getTextureLocation(SpookyroamerEntity entity) {
-		return new ResourceLocation("atrox:textures/entities/newskel.png");
+		return new ResourceLocation("atrox:textures/entities/skeletontexture.png");
 	}
 }
