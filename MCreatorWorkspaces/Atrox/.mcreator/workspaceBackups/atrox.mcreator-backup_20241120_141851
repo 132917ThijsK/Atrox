@@ -917,6 +917,25 @@
         ]
       },
       "path": "~/Dimensions-portals"
+    },
+    {
+      "name": "WeepingAngelprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weeping_angelprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/atrox/procedures/WeepingAngelprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
@@ -980,14 +999,14 @@
       "item.atrox.spookydimension": "Skull Igniter",
       "biome.atrox.spookyworld": "Spookyworld",
       "block.atrox.spookywood_planks": "Spooky Planks",
-      "entity.atrox.spookyroamer": "roamer",
+      "entity.atrox.spookyroamer": "spookyroamer",
       "item.minecraft.splash_potion.effect.acidpotion": "Splash Potion of Acid",
       "item.minecraft.lingering_potion.effect.acidpotion": "Lingering Potion of Acid",
       "block.atrox.spookywood_slab": "Spooky Slab",
       "block.atrox.acid": "Acid",
       "effect.atrox.acidic": "Acid Resistance",
       "advancements.thatwasspooky.descr": "Enter the spooky dimension.",
-      "item.atrox.spookyroamer_spawn_egg": "roamer Spawn Egg",
+      "item.atrox.spookyroamer_spawn_egg": "spookyroamer Spawn Egg",
       "item.atrox.ghostbauble": "Spooky Charm",
       "advancements.achiementacid.descr": "Optain a Bucket of Acid",
       "advancements.thatsnew.descr": "Obtain Spookywood.",
