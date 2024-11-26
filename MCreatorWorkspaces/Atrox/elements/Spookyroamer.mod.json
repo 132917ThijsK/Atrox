@@ -2,10 +2,10 @@
   "_fv": 66,
   "_type": "livingentity",
   "definition": {
-    "mobName": "spookyroamer",
+    "mobName": "weeping angel",
     "mobLabel": "",
-    "mobModelName": "ModelManspook",
-    "mobModelTexture": "skeletontexture.png",
+    "mobModelName": "ModelmodelweepingangelJAVA",
+    "mobModelTexture": "normal_angel_idle.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -65,20 +65,20 @@
     "mobCreatureType": "UNDEAD",
     "attackStrength": 5,
     "attackKnockback": 0.5,
-    "knockbackResistance": 0.5,
-    "movementSpeed": 0.30000000000000004,
+    "knockbackResistance": 1.0,
+    "movementSpeed": 0.6,
     "stepHeight": 0.6,
-    "armorBaseValue": 2.0,
+    "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 32,
-    "health": 30,
+    "health": 10,
     "xpAmount": 5,
-    "waterMob": false,
+    "waterMob": true,
     "breatheUnderwater": {
       "fixedValue": true
     },
     "pushedByFluids": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
@@ -88,19 +88,19 @@
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": false,
-    "immuneToArrows": false,
+    "immuneToFire": true,
+    "immuneToArrows": true,
     "immuneToFallDamage": false,
     "immuneToCactus": false,
     "immuneToDrowning": true,
     "immuneToLightning": false,
-    "immuneToPotions": true,
-    "immuneToPlayer": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": true,
     "immuneToExplosion": false,
     "immuneToTrident": false,
     "immuneToAnvil": false,
     "immuneToWither": false,
-    "immuneToDragonBreath": true,
+    "immuneToDragonBreath": false,
     "mobDrop": {
       "value": ""
     },
@@ -108,13 +108,13 @@
       "value": ""
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "block.stone.hit"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "block.stone.break"
     },
     "stepSound": {
-      "value": ""
+      "value": "block.stone.step"
     },
     "raidCelebrationSound": {
       "value": ""

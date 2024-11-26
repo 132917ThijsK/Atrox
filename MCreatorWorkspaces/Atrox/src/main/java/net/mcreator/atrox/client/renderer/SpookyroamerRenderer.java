@@ -6,13 +6,13 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.atrox.entity.SpookyroamerEntity;
-import net.mcreator.atrox.client.model.ModelManspook;
+import net.mcreator.atrox.client.model.ModelmodelweepingangelJAVA;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class SpookyroamerRenderer extends MobRenderer<SpookyroamerEntity, ModelManspook<SpookyroamerEntity>> {
+public class SpookyroamerRenderer extends MobRenderer<SpookyroamerEntity, ModelmodelweepingangelJAVA<SpookyroamerEntity>> {
 	public SpookyroamerRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelManspook(context.bakeLayer(ModelManspook.LAYER_LOCATION)), 0.5f);
+		super(context, new ModelmodelweepingangelJAVA(context.bakeLayer(ModelmodelweepingangelJAVA.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override
@@ -22,6 +22,6 @@ public class SpookyroamerRenderer extends MobRenderer<SpookyroamerEntity, ModelM
 
 	@Override
 	public ResourceLocation getTextureLocation(SpookyroamerEntity entity) {
-		return new ResourceLocation("atrox:textures/entities/skeletontexture.png");
+		return new ResourceLocation("atrox:textures/entities/normal_angel_idle.png");
 	}
 }
