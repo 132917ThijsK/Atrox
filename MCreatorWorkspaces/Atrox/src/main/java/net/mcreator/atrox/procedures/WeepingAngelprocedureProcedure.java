@@ -34,7 +34,7 @@ public class WeepingAngelprocedureProcedure {
 				_ent.getServer().getCommands().performPrefixedCommand(
 						new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
 								_ent.level().getServer(), _ent),
-						"execute as @p at @s anchored eyes facing entity @e[distance=..25,type=atrox:spookyroamer] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..1.00] run effect give @e[type=atrox:spookyroamer] minecraft:slowness 1 255 true");
+						"execute as @p at @s anchored eyes facing entity @e[distance=..25,type=atrox:weeping_angel] eyes anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..1.00] run effect give @e[type=atrox:weeping_angel] minecraft:slowness 1 255 true");
 			}
 		}
 	}

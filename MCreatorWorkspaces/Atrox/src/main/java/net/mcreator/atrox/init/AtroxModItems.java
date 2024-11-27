@@ -34,7 +34,7 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> SPOOKYWOOD_PRESSURE_PLATE = block(AtroxModBlocks.SPOOKYWOOD_PRESSURE_PLATE);
 	public static final RegistryObject<Item> SPOOKYWOOD_BUTTON = block(AtroxModBlocks.SPOOKYWOOD_BUTTON);
 	public static final RegistryObject<Item> ACID_BUCKET = REGISTRY.register("acid_bucket", () -> new AcidItem());
-	public static final RegistryObject<Item> SPOOKYROAMER_SPAWN_EGG = REGISTRY.register("spookyroamer_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.SPOOKYROAMER, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> WEEPING_ANGEL_SPAWN_EGG = REGISTRY.register("weeping_angel_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.WEEPING_ANGEL, -10066330, -13421773, new Item.Properties()));
 	public static final RegistryObject<Item> WIZARDRYTABLE = block(AtroxModBlocks.WIZARDRYTABLE);
 	public static final RegistryObject<Item> SPOOKY_BOAT_SPAWN_EGG = REGISTRY.register("spooky_boat_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.SPOOKY_BOAT, -14605279, -14600681, new Item.Properties()));
 	public static final RegistryObject<Item> BOATSPAWNER = REGISTRY.register("boatspawner", () -> new BoatspawnerItem());

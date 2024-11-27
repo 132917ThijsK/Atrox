@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "atrox:spookyworld",
+  "spawners": {
+    "type": "atrox:weeping_angel",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

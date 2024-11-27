@@ -31,7 +31,7 @@ public class AtroxModTabs {
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_PRESSURE_PLATE.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_BUTTON.get().asItem());
 				tabData.accept(AtroxModItems.ACID_BUCKET.get());
-				tabData.accept(AtroxModItems.SPOOKYROAMER_SPAWN_EGG.get());
+				tabData.accept(AtroxModItems.WEEPING_ANGEL_SPAWN_EGG.get());
 				tabData.accept(AtroxModBlocks.WIZARDRYTABLE.get().asItem());
 				tabData.accept(AtroxModItems.BOATSPAWNER.get());
 				tabData.accept(AtroxModItems.GHOSTBAUBLE.get());

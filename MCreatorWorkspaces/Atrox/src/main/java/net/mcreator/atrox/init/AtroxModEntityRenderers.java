@@ -16,7 +16,7 @@ import net.mcreator.atrox.client.renderer.SpookyBoatRenderer;
 public class AtroxModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(AtroxModEntities.SPOOKYROAMER.get(), SpookyroamerRenderer::new);
+		event.registerEntityRenderer(AtroxModEntities.WEEPING_ANGEL.get(), SpookyroamerRenderer::new);
 		event.registerEntityRenderer(AtroxModEntities.SPOOKY_BOAT.get(), SpookyBoatRenderer::new);
 	}
 }

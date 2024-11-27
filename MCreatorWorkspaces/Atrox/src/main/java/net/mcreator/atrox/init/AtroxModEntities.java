@@ -23,7 +23,7 @@ import net.mcreator.atrox.AtroxMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AtroxModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, AtroxMod.MODID);
-	public static final RegistryObject<EntityType<SpookyroamerEntity>> SPOOKYROAMER = register("spookyroamer", EntityType.Builder.<SpookyroamerEntity>of(SpookyroamerEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true)
+	public static final RegistryObject<EntityType<SpookyroamerEntity>> WEEPING_ANGEL = register("weeping_angel", EntityType.Builder.<SpookyroamerEntity>of(SpookyroamerEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpookyroamerEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<SpookyBoatEntity>> SPOOKY_BOAT = register("spooky_boat",
 			EntityType.Builder.<SpookyBoatEntity>of(SpookyBoatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpookyBoatEntity::new)
@@ -44,7 +44,7 @@ public class AtroxModEntities {
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
-		event.put(SPOOKYROAMER.get(), SpookyroamerEntity.createAttributes().build());
+		event.put(WEEPING_ANGEL.get(), SpookyroamerEntity.createAttributes().build());
 		event.put(SPOOKY_BOAT.get(), SpookyBoatEntity.createAttributes().build());
 	}
 }

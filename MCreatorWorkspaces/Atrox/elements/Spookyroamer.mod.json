@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "livingentity",
   "definition": {
-    "mobName": "weeping angel",
+    "mobName": "Weeping angel",
     "mobLabel": "",
     "mobModelName": "ModelmodelweepingangelJAVA",
     "mobModelTexture": "normal_angel_idle.png",
@@ -16,10 +16,10 @@
       "fixedValue": false
     },
     "visualScale": {
-      "fixedValue": 0.9
+      "fixedValue": 1.1
     },
     "boundingBoxScale": {
-      "fixedValue": 0.9
+      "fixedValue": 1.1
     },
     "modelLayers": [],
     "modelWidth": 0.6,
@@ -28,11 +28,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -1,
+      "value": -10066330,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -13421773,
       "falpha": 0.0
     },
     "creativeTabs": [
@@ -63,17 +63,17 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEAD",
-    "attackStrength": 5,
-    "attackKnockback": 0.5,
+    "attackStrength": 10,
+    "attackKnockback": 0.0,
     "knockbackResistance": 1.0,
-    "movementSpeed": 0.6,
-    "stepHeight": 0.6,
+    "movementSpeed": 0.5,
+    "stepHeight": 1.0,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 32,
     "health": 10,
-    "xpAmount": 5,
-    "waterMob": true,
+    "xpAmount": 15,
+    "waterMob": false,
     "breatheUnderwater": {
       "fixedValue": true
     },
@@ -121,8 +121,8 @@
     },
     "entityDataEntries": [],
     "hasAI": true,
-    "aiBase": "Zombie",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"67\" y=\"48\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],

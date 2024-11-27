@@ -17,7 +17,7 @@ public class SpookyroamerRenderer extends MobRenderer<SpookyroamerEntity, Modelm
 
 	@Override
 	protected void scale(SpookyroamerEntity entity, PoseStack poseStack, float f) {
-		poseStack.scale(0.9f, 0.9f, 0.9f);
+		poseStack.scale(1.1f, 1.1f, 1.1f);
 	}
 
 	@Override
