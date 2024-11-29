@@ -22,6 +22,7 @@ import net.mcreator.atrox.block.SpookywoodFenceBlock;
 import net.mcreator.atrox.block.SpookywoodButtonBlock;
 import net.mcreator.atrox.block.SpookyrackBlock;
 import net.mcreator.atrox.block.SpookyleavesBlock;
+import net.mcreator.atrox.block.SpookyframeBlock;
 import net.mcreator.atrox.block.SpookydimensionPortalBlock;
 import net.mcreator.atrox.block.AcidBlock;
 import net.mcreator.atrox.AtroxMod;
@@ -42,6 +43,7 @@ public class AtroxModBlocks {
 	public static final RegistryObject<Block> SPOOKYWOOD_BUTTON = REGISTRY.register("spookywood_button", () -> new SpookywoodButtonBlock());
 	public static final RegistryObject<Block> ACID = REGISTRY.register("acid", () -> new AcidBlock());
 	public static final RegistryObject<Block> WIZARDRYTABLE = REGISTRY.register("wizardrytable", () -> new WizardrytableBlock());
+	public static final RegistryObject<Block> SPOOKYFRAME = REGISTRY.register("spookyframe", () -> new SpookyframeBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

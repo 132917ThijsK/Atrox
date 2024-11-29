@@ -1,0 +1,16 @@
+{
+  "parent": "atrox:custom/spookyframe_1",
+  "textures": {
+    "all": "atrox:block/spookyframe",
+    "particle": "atrox:block/spookyframe",
+    "0": "atrox:block/texture",
+    "1": "atrox:block/middleframes",
+    "2": "atrox:block/topbottomframes",
+    "3": "atrox:block/topbottommiddleframe",
+    "5": "atrox:block/powerbottom",
+    "6": "atrox:block/powerleft",
+    "7": "atrox:block/powerright",
+    "8": "atrox:block/powertop"
+  },
+  "render_type": "solid"
+}

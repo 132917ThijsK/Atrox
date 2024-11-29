@@ -32,7 +32,7 @@ public class SpookydimensionPortalShape {
 	private static final int MIN_HEIGHT = 3;
 	public static final int MAX_HEIGHT = 21;
 	private static final BlockBehaviour.StatePredicate FRAME = (p_77720_, p_77721_, p_77722_) -> {
-		return p_77720_.getBlock() == AtroxModBlocks.SPOOKYRACK.get();
+		return p_77720_.getBlock() == AtroxModBlocks.SPOOKYFRAME.get();
 	};
 	private static final float SAFE_TRAVEL_MAX_ENTITY_XY = 4.0F;
 	private static final double SAFE_TRAVEL_MAX_VERTICAL_DELTA = 1.0D;

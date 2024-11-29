@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texture",
+        "1": "middleframes",
+        "2": "topbottomframes",
+        "3": "topbottommiddleframe",
+        "5": "powerbottom",
+        "6": "powerleft",
+        "7": "powerright",
+        "8": "powertop"
+      },
+      "name": "default"
+    }
+  }
+}

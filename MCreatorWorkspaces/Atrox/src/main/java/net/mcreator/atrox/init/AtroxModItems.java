@@ -39,6 +39,7 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> SPOOKY_BOAT_SPAWN_EGG = REGISTRY.register("spooky_boat_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.SPOOKY_BOAT, -14605279, -14600681, new Item.Properties()));
 	public static final RegistryObject<Item> BOATSPAWNER = REGISTRY.register("boatspawner", () -> new BoatspawnerItem());
 	public static final RegistryObject<Item> GHOSTBAUBLE = REGISTRY.register("ghostbauble", () -> new GhostbaubleItem());
+	public static final RegistryObject<Item> SPOOKYFRAME = block(AtroxModBlocks.SPOOKYFRAME);
 
 	// Start of user code block custom items
 	// End of user code block custom items
