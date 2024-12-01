@@ -34,7 +34,7 @@
     "portalParticles": {
       "value": "PORTAL"
     },
-    "portalLuminance": 10,
+    "portalLuminance": 15,
     "portalSound": {
       "value": "block.portal.ambient"
     },
@@ -50,7 +50,7 @@
       }
     ],
     "texture": "spookyigniter",
-    "portalTexture": "minecraft:nether_portal",
+    "portalTexture": "portalspooky",
     "enablePortal": true
   }
 }

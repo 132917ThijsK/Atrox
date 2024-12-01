@@ -5,7 +5,7 @@
     "top": "atrox:block/top",
     "side": "atrox:block/front",
     "overlay": "atrox:block/left",
-    "particle": "atrox:block/spookyparticle"
+    "particle": "atrox:block/texture"
   },
   "render_type": "solid"
 }

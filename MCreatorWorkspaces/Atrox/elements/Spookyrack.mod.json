@@ -15,7 +15,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "spookyparticle",
+    "particleTexture": "texture",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,

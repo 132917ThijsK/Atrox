@@ -62,9 +62,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/atrox/loot_tables/blocks/spookyrack.json",
+          "src/main/resources/assets/atrox/blockstates/spookyrack.json",
           "src/main/java/net/mcreator/atrox/block/SpookyrackBlock.java",
           "src/main/resources/assets/atrox/models/item/spookyrack.json",
-          "src/main/resources/assets/atrox/blockstates/spookyrack.json",
           "src/main/resources/assets/atrox/models/block/spookyrack.json"
         ]
       },
@@ -945,11 +945,11 @@
       "registry_name": "spookyframe",
       "metadata": {
         "files": [
-          "src/main/resources/data/atrox/loot_tables/blocks/spookyframe.json",
           "src/main/resources/assets/atrox/blockstates/spookyframe.json",
-          "src/main/resources/assets/atrox/models/item/spookyframe.json",
+          "src/main/resources/data/atrox/loot_tables/blocks/spookyframe.json",
+          "src/main/java/net/mcreator/atrox/block/SpookyframeBlock.java",
           "src/main/resources/assets/atrox/models/block/spookyframe.json",
-          "src/main/java/net/mcreator/atrox/block/SpookyframeBlock.java"
+          "src/main/resources/assets/atrox/models/item/spookyframe.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -999,9 +999,9 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "advancements.ghostbaubleequipped.title": "#OfficallyHaunted",
-      "block.atrox.spookywood_button": "Spooky Button",
       "item.atrox.spooky_boat_spawn_egg": "Spooky Boat Spawn Egg",
+      "block.atrox.spookywood_button": "Spooky Button",
+      "advancements.ghostbaubleequipped.title": "#OfficallyHaunted",
       "item.atrox.boatspawner": "Spooky Boat",
       "block.atrox.spookywood_log": "Spooky Log",
       "block.atrox.spookyframe": "Spookyframe",

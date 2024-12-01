@@ -62,9 +62,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/atrox/loot_tables/blocks/spookyrack.json",
+          "src/main/resources/assets/atrox/blockstates/spookyrack.json",
           "src/main/java/net/mcreator/atrox/block/SpookyrackBlock.java",
           "src/main/resources/assets/atrox/models/item/spookyrack.json",
-          "src/main/resources/assets/atrox/blockstates/spookyrack.json",
           "src/main/resources/assets/atrox/models/block/spookyrack.json"
         ]
       },
@@ -936,6 +936,23 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "Spookyframe",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spookyframe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/atrox/blockstates/spookyframe.json",
+          "src/main/resources/data/atrox/loot_tables/blocks/spookyframe.json",
+          "src/main/java/net/mcreator/atrox/block/SpookyframeBlock.java",
+          "src/main/resources/assets/atrox/models/block/spookyframe.json",
+          "src/main/resources/assets/atrox/models/item/spookyframe.json"
+        ]
+      },
+      "path": "~/Items-blocks"
     }
   ],
   "variable_elements": [],
@@ -987,6 +1004,7 @@
       "advancements.ghostbaubleequipped.title": "#OfficallyHaunted",
       "item.atrox.boatspawner": "Spooky Boat",
       "block.atrox.spookywood_log": "Spooky Log",
+      "block.atrox.spookyframe": "Spookyframe",
       "death.attack.spookypoison.item": "%1$s was killed by %2$s using %3$s",
       "block.atrox.spookywood_pressure_plate": "Spooky Pressure Plate",
       "advancements.thatsnew.title": "That is, new?",
