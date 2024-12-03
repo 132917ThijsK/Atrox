@@ -84,5 +84,23 @@
     },
     "done": true
   },
+  "atrox:thatsnew": {
+    "criteria": {
+      "thatsnew_0": "2024-12-03 21:37:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-12-03 21:37:09 +0100"
+    },
+    "done": true
+  },
+  "atrox:achiementacid": {
+    "criteria": {
+      "achiementacid_0": "2024-12-03 21:45:55 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
