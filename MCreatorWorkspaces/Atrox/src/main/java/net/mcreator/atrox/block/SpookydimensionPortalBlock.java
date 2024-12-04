@@ -22,12 +22,13 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.atrox.world.teleporter.SpookydimensionTeleporter;
 import net.mcreator.atrox.world.teleporter.SpookydimensionPortalShape;
+import net.mcreator.atrox.init.AtroxModParticleTypes;
 
 import java.util.Optional;
 
@@ -73,7 +74,7 @@ public class SpookydimensionPortalBlock extends NetherPortalBlock {
 				pz = pos.getZ() + 0.5 + 0.25 * j;
 				vz = random.nextFloat() * 2 * j;
 			}
-			world.addParticle(ParticleTypes.PORTAL, px, py, pz, vx, vy, vz);
+			world.addParticle((SimpleParticleType) (AtroxModParticleTypes.PORTALPARTICE.get()), px, py, pz, vx, vy, vz);
 		}
 		if (random.nextInt(110) == 0)
 			world.playSound(null, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(("block.portal.ambient"))), SoundSource.BLOCKS, 0.5f, random.nextFloat() * 0.4f + 0.8f);

@@ -24,15 +24,15 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/atrox/models/item/spookydimension.json",
-          "src/main/resources/assets/atrox/models/block/spookydimension_portal_ew.json",
-          "src/main/java/net/mcreator/atrox/item/SpookydimensionItem.java",
-          "src/main/resources/data/atrox/dimension_type/spookydimension.json",
-          "src/main/java/net/mcreator/atrox/block/SpookydimensionPortalBlock.java",
           "src/main/resources/assets/atrox/models/block/spookydimension_portal_ns.json",
-          "src/main/java/net/mcreator/atrox/world/dimension/SpookydimensionDimension.java",
-          "src/main/java/net/mcreator/atrox/world/teleporter/SpookydimensionTeleporter.java",
-          "src/main/resources/assets/atrox/blockstates/spookydimension_portal.json",
           "src/main/java/net/mcreator/atrox/world/teleporter/SpookydimensionPortalShape.java",
+          "src/main/resources/assets/atrox/models/block/spookydimension_portal_ew.json",
+          "src/main/resources/assets/atrox/blockstates/spookydimension_portal.json",
+          "src/main/java/net/mcreator/atrox/world/teleporter/SpookydimensionTeleporter.java",
+          "src/main/java/net/mcreator/atrox/block/SpookydimensionPortalBlock.java",
+          "src/main/resources/data/atrox/dimension_type/spookydimension.json",
+          "src/main/java/net/mcreator/atrox/item/SpookydimensionItem.java",
+          "src/main/java/net/mcreator/atrox/world/dimension/SpookydimensionDimension.java",
           "src/main/resources/data/atrox/dimension/spookydimension.json"
         ]
       },
@@ -748,7 +748,9 @@
       "locked_code": false,
       "registry_name": "wizard",
       "metadata": {
-        "files": []
+        "files": [
+          "src/main/resources/assets/atrox/textures/entity/villager/profession/wizard.png.mcmeta"
+        ]
       },
       "path": "~/Mobs"
     },
@@ -953,21 +955,132 @@
         ]
       },
       "path": "~/Items-blocks"
+    },
+    {
+      "name": "Portalpartice",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalpartice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/atrox/client/particle/PortalparticeParticle.java",
+          "src/main/resources/assets/atrox/particles/portalpartice.json"
+        ]
+      },
+      "path": "~/Dimensions-portals"
+    },
+    {
+      "name": "Slinkstone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slinkstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/atrox/item/SlinkstoneItem.java",
+          "src/main/resources/assets/atrox/models/item/slinkstone.json"
+        ]
+      }
+    },
+    {
+      "name": "SlinkstoneOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slinkstone_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/atrox/worldgen/configured_feature/slinkstone_ore.json",
+          "src/main/resources/assets/atrox/models/block/slinkstone_ore.json",
+          "src/main/resources/data/atrox/worldgen/placed_feature/slinkstone_ore.json",
+          "src/main/java/net/mcreator/atrox/block/SlinkstoneOreBlock.java",
+          "src/main/resources/assets/atrox/models/item/slinkstone_ore.json",
+          "src/main/resources/data/atrox/loot_tables/blocks/slinkstone_ore.json",
+          "src/main/resources/assets/atrox/blockstates/slinkstone_ore.json",
+          "src/main/resources/data/atrox/forge/biome_modifier/slinkstone_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SlinkstoneBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slinkstone_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/atrox/block/SlinkstoneBlockBlock.java",
+          "src/main/resources/data/atrox/loot_tables/blocks/slinkstone_block.json",
+          "src/main/resources/assets/atrox/models/item/slinkstone_block.json",
+          "src/main/resources/assets/atrox/blockstates/slinkstone_block.json",
+          "src/main/resources/assets/atrox/models/block/slinkstone_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SlinkstoneOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slinkstone_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/atrox/recipes/slinkstone_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SlinkstoneBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slinkstone_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/atrox/recipes/slinkstone_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SlinkstoneOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slinkstone_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/atrox/recipes/slinkstone_ore_smelting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:minecraft:leaves": [
-      "~CUSTOM:Spookyleaves"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:Acid"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:Wizardrytable"
     ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:SlinkstoneBlock",
+      "~CUSTOM:SlinkstoneOre"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Spookyrack"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:SpookywoodLog",
+      "CUSTOM:SpookywoodWood"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:Spookyleaves"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SlinkstoneBlock",
+      "~CUSTOM:SlinkstoneOre",
       "~CUSTOM:Spookyrack"
     ],
     "BLOCKS:minecraft:mineable/axe": [
@@ -987,21 +1100,14 @@
     ],
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:SpookywoodStairs"
-    ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:Spookyrack"
-    ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:SpookywoodLog",
-      "CUSTOM:SpookywoodWood"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "advancements.ghostbaubleequipped.title": "#OfficallyHaunted",
-      "block.atrox.spookywood_button": "Spooky Button",
       "item.atrox.spooky_boat_spawn_egg": "Spooky Boat Spawn Egg",
+      "block.atrox.spookywood_button": "Spooky Button",
+      "advancements.ghostbaubleequipped.title": "#OfficallyHaunted",
       "item.atrox.boatspawner": "Spooky Boat",
       "block.atrox.spookywood_log": "Spooky Log",
       "block.atrox.spookyframe": "Spookyframe",
@@ -1010,6 +1116,7 @@
       "advancements.thatsnew.title": "That is, new?",
       "advancements.thatwasspooky.title": "That was spooky",
       "death.attack.spookypoison": "%1$s was envenomed by acid",
+      "block.atrox.slinkstone_block": "Block of Slinkstone",
       "block.atrox.spookywood_stairs": "Spooky Stairs",
       "block.atrox.spookywood_fence": "Spooky Fence",
       "item.minecraft.tipped_arrow.effect.acidpotion": "Arrow of Acid",
@@ -1022,6 +1129,7 @@
       "block.atrox.spookywood_slab": "Spooky Slab",
       "block.atrox.acid": "Acid",
       "effect.atrox.acidic": "Acid Resistance",
+      "block.atrox.slinkstone_ore": "Slinkstone Ore",
       "advancements.thatwasspooky.descr": "Enter the spooky dimension.",
       "item.atrox.ghostbauble": "Spooky Charm",
       "advancements.achiementacid.descr": "Optain a Bucket of Acid",
@@ -1030,6 +1138,7 @@
       "block.atrox.wizardrytable": "Wizardry table",
       "death.attack.spookypoison.player": "%1$s was envenomed whilst trying to escape %2$s",
       "entity.atrox.spooky_boat": "Spooky Boat",
+      "item.atrox.slinkstone": "Slinkstone",
       "advancements.achiementacid.title": "Careful with that!",
       "entity.minecraft.villager.atrox.wizard": "Wizard",
       "block.atrox.spookywood_wood": "Spooky Wood",

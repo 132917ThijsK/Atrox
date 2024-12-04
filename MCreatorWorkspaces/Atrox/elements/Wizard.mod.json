@@ -9,7 +9,7 @@
     "actionSound": {
       "value": "entity.villager.trading"
     },
-    "hat": "None",
+    "hat": "Partial",
     "professionTextureFile": "wizard.png",
     "zombifiedProfessionTextureFile": "zombiewizard.png"
   }

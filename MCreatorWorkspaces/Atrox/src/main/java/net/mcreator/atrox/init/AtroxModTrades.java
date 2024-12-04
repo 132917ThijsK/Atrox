@@ -18,7 +18,7 @@ public class AtroxModTrades {
 	@SubscribeEvent
 	public static void registerTrades(VillagerTradesEvent event) {
 		if (event.getType() == AtroxModVillagerProfessions.WIZARD.get()) {
-			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 4), new ItemStack(Blocks.SOUL_SAND, 4), new ItemStack(AtroxModBlocks.SPOOKYRACK.get(), 4), 5, 15, 0.5f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 4), new ItemStack(Blocks.SOUL_SAND, 4), new ItemStack(AtroxModBlocks.SPOOKYFRAME.get(), 6), 5, 15, 0.5f));
 			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Items.EMERALD, 12), new ItemStack(Blocks.SOUL_SAND, 8), new ItemStack(AtroxModItems.SPOOKYDIMENSION.get()), 2, 60, 1f));
 			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(Items.EMERALD, 2),
 

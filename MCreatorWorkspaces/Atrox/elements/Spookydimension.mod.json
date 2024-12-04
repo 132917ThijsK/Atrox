@@ -32,7 +32,7 @@
       "value": "CUSTOM:Spookyframe"
     },
     "portalParticles": {
-      "value": "PORTAL"
+      "value": "CUSTOM:Portalpartice"
     },
     "portalLuminance": 15,
     "portalSound": {
