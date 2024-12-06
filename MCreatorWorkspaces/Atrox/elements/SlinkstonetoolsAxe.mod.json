@@ -1,0 +1,42 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "slinkstonetools_axe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Slinkstone Axe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:Spooky"
+      }
+    ],
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 20,
+    "damageVsEntity": 8.0,
+    "usageCount": 1800,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Slinkstone"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

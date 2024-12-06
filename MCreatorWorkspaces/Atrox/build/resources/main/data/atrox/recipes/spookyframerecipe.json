@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "atrox:spookyrack"
+    },
+    "b": {
+      "item": "atrox:slinkstone"
+    }
+  },
+  "result": {
+    "item": "atrox:spookyframe",
+    "count": 2
+  }
+}

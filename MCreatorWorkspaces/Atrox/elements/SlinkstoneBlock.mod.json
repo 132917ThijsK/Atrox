@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "block",
   "definition": {
     "texture": "slinkstone_ore_block",
@@ -33,6 +33,7 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Block of Slinkstone",
     "specialInformation": {
       "fixedValue": []
@@ -44,6 +45,9 @@
     "creativeTabs": [
       {
         "value": "BUILDING_BLOCKS"
+      },
+      {
+        "value": "CUSTOM:Spooky"
       }
     ],
     "destroyTool": "pickaxe",
@@ -58,7 +62,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,

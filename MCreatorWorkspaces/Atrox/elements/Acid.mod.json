@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "fluid",
   "definition": {
     "name": "Acid",
@@ -7,13 +7,13 @@
     "textureStill": "acidstillingtexture",
     "textureFlowing": "acidflowingtexture",
     "tintType": "No tint",
-    "canMultiply": false,
+    "canMultiply": true,
     "flowRate": 7,
     "levelDecrease": 1,
     "slopeFindDistance": 4,
     "spawnParticles": true,
     "dripParticle": {
-      "value": "CRIT"
+      "value": "CUSTOM:Portalpartice"
     },
     "flowStrength": 1.5,
     "luminosity": 2,

@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "block",
   "definition": {
     "texture": "slinkstone_ore",
@@ -33,6 +33,7 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Slinkstone Ore",
     "specialInformation": {
       "fixedValue": []
@@ -43,7 +44,10 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "BUILDING_BLOCKS"
+        "value": "CUSTOM:Spooky"
+      },
+      {
+        "value": "DECORATIONS"
       }
     ],
     "destroyTool": "pickaxe",
@@ -73,17 +77,21 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "beaconColorModifier": {
+      "value": -13369600,
+      "falpha": 0.0
+    },
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.6,
+    "slipperiness": 0.7999999999999999,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "DEEPSLATE"
     },
     "breakSound": {
       "value": ""
@@ -100,9 +108,9 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 1,
     "unbreakable": false,
-    "vanillaToolTier": "DIAMOND",
+    "vanillaToolTier": "IRON",
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -124,18 +132,18 @@
     "generateFeature": true,
     "restrictionBiomes": [
       {
-        "value": "#is_overworld"
+        "value": "CUSTOM:Spookyworld"
       }
     ],
     "blocksToReplace": [
       {
-        "value": "TAG:stone_ore_replaceables"
+        "value": "CUSTOM:Spookyrack"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 5,
+    "frequencyPerChunks": 20,
     "frequencyOnChunk": 3,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 33
+    "minGenerateHeight": -64,
+    "maxGenerateHeight": 320
   }
 }

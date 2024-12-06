@@ -14,7 +14,7 @@ import java.util.function.Consumer;
 
 public class AcidFluidType extends FluidType {
 	public AcidFluidType() {
-		super(FluidType.Properties.create().fallDistanceModifier(0F).canExtinguish(true).supportsBoating(true).canHydrate(true).motionScale(0.0105D).lightLevel(2).density(2).temperature(1000).rarity(Rarity.RARE)
+		super(FluidType.Properties.create().fallDistanceModifier(0F).canExtinguish(true).supportsBoating(true).canHydrate(true).motionScale(0.0105D).lightLevel(2).density(2).temperature(1000).canConvertToSource(true).rarity(Rarity.RARE)
 				.sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL).sound(SoundActions.BUCKET_EMPTY, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bucket.empty")))
 				.sound(SoundActions.FLUID_VAPORIZE, SoundEvents.FIRE_EXTINGUISH));
 	}

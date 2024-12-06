@@ -7,9 +7,10 @@ import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.particles.ParticleOptions;
 
+import net.mcreator.atrox.init.AtroxModParticleTypes;
 import net.mcreator.atrox.init.AtroxModItems;
 import net.mcreator.atrox.init.AtroxModFluids;
 import net.mcreator.atrox.init.AtroxModFluidTypes;
@@ -25,7 +26,7 @@ public abstract class AcidFluid extends ForgeFlowingFluid {
 
 	@Override
 	public ParticleOptions getDripParticle() {
-		return ParticleTypes.CRIT;
+		return (SimpleParticleType) (AtroxModParticleTypes.PORTALPARTICE.get());
 	}
 
 	public static class Source extends AcidFluid {

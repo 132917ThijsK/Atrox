@@ -13,7 +13,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.atrox.item.StonestickItem;
 import net.mcreator.atrox.item.SpookydimensionItem;
+import net.mcreator.atrox.item.SlinkstonetoolsSwordItem;
+import net.mcreator.atrox.item.SlinkstonetoolsShovelItem;
+import net.mcreator.atrox.item.SlinkstonetoolsPickaxeItem;
+import net.mcreator.atrox.item.SlinkstonetoolsHoeItem;
+import net.mcreator.atrox.item.SlinkstonetoolsAxeItem;
+import net.mcreator.atrox.item.SlinkstoneItem;
 import net.mcreator.atrox.item.GhostbaubleItem;
 import net.mcreator.atrox.item.BoatspawnerItem;
 import net.mcreator.atrox.item.AcidItem;
@@ -40,6 +47,15 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> BOATSPAWNER = REGISTRY.register("boatspawner", () -> new BoatspawnerItem());
 	public static final RegistryObject<Item> GHOSTBAUBLE = REGISTRY.register("ghostbauble", () -> new GhostbaubleItem());
 	public static final RegistryObject<Item> SPOOKYFRAME = block(AtroxModBlocks.SPOOKYFRAME);
+	public static final RegistryObject<Item> SLINKSTONE = REGISTRY.register("slinkstone", () -> new SlinkstoneItem());
+	public static final RegistryObject<Item> SLINKSTONE_ORE = block(AtroxModBlocks.SLINKSTONE_ORE);
+	public static final RegistryObject<Item> SLINKSTONE_BLOCK = block(AtroxModBlocks.SLINKSTONE_BLOCK);
+	public static final RegistryObject<Item> SLINKSTONETOOLS_PICKAXE = REGISTRY.register("slinkstonetools_pickaxe", () -> new SlinkstonetoolsPickaxeItem());
+	public static final RegistryObject<Item> SLINKSTONETOOLS_AXE = REGISTRY.register("slinkstonetools_axe", () -> new SlinkstonetoolsAxeItem());
+	public static final RegistryObject<Item> SLINKSTONETOOLS_SWORD = REGISTRY.register("slinkstonetools_sword", () -> new SlinkstonetoolsSwordItem());
+	public static final RegistryObject<Item> SLINKSTONETOOLS_SHOVEL = REGISTRY.register("slinkstonetools_shovel", () -> new SlinkstonetoolsShovelItem());
+	public static final RegistryObject<Item> SLINKSTONETOOLS_HOE = REGISTRY.register("slinkstonetools_hoe", () -> new SlinkstonetoolsHoeItem());
+	public static final RegistryObject<Item> STONESTICK = REGISTRY.register("stonestick", () -> new StonestickItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

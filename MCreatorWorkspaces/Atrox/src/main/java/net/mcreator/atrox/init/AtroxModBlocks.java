@@ -24,6 +24,8 @@ import net.mcreator.atrox.block.SpookyrackBlock;
 import net.mcreator.atrox.block.SpookyleavesBlock;
 import net.mcreator.atrox.block.SpookyframeBlock;
 import net.mcreator.atrox.block.SpookydimensionPortalBlock;
+import net.mcreator.atrox.block.SlinkstoneOreBlock;
+import net.mcreator.atrox.block.SlinkstoneBlockBlock;
 import net.mcreator.atrox.block.AcidBlock;
 import net.mcreator.atrox.AtroxMod;
 
@@ -44,6 +46,8 @@ public class AtroxModBlocks {
 	public static final RegistryObject<Block> ACID = REGISTRY.register("acid", () -> new AcidBlock());
 	public static final RegistryObject<Block> WIZARDRYTABLE = REGISTRY.register("wizardrytable", () -> new WizardrytableBlock());
 	public static final RegistryObject<Block> SPOOKYFRAME = REGISTRY.register("spookyframe", () -> new SpookyframeBlock());
+	public static final RegistryObject<Block> SLINKSTONE_ORE = REGISTRY.register("slinkstone_ore", () -> new SlinkstoneOreBlock());
+	public static final RegistryObject<Block> SLINKSTONE_BLOCK = REGISTRY.register("slinkstone_block", () -> new SlinkstoneBlockBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -63,6 +63,7 @@ public class AtroxMod {
 
 		AtroxModFluids.REGISTRY.register(bus);
 		AtroxModFluidTypes.REGISTRY.register(bus);
+
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

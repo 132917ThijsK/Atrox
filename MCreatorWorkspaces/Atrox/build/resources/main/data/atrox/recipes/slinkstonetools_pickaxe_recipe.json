@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "atrox:slinkstone"
+    },
+    "b": {
+      "item": "atrox:stonestick"
+    }
+  },
+  "result": {
+    "item": "atrox:slinkstonetools_pickaxe",
+    "count": 1
+  }
+}

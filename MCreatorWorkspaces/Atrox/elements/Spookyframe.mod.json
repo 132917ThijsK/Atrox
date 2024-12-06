@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "block",
   "definition": {
     "texture": "spookyframe",
@@ -33,6 +33,7 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Spookyframe",
     "specialInformation": {
       "fixedValue": []
@@ -41,7 +42,14 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Spooky"
+      },
+      {
+        "value": "DECORATIONS"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""

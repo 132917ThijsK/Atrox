@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "atrox:slinkstone_block",
+    "atrox:slinkstone_ore",
     "atrox:spookyrack"
   ]
 }
