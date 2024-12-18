@@ -20,6 +20,7 @@ import net.mcreator.atrox.item.SlinkstonetoolsShovelItem;
 import net.mcreator.atrox.item.SlinkstonetoolsPickaxeItem;
 import net.mcreator.atrox.item.SlinkstonetoolsHoeItem;
 import net.mcreator.atrox.item.SlinkstonetoolsAxeItem;
+import net.mcreator.atrox.item.SlinkstonearmorArmorItem;
 import net.mcreator.atrox.item.SlinkstoneItem;
 import net.mcreator.atrox.item.GhostbaubleItem;
 import net.mcreator.atrox.item.BoatspawnerItem;
@@ -56,6 +57,10 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> SLINKSTONETOOLS_SHOVEL = REGISTRY.register("slinkstonetools_shovel", () -> new SlinkstonetoolsShovelItem());
 	public static final RegistryObject<Item> SLINKSTONETOOLS_HOE = REGISTRY.register("slinkstonetools_hoe", () -> new SlinkstonetoolsHoeItem());
 	public static final RegistryObject<Item> STONESTICK = REGISTRY.register("stonestick", () -> new StonestickItem());
+	public static final RegistryObject<Item> SLINKSTONEARMOR_ARMOR_HELMET = REGISTRY.register("slinkstonearmor_armor_helmet", () -> new SlinkstonearmorArmorItem.Helmet());
+	public static final RegistryObject<Item> SLINKSTONEARMOR_ARMOR_CHESTPLATE = REGISTRY.register("slinkstonearmor_armor_chestplate", () -> new SlinkstonearmorArmorItem.Chestplate());
+	public static final RegistryObject<Item> SLINKSTONEARMOR_ARMOR_LEGGINGS = REGISTRY.register("slinkstonearmor_armor_leggings", () -> new SlinkstonearmorArmorItem.Leggings());
+	public static final RegistryObject<Item> SLINKSTONEARMOR_ARMOR_BOOTS = REGISTRY.register("slinkstonearmor_armor_boots", () -> new SlinkstonearmorArmorItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

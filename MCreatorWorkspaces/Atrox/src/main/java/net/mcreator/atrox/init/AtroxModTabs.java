@@ -62,6 +62,10 @@ public class AtroxModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 
 			tabData.accept(AtroxModItems.SLINKSTONETOOLS_SWORD.get());
+			tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_HELMET.get());
+			tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_CHESTPLATE.get());
+			tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_LEGGINGS.get());
+			tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_BOOTS.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 

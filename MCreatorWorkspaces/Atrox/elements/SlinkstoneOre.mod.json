@@ -140,9 +140,9 @@
         "value": "CUSTOM:Spookyrack"
       }
     ],
-    "generationShape": "UNIFORM",
+    "generationShape": "TRIANGLE",
     "frequencyPerChunks": 20,
-    "frequencyOnChunk": 3,
+    "frequencyOnChunk": 8,
     "minGenerateHeight": -64,
     "maxGenerateHeight": 320
   }
