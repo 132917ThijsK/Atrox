@@ -8,9 +8,9 @@
       "registry_name": "spookyportal",
       "metadata": {
         "files": [
+          "src/main/resources/data/atrox/worldgen/structure_set/spookyportal.json",
           "src/main/resources/data/atrox/worldgen/template_pool/spookyportal.json",
-          "src/main/resources/data/atrox/worldgen/structure/spookyportal.json",
-          "src/main/resources/data/atrox/worldgen/structure_set/spookyportal.json"
+          "src/main/resources/data/atrox/worldgen/structure/spookyportal.json"
         ]
       },
       "path": "~/Structures"
@@ -24,15 +24,15 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/atrox/models/item/spookydimension.json",
-          "src/main/resources/assets/atrox/models/block/spookydimension_portal_ns.json",
-          "src/main/java/net/mcreator/atrox/world/teleporter/SpookydimensionPortalShape.java",
           "src/main/resources/assets/atrox/models/block/spookydimension_portal_ew.json",
-          "src/main/resources/assets/atrox/blockstates/spookydimension_portal.json",
-          "src/main/java/net/mcreator/atrox/world/teleporter/SpookydimensionTeleporter.java",
-          "src/main/java/net/mcreator/atrox/block/SpookydimensionPortalBlock.java",
-          "src/main/resources/data/atrox/dimension_type/spookydimension.json",
           "src/main/java/net/mcreator/atrox/item/SpookydimensionItem.java",
+          "src/main/resources/data/atrox/dimension_type/spookydimension.json",
+          "src/main/java/net/mcreator/atrox/block/SpookydimensionPortalBlock.java",
+          "src/main/resources/assets/atrox/models/block/spookydimension_portal_ns.json",
           "src/main/java/net/mcreator/atrox/world/dimension/SpookydimensionDimension.java",
+          "src/main/java/net/mcreator/atrox/world/teleporter/SpookydimensionTeleporter.java",
+          "src/main/resources/assets/atrox/blockstates/spookydimension_portal.json",
+          "src/main/java/net/mcreator/atrox/world/teleporter/SpookydimensionPortalShape.java",
           "src/main/resources/data/atrox/dimension/spookydimension.json"
         ]
       },
@@ -62,9 +62,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/atrox/loot_tables/blocks/spookyrack.json",
+          "src/main/resources/assets/atrox/blockstates/spookyrack.json",
           "src/main/java/net/mcreator/atrox/block/SpookyrackBlock.java",
           "src/main/resources/assets/atrox/models/item/spookyrack.json",
-          "src/main/resources/assets/atrox/blockstates/spookyrack.json",
           "src/main/resources/assets/atrox/models/block/spookyrack.json"
         ]
       },
@@ -91,12 +91,12 @@
       "registry_name": "spookyworld",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/atrox/world/features/treedecorators/SpookyworldLeaveDecorator.java",
-          "src/main/resources/data/atrox/worldgen/placed_feature/spookyworld_tree.json",
           "src/main/resources/data/atrox/worldgen/configured_feature/spookyworld_tree.json",
-          "src/main/java/net/mcreator/atrox/world/features/treedecorators/SpookyworldFruitDecorator.java",
+          "src/main/resources/data/atrox/worldgen/placed_feature/spookyworld_tree.json",
+          "src/main/java/net/mcreator/atrox/world/features/treedecorators/SpookyworldTrunkDecorator.java",
           "src/main/resources/data/atrox/worldgen/biome/spookyworld.json",
-          "src/main/java/net/mcreator/atrox/world/features/treedecorators/SpookyworldTrunkDecorator.java"
+          "src/main/java/net/mcreator/atrox/world/features/treedecorators/SpookyworldLeaveDecorator.java",
+          "src/main/java/net/mcreator/atrox/world/features/treedecorators/SpookyworldFruitDecorator.java"
         ]
       },
       "path": "~/Dimensions-portals"
@@ -109,11 +109,11 @@
       "registry_name": "spookyleaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/atrox/models/item/spookyleaves.json",
-          "src/main/java/net/mcreator/atrox/block/SpookyleavesBlock.java",
-          "src/main/resources/assets/atrox/blockstates/spookyleaves.json",
           "src/main/resources/assets/atrox/models/block/spookyleaves.json",
-          "src/main/resources/data/atrox/loot_tables/blocks/spookyleaves.json"
+          "src/main/resources/assets/atrox/blockstates/spookyleaves.json",
+          "src/main/java/net/mcreator/atrox/block/SpookyleavesBlock.java",
+          "src/main/resources/data/atrox/loot_tables/blocks/spookyleaves.json",
+          "src/main/resources/assets/atrox/models/item/spookyleaves.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -126,11 +126,11 @@
       "registry_name": "spookywood_wood",
       "metadata": {
         "files": [
-          "src/main/resources/data/atrox/loot_tables/blocks/spookywood_wood.json",
-          "src/main/resources/assets/atrox/models/item/spookywood_wood.json",
           "src/main/resources/assets/atrox/models/block/spookywood_wood.json",
+          "src/main/resources/assets/atrox/blockstates/spookywood_wood.json",
+          "src/main/resources/assets/atrox/models/item/spookywood_wood.json",
           "src/main/java/net/mcreator/atrox/block/SpookywoodWoodBlock.java",
-          "src/main/resources/assets/atrox/blockstates/spookywood_wood.json"
+          "src/main/resources/data/atrox/loot_tables/blocks/spookywood_wood.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -143,11 +143,11 @@
       "registry_name": "spookywood_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/atrox/models/item/spookywood_log.json",
           "src/main/java/net/mcreator/atrox/block/SpookywoodLogBlock.java",
-          "src/main/resources/data/atrox/loot_tables/blocks/spookywood_log.json",
+          "src/main/resources/assets/atrox/models/item/spookywood_log.json",
+          "src/main/resources/assets/atrox/models/block/spookywood_log.json",
           "src/main/resources/assets/atrox/blockstates/spookywood_log.json",
-          "src/main/resources/assets/atrox/models/block/spookywood_log.json"
+          "src/main/resources/data/atrox/loot_tables/blocks/spookywood_log.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -160,11 +160,11 @@
       "registry_name": "spookywood_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/atrox/models/item/spookywood_planks.json",
           "src/main/java/net/mcreator/atrox/block/SpookywoodPlanksBlock.java",
+          "src/main/resources/assets/atrox/models/item/spookywood_planks.json",
+          "src/main/resources/assets/atrox/blockstates/spookywood_planks.json",
           "src/main/resources/data/atrox/loot_tables/blocks/spookywood_planks.json",
-          "src/main/resources/assets/atrox/models/block/spookywood_planks.json",
-          "src/main/resources/assets/atrox/blockstates/spookywood_planks.json"
+          "src/main/resources/assets/atrox/models/block/spookywood_planks.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -177,13 +177,13 @@
       "registry_name": "spookywood_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/atrox/models/block/spookywood_stairs_inner.json",
-          "src/main/resources/data/atrox/loot_tables/blocks/spookywood_stairs.json",
           "src/main/java/net/mcreator/atrox/block/SpookywoodStairsBlock.java",
-          "src/main/resources/assets/atrox/models/item/spookywood_stairs.json",
           "src/main/resources/assets/atrox/models/block/spookywood_stairs.json",
-          "src/main/resources/assets/atrox/blockstates/spookywood_stairs.json",
-          "src/main/resources/assets/atrox/models/block/spookywood_stairs_outer.json"
+          "src/main/resources/data/atrox/loot_tables/blocks/spookywood_stairs.json",
+          "src/main/resources/assets/atrox/models/item/spookywood_stairs.json",
+          "src/main/resources/assets/atrox/models/block/spookywood_stairs_outer.json",
+          "src/main/resources/assets/atrox/models/block/spookywood_stairs_inner.json",
+          "src/main/resources/assets/atrox/blockstates/spookywood_stairs.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -196,12 +196,12 @@
       "registry_name": "spookywood_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/atrox/models/block/spookywood_slab_top.json",
-          "src/main/resources/assets/atrox/models/item/spookywood_slab.json",
-          "src/main/resources/assets/atrox/models/block/spookywood_slab.json",
           "src/main/resources/assets/atrox/models/block/spookywood_slab_full.json",
           "src/main/resources/data/atrox/loot_tables/blocks/spookywood_slab.json",
+          "src/main/resources/assets/atrox/models/item/spookywood_slab.json",
+          "src/main/resources/assets/atrox/models/block/spookywood_slab.json",
           "src/main/resources/assets/atrox/blockstates/spookywood_slab.json",
+          "src/main/resources/assets/atrox/models/block/spookywood_slab_top.json",
           "src/main/java/net/mcreator/atrox/block/SpookywoodSlabBlock.java"
         ]
       },
@@ -216,12 +216,12 @@
       "metadata": {
         "files": [
           "src/main/resources/data/atrox/loot_tables/blocks/spookywood_fence.json",
+          "src/main/java/net/mcreator/atrox/block/SpookywoodFenceBlock.java",
+          "src/main/resources/assets/atrox/models/block/spookywood_fence_inventory.json",
           "src/main/resources/assets/atrox/models/item/spookywood_fence.json",
           "src/main/resources/assets/atrox/blockstates/spookywood_fence.json",
           "src/main/resources/assets/atrox/models/block/spookywood_fence_post.json",
-          "src/main/resources/assets/atrox/models/block/spookywood_fence.json",
-          "src/main/resources/assets/atrox/models/block/spookywood_fence_inventory.json",
-          "src/main/java/net/mcreator/atrox/block/SpookywoodFenceBlock.java"
+          "src/main/resources/assets/atrox/models/block/spookywood_fence.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -235,13 +235,13 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/block/SpookywoodFenceGateBlock.java",
-          "src/main/resources/assets/atrox/models/item/spookywood_fence_gate.json",
-          "src/main/resources/assets/atrox/models/block/spookywood_fence_gate_wall_open.json",
           "src/main/resources/assets/atrox/blockstates/spookywood_fence_gate.json",
+          "src/main/resources/assets/atrox/models/block/spookywood_fence_gate_wall_open.json",
           "src/main/resources/data/atrox/loot_tables/blocks/spookywood_fence_gate.json",
+          "src/main/resources/assets/atrox/models/block/spookywood_fence_gate_open.json",
           "src/main/resources/assets/atrox/models/block/spookywood_fence_gate.json",
-          "src/main/resources/assets/atrox/models/block/spookywood_fence_gate_wall.json",
-          "src/main/resources/assets/atrox/models/block/spookywood_fence_gate_open.json"
+          "src/main/resources/assets/atrox/models/item/spookywood_fence_gate.json",
+          "src/main/resources/assets/atrox/models/block/spookywood_fence_gate_wall.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -254,12 +254,12 @@
       "registry_name": "spookywood_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/atrox/models/block/spookywood_pressure_plate.json",
           "src/main/java/net/mcreator/atrox/block/SpookywoodPressurePlateBlock.java",
           "src/main/resources/data/atrox/loot_tables/blocks/spookywood_pressure_plate.json",
-          "src/main/resources/assets/atrox/blockstates/spookywood_pressure_plate.json",
+          "src/main/resources/assets/atrox/models/block/spookywood_pressure_plate.json",
           "src/main/resources/assets/atrox/models/item/spookywood_pressure_plate.json",
-          "src/main/resources/assets/atrox/models/block/spookywood_pressure_plate_down.json"
+          "src/main/resources/assets/atrox/models/block/spookywood_pressure_plate_down.json",
+          "src/main/resources/assets/atrox/blockstates/spookywood_pressure_plate.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -272,13 +272,13 @@
       "registry_name": "spookywood_button",
       "metadata": {
         "files": [
-          "src/main/resources/data/atrox/loot_tables/blocks/spookywood_button.json",
-          "src/main/resources/assets/atrox/models/item/spookywood_button.json",
-          "src/main/java/net/mcreator/atrox/block/SpookywoodButtonBlock.java",
           "src/main/resources/assets/atrox/blockstates/spookywood_button.json",
+          "src/main/resources/assets/atrox/models/block/spookywood_button_inventory.json",
+          "src/main/java/net/mcreator/atrox/block/SpookywoodButtonBlock.java",
           "src/main/resources/assets/atrox/models/block/spookywood_button_pressed.json",
+          "src/main/resources/data/atrox/loot_tables/blocks/spookywood_button.json",
           "src/main/resources/assets/atrox/models/block/spookywood_button.json",
-          "src/main/resources/assets/atrox/models/block/spookywood_button_inventory.json"
+          "src/main/resources/assets/atrox/models/item/spookywood_button.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -481,13 +481,13 @@
       "registry_name": "acid",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/atrox/fluid/AcidFluid.java",
           "src/main/resources/assets/atrox/models/item/acid_bucket.json",
-          "src/main/resources/assets/atrox/models/block/acid.json",
-          "src/main/java/net/mcreator/atrox/block/AcidBlock.java",
-          "src/main/resources/assets/atrox/blockstates/acid.json",
           "src/main/java/net/mcreator/atrox/fluid/types/AcidFluidType.java",
-          "src/main/java/net/mcreator/atrox/item/AcidItem.java"
+          "src/main/java/net/mcreator/atrox/item/AcidItem.java",
+          "src/main/resources/assets/atrox/models/block/acid.json",
+          "src/main/java/net/mcreator/atrox/fluid/AcidFluid.java",
+          "src/main/resources/assets/atrox/blockstates/acid.json",
+          "src/main/java/net/mcreator/atrox/block/AcidBlock.java"
         ]
       },
       "path": "~/Acid"
@@ -500,10 +500,10 @@
       "registry_name": "weeping_angel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/atrox/entity/SpookyroamerEntity.java",
           "src/main/resources/assets/atrox/models/item/weeping_angel_spawn_egg.json",
-          "src/main/resources/data/atrox/forge/biome_modifier/weeping_angel_biome_modifier.json",
-          "src/main/java/net/mcreator/atrox/client/renderer/SpookyroamerRenderer.java"
+          "src/main/java/net/mcreator/atrox/entity/SpookyroamerEntity.java",
+          "src/main/java/net/mcreator/atrox/client/renderer/SpookyroamerRenderer.java",
+          "src/main/resources/data/atrox/forge/biome_modifier/weeping_angel_biome_modifier.json"
         ]
       },
       "path": "~/Mobs"
@@ -516,11 +516,11 @@
       "registry_name": "wizardrytable",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/atrox/block/WizardrytableBlock.java",
-          "src/main/resources/assets/atrox/models/item/wizardrytable.json",
           "src/main/resources/assets/atrox/models/block/wizardrytable.json",
-          "src/main/resources/assets/atrox/blockstates/wizardrytable.json",
-          "src/main/resources/data/atrox/loot_tables/blocks/wizardrytable.json"
+          "src/main/java/net/mcreator/atrox/block/WizardrytableBlock.java",
+          "src/main/resources/data/atrox/loot_tables/blocks/wizardrytable.json",
+          "src/main/resources/assets/atrox/models/item/wizardrytable.json",
+          "src/main/resources/assets/atrox/blockstates/wizardrytable.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -552,8 +552,8 @@
       "registry_name": "spooky_boat",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/atrox/client/renderer/SpookyBoatRenderer.java",
           "src/main/java/net/mcreator/atrox/entity/SpookyBoatEntity.java",
+          "src/main/java/net/mcreator/atrox/client/renderer/SpookyBoatRenderer.java",
           "src/main/resources/assets/atrox/models/item/spooky_boat_spawn_egg.json"
         ]
       },
@@ -602,8 +602,8 @@
       "registry_name": "boatspawner",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/atrox/item/BoatspawnerItem.java",
-          "src/main/resources/assets/atrox/models/item/boatspawner.json"
+          "src/main/resources/assets/atrox/models/item/boatspawner.json",
+          "src/main/java/net/mcreator/atrox/item/BoatspawnerItem.java"
         ]
       },
       "path": "~/Items-blocks"
@@ -708,9 +708,9 @@
       "registry_name": "wizardshut",
       "metadata": {
         "files": [
-          "src/main/resources/data/atrox/worldgen/structure/wizardshut.json",
+          "src/main/resources/data/atrox/worldgen/structure_set/wizardshut.json",
           "src/main/resources/data/atrox/worldgen/template_pool/wizardshut.json",
-          "src/main/resources/data/atrox/worldgen/structure_set/wizardshut.json"
+          "src/main/resources/data/atrox/worldgen/structure/wizardshut.json"
         ]
       },
       "path": "~/Structures"
@@ -882,11 +882,11 @@
       "registry_name": "spookyframe",
       "metadata": {
         "files": [
-          "src/main/resources/data/atrox/loot_tables/blocks/spookyframe.json",
           "src/main/resources/assets/atrox/blockstates/spookyframe.json",
-          "src/main/resources/assets/atrox/models/item/spookyframe.json",
+          "src/main/resources/data/atrox/loot_tables/blocks/spookyframe.json",
+          "src/main/java/net/mcreator/atrox/block/SpookyframeBlock.java",
           "src/main/resources/assets/atrox/models/block/spookyframe.json",
-          "src/main/java/net/mcreator/atrox/block/SpookyframeBlock.java"
+          "src/main/resources/assets/atrox/models/item/spookyframe.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -927,14 +927,14 @@
       "registry_name": "slinkstone_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/atrox/worldgen/configured_feature/slinkstone_ore.json",
-          "src/main/resources/assets/atrox/models/block/slinkstone_ore.json",
-          "src/main/resources/data/atrox/worldgen/placed_feature/slinkstone_ore.json",
-          "src/main/java/net/mcreator/atrox/block/SlinkstoneOreBlock.java",
-          "src/main/resources/assets/atrox/models/item/slinkstone_ore.json",
           "src/main/resources/data/atrox/loot_tables/blocks/slinkstone_ore.json",
+          "src/main/resources/data/atrox/forge/biome_modifier/slinkstone_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/atrox/block/SlinkstoneOreBlock.java",
+          "src/main/resources/data/atrox/worldgen/placed_feature/slinkstone_ore.json",
+          "src/main/resources/assets/atrox/models/block/slinkstone_ore.json",
           "src/main/resources/assets/atrox/blockstates/slinkstone_ore.json",
-          "src/main/resources/data/atrox/forge/biome_modifier/slinkstone_ore_biome_modifier.json"
+          "src/main/resources/assets/atrox/models/item/slinkstone_ore.json",
+          "src/main/resources/data/atrox/worldgen/configured_feature/slinkstone_ore.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -947,11 +947,11 @@
       "registry_name": "slinkstone_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/atrox/block/SlinkstoneBlockBlock.java",
+          "src/main/resources/assets/atrox/models/block/slinkstone_block.json",
           "src/main/resources/data/atrox/loot_tables/blocks/slinkstone_block.json",
-          "src/main/resources/assets/atrox/models/item/slinkstone_block.json",
           "src/main/resources/assets/atrox/blockstates/slinkstone_block.json",
-          "src/main/resources/assets/atrox/models/block/slinkstone_block.json"
+          "src/main/java/net/mcreator/atrox/block/SlinkstoneBlockBlock.java",
+          "src/main/resources/assets/atrox/models/item/slinkstone_block.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -1003,8 +1003,8 @@
       "registry_name": "slinkstonetools_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/atrox/models/item/slinkstonetools_pickaxe.json",
-          "src/main/java/net/mcreator/atrox/item/SlinkstonetoolsPickaxeItem.java"
+          "src/main/java/net/mcreator/atrox/item/SlinkstonetoolsPickaxeItem.java",
+          "src/main/resources/assets/atrox/models/item/slinkstonetools_pickaxe.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -1017,8 +1017,8 @@
       "registry_name": "slinkstonetools_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/atrox/models/item/slinkstonetools_axe.json",
-          "src/main/java/net/mcreator/atrox/item/SlinkstonetoolsAxeItem.java"
+          "src/main/java/net/mcreator/atrox/item/SlinkstonetoolsAxeItem.java",
+          "src/main/resources/assets/atrox/models/item/slinkstonetools_axe.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -1031,8 +1031,8 @@
       "registry_name": "slinkstonetools_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/atrox/item/SlinkstonetoolsSwordItem.java",
-          "src/main/resources/assets/atrox/models/item/slinkstonetools_sword.json"
+          "src/main/resources/assets/atrox/models/item/slinkstonetools_sword.json",
+          "src/main/java/net/mcreator/atrox/item/SlinkstonetoolsSwordItem.java"
         ]
       },
       "path": "~/Items-blocks"
@@ -1045,8 +1045,8 @@
       "registry_name": "slinkstonetools_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/atrox/models/item/slinkstonetools_shovel.json",
-          "src/main/java/net/mcreator/atrox/item/SlinkstonetoolsShovelItem.java"
+          "src/main/java/net/mcreator/atrox/item/SlinkstonetoolsShovelItem.java",
+          "src/main/resources/assets/atrox/models/item/slinkstonetools_shovel.json"
         ]
       },
       "path": "~/Items-blocks"
@@ -1192,10 +1192,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/atrox/models/item/slinkstonearmor_armor_boots.json",
-          "src/main/resources/assets/atrox/models/item/slinkstonearmor_armor_chestplate.json",
-          "src/main/java/net/mcreator/atrox/item/SlinkstonearmorArmorItem.java",
           "src/main/resources/assets/atrox/models/item/slinkstonearmor_armor_leggings.json",
-          "src/main/resources/assets/atrox/models/item/slinkstonearmor_armor_helmet.json"
+          "src/main/resources/assets/atrox/models/item/slinkstonearmor_armor_chestplate.json",
+          "src/main/resources/assets/atrox/models/item/slinkstonearmor_armor_helmet.json",
+          "src/main/java/net/mcreator/atrox/item/SlinkstonearmorArmorItem.java"
         ]
       }
     },
@@ -1423,5 +1423,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.atrox"
   },
-  "mcreatorVersion": 202400340615
+  "mcreatorVersion": 202400342716
 }
