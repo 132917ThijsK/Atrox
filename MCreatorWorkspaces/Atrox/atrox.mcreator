@@ -1197,7 +1197,8 @@
           "src/main/resources/assets/atrox/models/item/slinkstonearmor_armor_helmet.json",
           "src/main/java/net/mcreator/atrox/item/SlinkstonearmorArmorItem.java"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SlinkstonearmorArmorHelmetRecipe",
@@ -1209,7 +1210,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/slinkstonearmor_armor_helmet_recipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SlinkstonearmorArmorChestplateRecipe",
@@ -1221,7 +1223,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/slinkstonearmor_armor_chestplate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SlinkstonearmorArmorLeggingsRecipe",
@@ -1233,7 +1236,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/slinkstonearmor_armor_leggings_recipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     },
     {
       "name": "SlinkstonearmorArmorBootsRecipe",
@@ -1245,7 +1249,8 @@
         "files": [
           "src/main/resources/data/atrox/recipes/slinkstonearmor_armor_boots_recipe.json"
         ]
-      }
+      },
+      "path": "~/Items-blocks"
     }
   ],
   "variable_elements": [],
@@ -1423,5 +1428,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.atrox"
   },
-  "mcreatorVersion": 202400342716
+  "mcreatorVersion": 202400340615
 }
