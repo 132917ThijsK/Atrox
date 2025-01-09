@@ -49,6 +49,10 @@ public class AtroxModTabs {
 				tabData.accept(AtroxModItems.SLINKSTONETOOLS_SWORD.get());
 				tabData.accept(AtroxModItems.SLINKSTONETOOLS_SHOVEL.get());
 				tabData.accept(AtroxModItems.SLINKSTONETOOLS_HOE.get());
+				tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_HELMET.get());
+				tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_CHESTPLATE.get());
+				tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_LEGGINGS.get());
+				tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_BOOTS.get());
 			})
 
 					.build());
