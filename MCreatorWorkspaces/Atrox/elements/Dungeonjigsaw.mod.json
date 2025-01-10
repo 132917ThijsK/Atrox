@@ -1,0 +1,103 @@
+{
+  "_fv": 69,
+  "_type": "structure",
+  "definition": {
+    "structure": "bossarena",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 30,
+    "separation": 29,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Spookyworld"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 15,
+    "maxDistanceFromCenter": 116,
+    "jigsawPools": [
+      {
+        "poolName": "dungeon",
+        "fallbackPool": "atrox:dungeonjigsaw_dungeon",
+        "poolParts": [
+          {
+            "weight": 10,
+            "structure": "dungeonway",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 10,
+            "structure": "dungeonlcorner",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 10,
+            "structure": "dungeonrcorner",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "2way1",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "2way2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "3way",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "4way",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 10,
+            "structure": "shortlcorner",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 10,
+            "structure": "shortrcorner",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 20,
+            "structure": "downway",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 20,
+            "structure": "upway",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}
