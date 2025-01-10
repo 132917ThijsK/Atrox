@@ -23,7 +23,7 @@
     "startHeightProviderType": "UNIFORM",
     "startHeightMin": 0,
     "startHeightMax": 128,
-    "size": 15,
+    "size": 20,
     "maxDistanceFromCenter": 116,
     "jigsawPools": [
       {
@@ -31,7 +31,7 @@
         "fallbackPool": "atrox:dungeonjigsaw_dungeon",
         "poolParts": [
           {
-            "weight": 10,
+            "weight": 5,
             "structure": "dungeonway",
             "projection": "rigid",
             "ignoredBlocks": []
@@ -85,14 +85,26 @@
             "ignoredBlocks": []
           },
           {
-            "weight": 20,
+            "weight": 10,
             "structure": "downway",
             "projection": "rigid",
             "ignoredBlocks": []
           },
           {
-            "weight": 20,
+            "weight": 10,
             "structure": "upway",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 10,
+            "structure": "halfway",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 10,
+            "structure": "dungeonend",
             "projection": "rigid",
             "ignoredBlocks": []
           }

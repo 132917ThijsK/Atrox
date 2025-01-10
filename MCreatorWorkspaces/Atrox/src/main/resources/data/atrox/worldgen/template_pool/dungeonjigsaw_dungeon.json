@@ -3,7 +3,7 @@
   "fallback": "atrox:dungeonjigsaw_dungeon",
   "elements": [
     {
-      "weight": 10,
+      "weight": 5,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "atrox:dungeonway",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "weight": 20,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "atrox:downway",
@@ -113,10 +113,32 @@
       }
     },
     {
-      "weight": 20,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "atrox:upway",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "atrox:halfway",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "atrox:dungeonend",
         "projection": "rigid",
         "processors": {
           "processors": []

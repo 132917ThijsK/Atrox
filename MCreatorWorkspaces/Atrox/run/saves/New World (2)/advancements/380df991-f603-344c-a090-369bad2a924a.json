@@ -1,25 +1,20 @@
 {
-  "atrox:achiementacid": {
-    "criteria": {
-      "achiementacid_0": "2024-10-11 09:47:06 +0200"
-    },
-    "done": true
-  },
   "atrox:thatwasspooky": {
     "criteria": {
-      "thatwasspooky_0": "2024-10-11 09:47:50 +0200"
+      "thatwasspooky_0": "2025-01-10 19:50:32 +0100"
     },
     "done": true
   },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2024-10-11 09:46:29 +0200"
+      "unlock_right_away": "2025-01-10 19:50:11 +0100"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:plains": "2024-10-11 09:46:30 +0200"
+      "minecraft:beach": "2025-01-10 19:50:21 +0100",
+      "minecraft:swamp": "2025-01-10 19:50:12 +0100"
     },
     "done": false
   },
