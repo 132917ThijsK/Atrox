@@ -50,18 +50,6 @@
           },
           {
             "weight": 5,
-            "structure": "2way1",
-            "projection": "rigid",
-            "ignoredBlocks": []
-          },
-          {
-            "weight": 5,
-            "structure": "2way2",
-            "projection": "rigid",
-            "ignoredBlocks": []
-          },
-          {
-            "weight": 5,
             "structure": "3way",
             "projection": "rigid",
             "ignoredBlocks": []
@@ -85,19 +73,19 @@
             "ignoredBlocks": []
           },
           {
-            "weight": 10,
+            "weight": 15,
             "structure": "downway",
             "projection": "rigid",
             "ignoredBlocks": []
           },
           {
-            "weight": 10,
+            "weight": 5,
             "structure": "upway",
             "projection": "rigid",
             "ignoredBlocks": []
           },
           {
-            "weight": 10,
+            "weight": 5,
             "structure": "halfway",
             "projection": "rigid",
             "ignoredBlocks": []
