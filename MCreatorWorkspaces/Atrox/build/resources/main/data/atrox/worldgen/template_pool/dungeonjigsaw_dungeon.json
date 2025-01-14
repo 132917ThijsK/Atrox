@@ -14,7 +14,7 @@
       }
     },
     {
-      "weight": 10,
+      "weight": 5,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "atrox:dungeonlcorner",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "weight": 10,
+      "weight": 5,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "atrox:dungeonrcorner",
@@ -36,29 +36,7 @@
       }
     },
     {
-      "weight": 5,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "atrox:3way",
-        "projection": "rigid",
-        "processors": {
-          "processors": []
-        }
-      }
-    },
-    {
-      "weight": 5,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "atrox:4way",
-        "projection": "rigid",
-        "processors": {
-          "processors": []
-        }
-      }
-    },
-    {
-      "weight": 10,
+      "weight": 7,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "atrox:shortlcorner",
@@ -69,7 +47,7 @@
       }
     },
     {
-      "weight": 10,
+      "weight": 7,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "atrox:shortrcorner",
@@ -80,7 +58,7 @@
       }
     },
     {
-      "weight": 15,
+      "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "atrox:downway",
@@ -113,7 +91,7 @@
       }
     },
     {
-      "weight": 10,
+      "weight": 15,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "atrox:dungeonend",

@@ -37,43 +37,31 @@
             "ignoredBlocks": []
           },
           {
-            "weight": 10,
+            "weight": 5,
             "structure": "dungeonlcorner",
             "projection": "rigid",
             "ignoredBlocks": []
           },
           {
-            "weight": 10,
+            "weight": 5,
             "structure": "dungeonrcorner",
             "projection": "rigid",
             "ignoredBlocks": []
           },
           {
-            "weight": 5,
-            "structure": "3way",
-            "projection": "rigid",
-            "ignoredBlocks": []
-          },
-          {
-            "weight": 5,
-            "structure": "4way",
-            "projection": "rigid",
-            "ignoredBlocks": []
-          },
-          {
-            "weight": 10,
+            "weight": 7,
             "structure": "shortlcorner",
             "projection": "rigid",
             "ignoredBlocks": []
           },
           {
-            "weight": 10,
+            "weight": 7,
             "structure": "shortrcorner",
             "projection": "rigid",
             "ignoredBlocks": []
           },
           {
-            "weight": 15,
+            "weight": 20,
             "structure": "downway",
             "projection": "rigid",
             "ignoredBlocks": []
@@ -91,7 +79,7 @@
             "ignoredBlocks": []
           },
           {
-            "weight": 10,
+            "weight": 15,
             "structure": "dungeonend",
             "projection": "rigid",
             "ignoredBlocks": []

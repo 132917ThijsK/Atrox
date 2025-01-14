@@ -1,19 +1,19 @@
 {
   "atrox:thatwasspooky": {
     "criteria": {
-      "thatwasspooky_0": "2025-01-10 19:40:12 +0100"
+      "thatwasspooky_0": "2025-01-14 18:46:45 +0100"
     },
     "done": true
   },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2025-01-10 19:39:53 +0100"
+      "unlock_right_away": "2025-01-14 18:46:24 +0100"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:snowy_plains": "2025-01-10 19:39:54 +0100"
+      "minecraft:savanna": "2025-01-14 18:46:25 +0100"
     },
     "done": false
   },
