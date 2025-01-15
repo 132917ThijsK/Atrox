@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "atrox:block/spookstone",
+    "up": "atrox:block/spookstone",
+    "north": "atrox:block/spookstone",
+    "east": "atrox:block/spookstone",
+    "south": "atrox:block/spookstone",
+    "west": "atrox:block/spookstone",
+    "particle": "atrox:block/spookstone"
+  },
+  "render_type": "solid"
+}

@@ -9,6 +9,7 @@
   "item.atrox.slinkstonearmor_armor_chestplate": "Slinkstone Chestplate",
   "biome.atrox.spookyworld": "Spookyworld",
   "item.minecraft.lingering_potion.effect.acidpotion": "Lingering Potion of Acid",
+  "block.atrox.acid_vine": "Acid Vine",
   "block.atrox.spookywood_slab": "Spooky Slab",
   "block.atrox.acid": "Acid",
   "advancements.thatwasspooky.descr": "Enter the spooky dimension.",
@@ -24,6 +25,7 @@
   "item.minecraft.potion.effect.acidpotion": "Potion of Acid",
   "item.atrox.acid_bucket": "Acid Bucket",
   "block.atrox.spookywood_fence_gate": "Spooky Fence Gate",
+  "block.atrox.spookstone_slab": "Spookstone",
   "item.atrox.slinkstonearmor_armor_helmet": "Slinkstone Helmet",
   "advancements.ghostbaubleequipped.title": "#OfficallyHaunted",
   "item.atrox.spooky_boat_spawn_egg": "Spooky Boat Spawn Egg",
@@ -32,7 +34,9 @@
   "death.attack.spookypoison.item": "%1$s was killed by %2$s using %3$s",
   "item.atrox.slinkstonetools_axe": "Slinkstone Axe",
   "block.atrox.spookywood_pressure_plate": "Spooky Pressure Plate",
+  "block.atrox.spookstone_stairs": "Spookstone",
   "advancements.thatwasspooky.title": "That was spooky",
+  "block.atrox.spookstone": "Spookstone",
   "block.atrox.spookywood_stairs": "Spooky Stairs",
   "item.atrox.slinkstonearmor_armor_boots": "Slinkstone Boots",
   "block.atrox.spookywood_fence": "Spooky Fence",
@@ -53,5 +57,6 @@
   "advancements.ghostbaubleequipped.descr": "Obtain and Equip the Spooky Bauble",
   "block.atrox.spookyleaves": "Spookyleaves",
   "fluid.atrox.acid": "Acid",
-  "item_group.atrox.spooky": "Atrox"
+  "item_group.atrox.spooky": "Atrox",
+  "item.atrox.spookstone_dust": "Spookstone Dust"
 }

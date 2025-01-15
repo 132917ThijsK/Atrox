@@ -53,6 +53,11 @@ public class AtroxModTabs {
 				tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_CHESTPLATE.get());
 				tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_LEGGINGS.get());
 				tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_BOOTS.get());
+				tabData.accept(AtroxModBlocks.SPOOKSTONE.get().asItem());
+				tabData.accept(AtroxModBlocks.SPOOKSTONE_STAIRS.get().asItem());
+				tabData.accept(AtroxModBlocks.SPOOKSTONE_SLAB.get().asItem());
+				tabData.accept(AtroxModItems.SPOOKSTONE_DUST.get());
+				tabData.accept(AtroxModBlocks.ACID_VINE.get().asItem());
 			})
 
 					.build());
@@ -80,6 +85,11 @@ public class AtroxModTabs {
 
 			tabData.accept(AtroxModBlocks.SPOOKYFRAME.get().asItem());
 			tabData.accept(AtroxModBlocks.SLINKSTONE_ORE.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKSTONE.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKSTONE_STAIRS.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKSTONE_SLAB.get().asItem());
+			tabData.accept(AtroxModItems.SPOOKSTONE_DUST.get());
+			tabData.accept(AtroxModBlocks.ACID_VINE.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

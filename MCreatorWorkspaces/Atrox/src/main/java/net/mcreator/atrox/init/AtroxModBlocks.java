@@ -24,8 +24,12 @@ import net.mcreator.atrox.block.SpookyrackBlock;
 import net.mcreator.atrox.block.SpookyleavesBlock;
 import net.mcreator.atrox.block.SpookyframeBlock;
 import net.mcreator.atrox.block.SpookydimensionPortalBlock;
+import net.mcreator.atrox.block.SpookstoneStairsBlock;
+import net.mcreator.atrox.block.SpookstoneSlabBlock;
+import net.mcreator.atrox.block.SpookstoneBlock;
 import net.mcreator.atrox.block.SlinkstoneOreBlock;
 import net.mcreator.atrox.block.SlinkstoneBlockBlock;
+import net.mcreator.atrox.block.AcidVineBlock;
 import net.mcreator.atrox.block.AcidBlock;
 import net.mcreator.atrox.AtroxMod;
 
@@ -48,6 +52,10 @@ public class AtroxModBlocks {
 	public static final RegistryObject<Block> SPOOKYFRAME = REGISTRY.register("spookyframe", () -> new SpookyframeBlock());
 	public static final RegistryObject<Block> SLINKSTONE_ORE = REGISTRY.register("slinkstone_ore", () -> new SlinkstoneOreBlock());
 	public static final RegistryObject<Block> SLINKSTONE_BLOCK = REGISTRY.register("slinkstone_block", () -> new SlinkstoneBlockBlock());
+	public static final RegistryObject<Block> SPOOKSTONE = REGISTRY.register("spookstone", () -> new SpookstoneBlock());
+	public static final RegistryObject<Block> SPOOKSTONE_STAIRS = REGISTRY.register("spookstone_stairs", () -> new SpookstoneStairsBlock());
+	public static final RegistryObject<Block> SPOOKSTONE_SLAB = REGISTRY.register("spookstone_slab", () -> new SpookstoneSlabBlock());
+	public static final RegistryObject<Block> ACID_VINE = REGISTRY.register("acid_vine", () -> new AcidVineBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

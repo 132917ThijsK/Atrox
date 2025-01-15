@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "atrox:block/acid_vine"
+    },
+    "facing=east": {
+      "model": "atrox:block/acid_vine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "atrox:block/acid_vine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "atrox:block/acid_vine",
+      "y": 270
+    }
+  }
+}

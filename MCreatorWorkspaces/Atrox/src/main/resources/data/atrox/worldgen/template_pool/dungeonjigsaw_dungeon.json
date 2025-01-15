@@ -58,7 +58,7 @@
       }
     },
     {
-      "weight": 20,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "atrox:downway",
@@ -95,6 +95,39 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "atrox:dungeonend",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "atrox:staircasedown",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "atrox:staircasedownmirror",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "atrox:openroom",
         "projection": "rigid",
         "processors": {
           "processors": []

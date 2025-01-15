@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "atrox:block/spookstone_slab"
+    },
+    "type=top": {
+      "model": "atrox:block/spookstone_slab_top"
+    },
+    "type=double": {
+      "model": "atrox:block/spookstone_slab_full"
+    }
+  }
+}

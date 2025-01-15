@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "atrox:spookstone_dust"
+    },
+    {
+      "item": "atrox:spookstone_dust"
+    }
+  ],
+  "result": {
+    "item": "atrox:spookstone_slab",
+    "count": 1
+  }
+}

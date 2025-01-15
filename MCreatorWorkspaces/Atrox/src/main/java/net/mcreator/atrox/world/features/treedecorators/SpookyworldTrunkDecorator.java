@@ -39,25 +39,25 @@ public class SpookyworldTrunkDecorator extends TrunkVineDecorator {
 			if (context.random().nextInt(3) > 0) {
 				BlockPos pos = blockpos.west();
 				if (context.isAir(pos)) {
-					context.setBlock(pos, oriented(AtroxModBlocks.SPOOKYLEAVES.get().defaultBlockState(), Direction.EAST));
+					context.setBlock(pos, oriented(AtroxModBlocks.ACID_VINE.get().defaultBlockState(), Direction.EAST));
 				}
 			}
 			if (context.random().nextInt(3) > 0) {
 				BlockPos pos = blockpos.east();
 				if (context.isAir(pos)) {
-					context.setBlock(pos, oriented(AtroxModBlocks.SPOOKYLEAVES.get().defaultBlockState(), Direction.WEST));
+					context.setBlock(pos, oriented(AtroxModBlocks.ACID_VINE.get().defaultBlockState(), Direction.WEST));
 				}
 			}
 			if (context.random().nextInt(3) > 0) {
 				BlockPos pos = blockpos.north();
 				if (context.isAir(pos)) {
-					context.setBlock(pos, oriented(AtroxModBlocks.SPOOKYLEAVES.get().defaultBlockState(), Direction.SOUTH));
+					context.setBlock(pos, oriented(AtroxModBlocks.ACID_VINE.get().defaultBlockState(), Direction.SOUTH));
 				}
 			}
 			if (context.random().nextInt(3) > 0) {
 				BlockPos pos = blockpos.south();
 				if (context.isAir(pos)) {
-					context.setBlock(pos, oriented(AtroxModBlocks.SPOOKYLEAVES.get().defaultBlockState(), Direction.NORTH));
+					context.setBlock(pos, oriented(AtroxModBlocks.ACID_VINE.get().defaultBlockState(), Direction.NORTH));
 				}
 			}
 		});

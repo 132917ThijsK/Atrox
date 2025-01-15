@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "atrox:block/spookstone",
+    "bottom": "atrox:block/spookstone",
+    "top": "atrox:block/spookstone",
+    "side": "atrox:block/spookstone"
+  },
+  "render_type": "solid"
+}

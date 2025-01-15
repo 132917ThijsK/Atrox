@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.atrox.item.StonestickItem;
 import net.mcreator.atrox.item.SpookydimensionItem;
+import net.mcreator.atrox.item.SpookstoneDustItem;
 import net.mcreator.atrox.item.SlinkstonetoolsSwordItem;
 import net.mcreator.atrox.item.SlinkstonetoolsShovelItem;
 import net.mcreator.atrox.item.SlinkstonetoolsPickaxeItem;
@@ -61,6 +62,11 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> SLINKSTONEARMOR_ARMOR_CHESTPLATE = REGISTRY.register("slinkstonearmor_armor_chestplate", () -> new SlinkstonearmorArmorItem.Chestplate());
 	public static final RegistryObject<Item> SLINKSTONEARMOR_ARMOR_LEGGINGS = REGISTRY.register("slinkstonearmor_armor_leggings", () -> new SlinkstonearmorArmorItem.Leggings());
 	public static final RegistryObject<Item> SLINKSTONEARMOR_ARMOR_BOOTS = REGISTRY.register("slinkstonearmor_armor_boots", () -> new SlinkstonearmorArmorItem.Boots());
+	public static final RegistryObject<Item> SPOOKSTONE = block(AtroxModBlocks.SPOOKSTONE);
+	public static final RegistryObject<Item> SPOOKSTONE_STAIRS = block(AtroxModBlocks.SPOOKSTONE_STAIRS);
+	public static final RegistryObject<Item> SPOOKSTONE_SLAB = block(AtroxModBlocks.SPOOKSTONE_SLAB);
+	public static final RegistryObject<Item> SPOOKSTONE_DUST = REGISTRY.register("spookstone_dust", () -> new SpookstoneDustItem());
+	public static final RegistryObject<Item> ACID_VINE = block(AtroxModBlocks.ACID_VINE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

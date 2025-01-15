@@ -61,7 +61,7 @@
             "ignoredBlocks": []
           },
           {
-            "weight": 20,
+            "weight": 10,
             "structure": "downway",
             "projection": "rigid",
             "ignoredBlocks": []
@@ -81,6 +81,24 @@
           {
             "weight": 15,
             "structure": "dungeonend",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 10,
+            "structure": "staircasedown",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 10,
+            "structure": "staircasedownmirror",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 10,
+            "structure": "openroom",
             "projection": "rigid",
             "ignoredBlocks": []
           }

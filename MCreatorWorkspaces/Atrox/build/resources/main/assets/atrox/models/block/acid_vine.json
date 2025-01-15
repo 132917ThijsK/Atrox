@@ -1,0 +1,10 @@
+{
+  "parent": "atrox:custom/acidvine",
+  "textures": {
+    "all": "atrox:block/acidvine",
+    "particle": "atrox:block/acidvine",
+    "0": "atrox:block/acidvine",
+    "missing": "atrox:block/acidvine"
+  },
+  "render_type": "translucent"
+}
