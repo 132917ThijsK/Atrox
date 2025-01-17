@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "atrox:trappedstonepressureplate",
     "atrox:slinkstone_block",
     "atrox:slinkstone_ore",
     "atrox:spookyrack"

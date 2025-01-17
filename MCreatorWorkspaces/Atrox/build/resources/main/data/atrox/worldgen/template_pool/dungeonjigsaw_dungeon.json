@@ -3,7 +3,7 @@
   "fallback": "atrox:dungeonjigsaw_dungeon",
   "elements": [
     {
-      "weight": 5,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "atrox:dungeonway",
@@ -128,6 +128,17 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "atrox:openroom",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "atrox:openroomboobytrap",
         "projection": "rigid",
         "processors": {
           "processors": []

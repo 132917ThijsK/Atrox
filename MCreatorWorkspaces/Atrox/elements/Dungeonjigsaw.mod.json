@@ -31,7 +31,7 @@
         "fallbackPool": "atrox:dungeonjigsaw_dungeon",
         "poolParts": [
           {
-            "weight": 5,
+            "weight": 10,
             "structure": "dungeonway",
             "projection": "rigid",
             "ignoredBlocks": []
@@ -99,6 +99,12 @@
           {
             "weight": 10,
             "structure": "openroom",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 10,
+            "structure": "openroomboobytrap",
             "projection": "rigid",
             "ignoredBlocks": []
           }

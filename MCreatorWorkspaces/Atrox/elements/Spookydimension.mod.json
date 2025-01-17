@@ -20,10 +20,10 @@
     },
     "canRespawnHere": false,
     "hasFog": true,
-    "isDark": false,
+    "isDark": true,
     "doesWaterVaporize": true,
     "sleepResult": "BED_EXPLODES",
-    "hasSkyLight": false,
+    "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
     "onPlayerEntersDimension": {
       "name": "SpookydimensionPlayerEntersDimension"

@@ -4,6 +4,7 @@ package net.mcreator.atrox.entity;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.common.DungeonHooks;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
@@ -57,13 +58,13 @@ public class SpookyroamerEntity extends Monster {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false) {
+		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, true) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.targetSelector.addGoal(2, new HurtByTargetGoal(this));
+		this.targetSelector.addGoal(2, new HurtByTargetGoal(this).setAlertOthers());
 		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.8));
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Player.class, false, false));
@@ -71,7 +72,7 @@ public class SpookyroamerEntity extends Monster {
 
 	@Override
 	public MobType getMobType() {
-		return MobType.UNDEAD;
+		return MobType.ILLAGER;
 	}
 
 	@Override
@@ -124,6 +125,7 @@ public class SpookyroamerEntity extends Monster {
 
 	public static void init() {
 		SpawnPlacements.register(AtroxModEntities.WEEPING_ANGEL.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules);
+		DungeonHooks.addDungeonMob(AtroxModEntities.WEEPING_ANGEL.get(), 180);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

@@ -48,7 +48,7 @@ public class SpookydimensionDimension {
 		double y = entity.getY();
 		double z = entity.getZ();
 		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("atrox:spookydimension"))) {
-			SpookydimensionPlayerEntersDimensionProcedure.execute(y, entity);
+			SpookydimensionPlayerEntersDimensionProcedure.execute(world, y, entity);
 		}
 	}
 }

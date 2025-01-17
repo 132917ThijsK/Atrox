@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "atrox:block/trappedstonepressureplate"
+    },
+    "powered=true": {
+      "model": "atrox:block/trappedstonepressureplate_down"
+    }
+  }
+}
