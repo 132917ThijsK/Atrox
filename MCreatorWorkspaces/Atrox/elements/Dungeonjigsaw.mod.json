@@ -104,7 +104,73 @@
           },
           {
             "weight": 10,
-            "structure": "openroomboobytrap",
+            "structure": "trappedopenroom",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 8,
+            "structure": "trappeddungeonway",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "trappeddungeonlcorner",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "trappeddungeonrcorner",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "trappedshortlcorner",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "trappedshortrcorner",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 8,
+            "structure": "trappeddownway",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "trappedhalfway",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "trappedupway",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 13,
+            "structure": "trappeddungeonend",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 8,
+            "structure": "trappedstaircasedown",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 8,
+            "structure": "trappedstaircasedownmirror",
             "projection": "rigid",
             "ignoredBlocks": []
           }
