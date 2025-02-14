@@ -57,7 +57,6 @@ public class AtroxModTabs {
 				tabData.accept(AtroxModBlocks.SPOOKSTONE_STAIRS.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKSTONE_SLAB.get().asItem());
 				tabData.accept(AtroxModItems.SPOOKSTONE_DUST.get());
-				tabData.accept(AtroxModBlocks.ACID_VINE.get().asItem());
 				tabData.accept(AtroxModBlocks.TRAPPEDSTONEPRESSUREPLATE.get().asItem());
 			})
 
@@ -91,7 +90,6 @@ public class AtroxModTabs {
 			tabData.accept(AtroxModBlocks.SPOOKSTONE_STAIRS.get().asItem());
 			tabData.accept(AtroxModBlocks.SPOOKSTONE_SLAB.get().asItem());
 			tabData.accept(AtroxModItems.SPOOKSTONE_DUST.get());
-			tabData.accept(AtroxModBlocks.ACID_VINE.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

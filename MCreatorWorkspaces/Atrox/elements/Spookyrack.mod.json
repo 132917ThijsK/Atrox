@@ -49,9 +49,9 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "Items.SLIME_BALL"
+      "value": ""
     },
-    "dropAmount": 4,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,

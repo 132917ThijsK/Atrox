@@ -30,7 +30,6 @@ import net.mcreator.atrox.block.SpookstoneBlock;
 import net.mcreator.atrox.block.SlinkstoneOreBlock;
 import net.mcreator.atrox.block.SlinkstoneBlockBlock;
 import net.mcreator.atrox.block.PlayerplateBlock;
-import net.mcreator.atrox.block.AcidVineBlock;
 import net.mcreator.atrox.block.AcidBlock;
 import net.mcreator.atrox.AtroxMod;
 
@@ -56,7 +55,6 @@ public class AtroxModBlocks {
 	public static final RegistryObject<Block> SPOOKSTONE = REGISTRY.register("spookstone", () -> new SpookstoneBlock());
 	public static final RegistryObject<Block> SPOOKSTONE_STAIRS = REGISTRY.register("spookstone_stairs", () -> new SpookstoneStairsBlock());
 	public static final RegistryObject<Block> SPOOKSTONE_SLAB = REGISTRY.register("spookstone_slab", () -> new SpookstoneSlabBlock());
-	public static final RegistryObject<Block> ACID_VINE = REGISTRY.register("acid_vine", () -> new AcidVineBlock());
 	public static final RegistryObject<Block> TRAPPEDSTONEPRESSUREPLATE = REGISTRY.register("trappedstonepressureplate", () -> new PlayerplateBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

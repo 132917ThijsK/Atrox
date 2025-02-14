@@ -4,19 +4,15 @@
   "pools": [
     {
       "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:slime_ball",
-          "functions": [
-            {
-              "count": 4,
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
+          "name": "atrox:spookyrack"
         }
       ]
     }

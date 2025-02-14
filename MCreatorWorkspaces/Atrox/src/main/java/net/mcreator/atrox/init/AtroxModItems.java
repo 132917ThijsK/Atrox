@@ -66,7 +66,6 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> SPOOKSTONE_STAIRS = block(AtroxModBlocks.SPOOKSTONE_STAIRS);
 	public static final RegistryObject<Item> SPOOKSTONE_SLAB = block(AtroxModBlocks.SPOOKSTONE_SLAB);
 	public static final RegistryObject<Item> SPOOKSTONE_DUST = REGISTRY.register("spookstone_dust", () -> new SpookstoneDustItem());
-	public static final RegistryObject<Item> ACID_VINE = block(AtroxModBlocks.ACID_VINE);
 	public static final RegistryObject<Item> TRAPPEDSTONEPRESSUREPLATE = block(AtroxModBlocks.TRAPPEDSTONEPRESSUREPLATE);
 
 	// Start of user code block custom items

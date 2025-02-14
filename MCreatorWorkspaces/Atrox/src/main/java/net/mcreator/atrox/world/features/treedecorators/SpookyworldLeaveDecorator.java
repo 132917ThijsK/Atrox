@@ -68,10 +68,10 @@ public class SpookyworldLeaveDecorator extends LeaveVineDecorator {
 	}
 
 	private static void addVine(BlockPos pos, Direction direction, TreeDecorator.Context context) {
-		context.setBlock(pos, AtroxModBlocks.ACID_VINE.get().defaultBlockState());
+		context.setBlock(pos, AtroxModBlocks.SPOOKYLEAVES.get().defaultBlockState());
 		int i = 4;
 		for (BlockPos blockpos = pos.below(); context.isAir(blockpos) && i > 0; --i) {
-			context.setBlock(blockpos, oriented(AtroxModBlocks.ACID_VINE.get().defaultBlockState(), direction));
+			context.setBlock(blockpos, oriented(AtroxModBlocks.SPOOKYLEAVES.get().defaultBlockState(), direction));
 			blockpos = blockpos.below();
 		}
 	}
