@@ -139,6 +139,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "golden_apple": "2025-02-20 16:29:47 +0100",
       "golden_carrot": "2025-02-19 14:05:57 +0100"
     },
     "done": false
@@ -146,6 +147,24 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2025-02-19 14:05:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-02-20 16:28:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-02-20 16:30:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2025-02-20 16:31:44 +0100"
     },
     "done": true
   },

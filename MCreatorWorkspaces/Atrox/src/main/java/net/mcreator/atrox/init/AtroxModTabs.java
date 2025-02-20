@@ -39,7 +39,6 @@ public class AtroxModTabs {
 				tabData.accept(AtroxModItems.WEEPING_ANGEL_SPAWN_EGG.get());
 				tabData.accept(AtroxModBlocks.WIZARDRYTABLE.get().asItem());
 				tabData.accept(AtroxModItems.BOATSPAWNER.get());
-				tabData.accept(AtroxModItems.GHOSTBAUBLE.get());
 				tabData.accept(AtroxModBlocks.SPOOKYFRAME.get().asItem());
 				tabData.accept(AtroxModItems.SLINKSTONE.get());
 				tabData.accept(AtroxModBlocks.SLINKSTONE_ORE.get().asItem());
@@ -82,6 +81,12 @@ public class AtroxModTabs {
 			tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_CHESTPLATE.get());
 			tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_LEGGINGS.get());
 			tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_BOOTS.get());
+			tabData.accept(AtroxModItems.BOOS_SMALL_FIREBALL.get());
+
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+
+			tabData.accept(AtroxModItems.THEGREATANGEL_SPAWN_EGG.get());
+			tabData.accept(AtroxModItems.BOOSSHIELD_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 

@@ -23,7 +23,7 @@ import net.mcreator.atrox.item.SlinkstonetoolsHoeItem;
 import net.mcreator.atrox.item.SlinkstonetoolsAxeItem;
 import net.mcreator.atrox.item.SlinkstonearmorArmorItem;
 import net.mcreator.atrox.item.SlinkstoneItem;
-import net.mcreator.atrox.item.GhostbaubleItem;
+import net.mcreator.atrox.item.BoossmallfireballItem;
 import net.mcreator.atrox.item.BoatspawnerItem;
 import net.mcreator.atrox.item.AcidItem;
 import net.mcreator.atrox.AtroxMod;
@@ -47,7 +47,6 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> WIZARDRYTABLE = block(AtroxModBlocks.WIZARDRYTABLE);
 	public static final RegistryObject<Item> SPOOKY_BOAT_SPAWN_EGG = REGISTRY.register("spooky_boat_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.SPOOKY_BOAT, -14605279, -14600681, new Item.Properties()));
 	public static final RegistryObject<Item> BOATSPAWNER = REGISTRY.register("boatspawner", () -> new BoatspawnerItem());
-	public static final RegistryObject<Item> GHOSTBAUBLE = REGISTRY.register("ghostbauble", () -> new GhostbaubleItem());
 	public static final RegistryObject<Item> SPOOKYFRAME = block(AtroxModBlocks.SPOOKYFRAME);
 	public static final RegistryObject<Item> SLINKSTONE = REGISTRY.register("slinkstone", () -> new SlinkstoneItem());
 	public static final RegistryObject<Item> SLINKSTONE_ORE = block(AtroxModBlocks.SLINKSTONE_ORE);
@@ -67,6 +66,9 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> SPOOKSTONE_SLAB = block(AtroxModBlocks.SPOOKSTONE_SLAB);
 	public static final RegistryObject<Item> SPOOKSTONE_DUST = REGISTRY.register("spookstone_dust", () -> new SpookstoneDustItem());
 	public static final RegistryObject<Item> TRAPPEDSTONEPRESSUREPLATE = block(AtroxModBlocks.TRAPPEDSTONEPRESSUREPLATE);
+	public static final RegistryObject<Item> THEGREATANGEL_SPAWN_EGG = REGISTRY.register("thegreatangel_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.THEGREATANGEL, -4153271, -3424064, new Item.Properties()));
+	public static final RegistryObject<Item> BOOS_SMALL_FIREBALL = REGISTRY.register("boos_small_fireball", () -> new BoossmallfireballItem());
+	public static final RegistryObject<Item> BOOSSHIELD_SPAWN_EGG = REGISTRY.register("boosshield_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.BOOSSHIELD, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
