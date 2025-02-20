@@ -13,7 +13,7 @@ public class PlayerplateEntityCollidesInTheBlockProcedure {
 			return;
 		if (entity instanceof ServerPlayer _plr0 && _plr0.level() instanceof ServerLevel && _plr0.getAdvancements().getOrStartProgress(_plr0.server.getAdvancements().getAdvancement(new ResourceLocation("atrox:thatwasspooky"))).isDone()) {
 			if (world instanceof Level _level && !_level.isClientSide())
-				_level.explode(null, x, y, z, 4, Level.ExplosionInteraction.TNT);
+				_level.explode(null, x, y, z, 2, Level.ExplosionInteraction.TNT);
 		}
 	}
 }

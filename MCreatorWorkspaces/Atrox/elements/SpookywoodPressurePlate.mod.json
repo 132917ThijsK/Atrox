@@ -46,6 +46,12 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:Spooky"
+      },
+      {
+        "value": "BUILDING_BLOCKS"
+      },
+      {
+        "value": "REDSTONE"
       }
     ],
     "destroyTool": "Not specified",

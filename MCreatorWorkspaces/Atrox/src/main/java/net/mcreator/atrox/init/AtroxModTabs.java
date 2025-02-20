@@ -66,7 +66,13 @@ public class AtroxModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 
+			tabData.accept(AtroxModBlocks.SPOOKYWOOD_PRESSURE_PLATE.get().asItem());
 			tabData.accept(AtroxModBlocks.SLINKSTONE_BLOCK.get().asItem());
+			tabData.accept(AtroxModBlocks.TRAPPEDSTONEPRESSUREPLATE.get().asItem());
+
+		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+
+			tabData.accept(AtroxModBlocks.SPOOKYWOOD_PRESSURE_PLATE.get().asItem());
 			tabData.accept(AtroxModBlocks.TRAPPEDSTONEPRESSUREPLATE.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {

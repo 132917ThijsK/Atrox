@@ -49,6 +49,9 @@
       },
       {
         "value": "BUILDING_BLOCKS"
+      },
+      {
+        "value": "REDSTONE"
       }
     ],
     "destroyTool": "pickaxe",
