@@ -22,6 +22,7 @@ import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.atrox.init.AtroxModParticleTypes;
+import net.mcreator.atrox.AtroxMod;
 
 public class BoosfractureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -114,5 +115,6 @@ public class BoosfractureProcedure {
 			entity.setNoGravity(true);
 			BoosstatechangerProcedure.execute(entity);
 		}
+		AtroxMod.LOGGER.debug("FRACTURE");
 	}
 }

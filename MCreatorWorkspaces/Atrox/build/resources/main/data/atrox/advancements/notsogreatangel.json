@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "atrox:thegreatangel_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.notsogreatangel.title"
+    },
+    "description": {
+      "translate": "advancements.notsogreatangel.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "notsogreatangel_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "atrox:thatwasspooky"
+}

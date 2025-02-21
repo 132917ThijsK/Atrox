@@ -17,7 +17,9 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.atrox.network.AtroxModVariables;
 import net.mcreator.atrox.init.AtroxModParticleTypes;
+import net.mcreator.atrox.AtroxMod;
 
 public class BoosdisperseProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -94,9 +96,12 @@ public class BoosdisperseProcedure {
 		}
 		if (entity.getPersistentData().getDouble("IA") == 300) {
 			entity.getPersistentData().putBoolean("CanDie", true);
-			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.FELL_OUT_OF_WORLD)), 9999);
-			if (world instanceof Level _level && !_level.isClientSide())
-				_level.explode(null, x, y, z, 25, Level.ExplosionInteraction.MOB);
 		}
+		AtroxMod.LOGGER.debug("DISPERSE");
+		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.FELL_OUT_OF_WORLD)), 9999);
+		if (world instanceof Level _level && !_level.isClientSide())
+			_level.explode(null, x, y, z, 25, Level.ExplosionInteraction.MOB);
+		AtroxModVariables.MapVariables.get(world).GreatAngelDies = true;
+		AtroxModVariables.MapVariables.get(world).syncData(world);
 	}
 }

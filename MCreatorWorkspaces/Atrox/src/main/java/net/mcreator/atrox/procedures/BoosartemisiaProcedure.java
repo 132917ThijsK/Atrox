@@ -19,6 +19,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.atrox.init.AtroxModParticleTypes;
 import net.mcreator.atrox.entity.ThegreatangelEntity;
+import net.mcreator.atrox.AtroxMod;
 
 import java.util.List;
 import java.util.Comparator;
@@ -83,6 +84,7 @@ public class BoosartemisiaProcedure {
 		if (entity.getPersistentData().getDouble("Fly") == 100) {
 			if (!entity.level().isClientSide())
 				entity.discard();
+			AtroxMod.LOGGER.debug("ARTEMISIA");
 		}
 	}
 }

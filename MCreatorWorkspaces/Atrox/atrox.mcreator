@@ -1346,10 +1346,10 @@
       "registry_name": "thegreatangel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/atrox/models/item/thegreatangel_spawn_egg.json",
-          "src/main/java/net/mcreator/atrox/entity/ThegreatangelEntity.java",
           "src/main/java/net/mcreator/atrox/entity/model/ThegreatangelModel.java",
-          "src/main/java/net/mcreator/atrox/client/renderer/ThegreatangelRenderer.java"
+          "src/main/java/net/mcreator/atrox/client/renderer/ThegreatangelRenderer.java",
+          "src/main/resources/assets/atrox/models/item/thegreatangel_spawn_egg.json",
+          "src/main/java/net/mcreator/atrox/entity/ThegreatangelEntity.java"
         ]
       },
       "path": "~/Boss"
@@ -1829,8 +1829,8 @@
       "registry_name": "boosartemis",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/atrox/client/renderer/BoosartemisRenderer.java",
-          "src/main/java/net/mcreator/atrox/entity/BoosartemisEntity.java"
+          "src/main/java/net/mcreator/atrox/entity/BoosartemisEntity.java",
+          "src/main/java/net/mcreator/atrox/client/renderer/BoosartemisRenderer.java"
         ]
       },
       "path": "~/Boss/FracturedAngel"
@@ -2226,6 +2226,42 @@
         ]
       },
       "path": "~/Boss/FracturedAngel"
+    },
+    {
+      "name": "Notsogreatangel",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "notsogreatangel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/atrox/advancements/notsogreatangel.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Grantplayeradvancementgreatangeldies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grantplayeradvancementgreatangeldies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/atrox/procedures/GrantplayeradvancementgreatangeldiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Boss/FracturedAngel"
     }
   ],
   "variable_elements": [
@@ -2239,6 +2275,12 @@
       "name": "SpeedStaff",
       "type": "logic",
       "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "GreatAngelDies",
+      "type": "logic",
+      "scope": "map",
       "value": "false"
     }
   ],
@@ -2326,6 +2368,7 @@
       "entity.atrox.boosshield": "Angels Shield",
       "block.atrox.spookywood_slab": "Spooky Slab",
       "block.atrox.acid": "Acid",
+      "advancements.notsogreatangel.title": "The not so Great Angel",
       "advancements.thatwasspooky.descr": "Enter the spooky dimension.",
       "item.atrox.stonestick": "Stone stick",
       "item.atrox.ghostbauble": "Spooky Charm",
@@ -2366,6 +2409,7 @@
       "block.atrox.slinkstone_ore": "Slinkstone Ore",
       "block.atrox.trappedstonepressureplate": "Trapped Stone Pressure Plate",
       "item.atrox.slinkstonetools_sword": "Slinkstone Sword",
+      "advancements.notsogreatangel.descr": "Defeat The Great Angel",
       "advancements.thatsnew.descr": "Obtain Spookywood.",
       "block.atrox.spookyrack": "Spookyrack",
       "death.attack.spookypoison.player": "%1$s was envenomed whilst trying to escape %2$s",

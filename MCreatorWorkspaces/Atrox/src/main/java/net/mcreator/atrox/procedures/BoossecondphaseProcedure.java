@@ -91,5 +91,6 @@ public class BoossecondphaseProcedure {
 				}
 			}
 		}
+		AtroxMod.LOGGER.info("BOOSSECONDPHASE");
 	}
 }
