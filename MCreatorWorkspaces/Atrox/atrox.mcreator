@@ -2318,8 +2318,8 @@
       "death.attack.spookypoison": "%1$s was envenomed by acid",
       "block.atrox.slinkstone_block": "Block of Slinkstone",
       "item.atrox.slinkstonetools_hoe": "Slinkstone Hoe",
-      "item.atrox.thegreatangel_spawn_egg": "The Great Angel Spawn Egg",
       "item.atrox.slinkstonearmor_armor_chestplate": "Slinkstone Chestplate",
+      "item.atrox.thegreatangel_spawn_egg": "The Great Angel Spawn Egg",
       "biome.atrox.spookyworld": "Spookyworld",
       "item.minecraft.lingering_potion.effect.acidpotion": "Lingering Potion of Acid",
       "entity.atrox.boosartemis": "Angels Artemis",
@@ -2372,7 +2372,7 @@
       "advancements.achiementacid.title": "Careful with that!",
       "entity.minecraft.villager.atrox.wizard": "Wizard",
       "advancements.ghostbaubleequipped.descr": "Obtain and Equip the Spooky Bauble",
-      "block.atrox.spookyleaves": "Spookyleaves",
+      "block.atrox.spookyleaves": "Spooky Leaves",
       "fluid.atrox.acid": "Acid",
       "item_group.atrox.spooky": "Atrox",
       "item.atrox.spookstone_dust": "Spookstone Dust"

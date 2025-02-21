@@ -12,6 +12,7 @@ import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
 import net.mcreator.atrox.entity.ThegreatangelEntity;
+import net.mcreator.atrox.AtroxMod;
 
 import javax.annotation.Nullable;
 
@@ -31,6 +32,10 @@ public class BoossecondphaseProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
+		AtroxMod.LOGGER.debug("deathanimation2");
+		if (entity instanceof ThegreatangelEntity) {
+			((ThegreatangelEntity) entity).setAnimation("death");
+		}
 		if (entity instanceof ThegreatangelEntity) {
 			if (!entity.getPersistentData().getBoolean("CanDie")) {
 				{

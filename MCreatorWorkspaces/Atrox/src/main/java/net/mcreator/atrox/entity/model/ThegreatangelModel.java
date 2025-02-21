@@ -14,12 +14,12 @@ import net.mcreator.atrox.entity.ThegreatangelEntity;
 public class ThegreatangelModel extends GeoModel<ThegreatangelEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(ThegreatangelEntity entity) {
-		return new ResourceLocation("atrox", "animations/the_great_angel.animation.json");
+		return new ResourceLocation("atrox", "animations/thegreatangel.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(ThegreatangelEntity entity) {
-		return new ResourceLocation("atrox", "geo/the_great_angel.geo.json");
+		return new ResourceLocation("atrox", "geo/thegreatangel.geo.json");
 	}
 
 	@Override

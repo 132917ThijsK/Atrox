@@ -197,5 +197,11 @@
     },
     "done": true
   },
+  "atrox:achiementacid": {
+    "criteria": {
+      "achiementacid_0": "2025-02-21 16:34:53 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

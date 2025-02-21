@@ -189,9 +189,35 @@ public class ThegreatangelEntity extends Monster implements GeoEntity {
 
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
-			return event.setAndContinue(RawAnimation.begin().thenLoop("the_great_angel.animation.idle"));
+			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
+
+					&& !this.isSprinting()) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("walking"));
+			}
+			if (this.isSprinting()) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("walking"));
+			}
+			return event.setAndContinue(RawAnimation.begin().thenLoop("idle"));
 		}
 		return PlayState.STOP;
+	}
+
+	private PlayState attackingPredicate(AnimationState event) {
+		double d1 = this.getX() - this.xOld;
+		double d0 = this.getZ() - this.zOld;
+		float velocity = (float) Math.sqrt(d1 * d1 + d0 * d0);
+		if (getAttackAnim(event.getPartialTick()) > 0f && !this.swinging) {
+			this.swinging = true;
+			this.lastSwing = level().getGameTime();
+		}
+		if (this.swinging && this.lastSwing + 7L <= level().getGameTime()) {
+			this.swinging = false;
+		}
+		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
+			event.getController().forceAnimationReset();
+			return event.setAndContinue(RawAnimation.begin().thenPlay("attack"));
+		}
+		return PlayState.CONTINUE;
 	}
 
 	String prevAnim = "empty";
@@ -233,6 +259,7 @@ public class ThegreatangelEntity extends Monster implements GeoEntity {
 	@Override
 	public void registerControllers(AnimatableManager.ControllerRegistrar data) {
 		data.add(new AnimationController<>(this, "movement", 4, this::movementPredicate));
+		data.add(new AnimationController<>(this, "attacking", 4, this::attackingPredicate));
 		data.add(new AnimationController<>(this, "procedure", 4, this::procedurePredicate));
 	}
 

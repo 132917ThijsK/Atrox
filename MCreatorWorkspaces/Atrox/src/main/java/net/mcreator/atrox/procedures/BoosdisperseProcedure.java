@@ -15,7 +15,6 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.particles.SimpleParticleType;
-import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.atrox.init.AtroxModParticleTypes;
@@ -27,7 +26,7 @@ public class BoosdisperseProcedure {
 		double Chain = 0;
 		double ChainWait = 0;
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles(ParticleTypes.EFFECT, x, y, z, 15, 0.5, 1.8, 0.5, 1);
+			_level.sendParticles((SimpleParticleType) (AtroxModParticleTypes.PORTALPARTICE.get()), x, y, z, 15, 0.5, 1.8, 0.5, 1);
 		if (entity.getPersistentData().getDouble("IA") < 100) {
 			entity.setDeltaMovement(new Vec3(0, 0.075, 0));
 		} else {

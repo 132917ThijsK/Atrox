@@ -135,34 +135,6 @@ Adding Libraries to Inheritance
 Reading Input: D:\Atrox\MCreatorWorkspaces\Atrox\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/shouldShowName(Lnet/minecraft/world/entity/Entity;)Z from net/minecraft/client/renderer/entity/EntityRenderer/shouldShowName(Lnet/minecraft/world/entity/Entity;)Z: shouldShowName -> m_6512_
-Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
-Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/EntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
-Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getFlowing()Lnet/minecraft/world/level/material/Fluid; from net/minecraft/world/level/material/FlowingFluid/getFlowing()Lnet/minecraft/world/level/material/Fluid;: getFlowing -> m_5615_
-Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/createLegacyBlock(Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/material/Fluid/createLegacyBlock(Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/level/block/state/BlockState;: createLegacyBlock -> m_5804_
-Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getTickDelay(Lnet/minecraft/world/level/LevelReader;)I from net/minecraft/world/level/material/Fluid/getTickDelay(Lnet/minecraft/world/level/LevelReader;)I: getTickDelay -> m_6718_
-Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/canConvertToSource(Lnet/minecraft/world/level/Level;)Z from net/minecraft/world/level/material/FlowingFluid/canConvertToSource(Lnet/minecraft/world/level/Level;)Z: canConvertToSource -> m_6760_
-Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/isSame(Lnet/minecraft/world/level/material/Fluid;)Z from net/minecraft/world/level/material/Fluid/isSame(Lnet/minecraft/world/level/material/Fluid;)Z: isSame -> m_6212_
-Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getPickupSound()Ljava/util/Optional; from net/minecraft/world/level/material/Fluid/getPickupSound()Ljava/util/Optional;: getPickupSound -> m_142520_
-Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getSlopeFindDistance(Lnet/minecraft/world/level/LevelReader;)I from net/minecraft/world/level/material/FlowingFluid/getSlopeFindDistance(Lnet/minecraft/world/level/LevelReader;)I: getSlopeFindDistance -> m_6719_
-Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getExplosionResistance()F from net/minecraft/world/level/material/Fluid/getExplosionResistance()F: getExplosionResistance -> m_6752_
-Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getSource()Lnet/minecraft/world/level/material/Fluid; from net/minecraft/world/level/material/FlowingFluid/getSource()Lnet/minecraft/world/level/material/Fluid;: getSource -> m_5613_
-Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getDropOff(Lnet/minecraft/world/level/LevelReader;)I from net/minecraft/world/level/material/FlowingFluid/getDropOff(Lnet/minecraft/world/level/LevelReader;)I: getDropOff -> m_6713_
-Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/level/material/FlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: beforeDestroyingBlock -> m_7456_
-Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getBucket()Lnet/minecraft/world/item/Item; from net/minecraft/world/level/material/Fluid/getBucket()Lnet/minecraft/world/item/Item;: getBucket -> m_6859_
-Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/level/material/Fluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z: canBeReplacedWith -> m_5486_
-Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
-Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
-Conflicting propagated mapping for net/minecraftforge/common/BasicItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer; from net/minecraft/world/entity/npc/VillagerTrades$ItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer;: getOffer -> m_213663_
-Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z from net/minecraft/server/level/ServerPlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z: isInvulnerableTo -> m_6673_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/canHarmPlayer(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/server/level/ServerPlayer/canHarmPlayer(Lnet/minecraft/world/entity/player/Player;)Z: canHarmPlayer -> m_7099_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/updateOptions(Lnet/minecraft/network/protocol/game/ServerboundClientInformationPacket;)V from net/minecraft/server/level/ServerPlayer/updateOptions(Lnet/minecraft/network/protocol/game/ServerboundClientInformationPacket;)V: updateOptions -> m_9156_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/displayClientMessage(Lnet/minecraft/network/chat/Component;Z)V from net/minecraft/server/level/ServerPlayer/displayClientMessage(Lnet/minecraft/network/chat/Component;Z)V: displayClientMessage -> m_5661_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/die(Lnet/minecraft/world/damagesource/DamageSource;)V from net/minecraft/server/level/ServerPlayer/die(Lnet/minecraft/world/damagesource/DamageSource;)V: die -> m_6667_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/tick()V from net/minecraft/server/level/ServerPlayer/tick()V: tick -> m_8119_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/getServer()Lnet/minecraft/server/MinecraftServer; from net/minecraft/world/entity/Entity/getServer()Lnet/minecraft/server/MinecraftServer;: getServer -> m_20194_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/awardStat(Lnet/minecraft/stats/Stat;I)V from net/minecraft/server/level/ServerPlayer/awardStat(Lnet/minecraft/stats/Stat;I)V: awardStat -> m_6278_
 Adding extras
 Sorting
 Writing Output: D:\Atrox\MCreatorWorkspaces\Atrox\build\reobfJar\output.jar
@@ -172,7 +144,7 @@ Writing Output: D:\Atrox\MCreatorWorkspaces\Atrox\build\reobfJar\output.jar
   assets/
   assets/atrox/
   assets/atrox/animations/
-  assets/atrox/animations/the_great_angel.animation.json
+  assets/atrox/animations/thegreatangel.animation.json
   assets/atrox/blockstates/
   assets/atrox/blockstates/acid.json
   assets/atrox/blockstates/slinkstone_block.json
@@ -197,7 +169,7 @@ Writing Output: D:\Atrox\MCreatorWorkspaces\Atrox\build\reobfJar\output.jar
   assets/atrox/blockstates/wizardrytable.json
   assets/atrox/geo/
   assets/atrox/geo/spookyboatgeckolibmodel.geo.json
-  assets/atrox/geo/the_great_angel.geo.json
+  assets/atrox/geo/thegreatangel.geo.json
   assets/atrox/lang/
   assets/atrox/lang/en_us.json
   assets/atrox/models/
@@ -335,7 +307,6 @@ Writing Output: D:\Atrox\MCreatorWorkspaces\Atrox\build\reobfJar\output.jar
   assets/atrox/textures/block/wizardrytable.png
   assets/atrox/textures/block/wizardrytableitem.png
   assets/atrox/textures/entities/
-  assets/atrox/textures/entities/hazmattie.png
   assets/atrox/textures/entities/normal_angel_idle.png
   assets/atrox/textures/entities/placeholder.png
   assets/atrox/textures/entities/skeletontexture.png
@@ -354,7 +325,6 @@ Writing Output: D:\Atrox\MCreatorWorkspaces\Atrox\build\reobfJar\output.jar
   assets/atrox/textures/entity/zombie_villager/profession/wizard.png
   assets/atrox/textures/item/
   assets/atrox/textures/item/637794297748794703.png
-  assets/atrox/textures/item/ghost_bauble.png
   assets/atrox/textures/item/placeholder.png
   assets/atrox/textures/item/slinkstone_gem.png
   assets/atrox/textures/item/slinkstonearmor_body.png
@@ -535,188 +505,4 @@ Writing Output: D:\Atrox\MCreatorWorkspaces\Atrox\build\reobfJar\output.jar
   data/minecraft/tags/items/swords.json
   data/minecraft/tags/point_of_interest_type/
   data/minecraft/tags/point_of_interest_type/acquirable_job_site.json
-  net/
-  net/mcreator/
-  net/mcreator/atrox/
-  net/mcreator/atrox/AtroxMod.class
-  net/mcreator/atrox/block/
-  net/mcreator/atrox/block/AcidBlock.class
-  net/mcreator/atrox/block/PlayerplateBlock.class
-  net/mcreator/atrox/block/SlinkstoneBlockBlock.class
-  net/mcreator/atrox/block/SlinkstoneOreBlock.class
-  net/mcreator/atrox/block/SpookstoneBlock.class
-  net/mcreator/atrox/block/SpookstoneSlabBlock.class
-  net/mcreator/atrox/block/SpookstoneStairsBlock.class
-  net/mcreator/atrox/block/SpookydimensionPortalBlock.class
-  net/mcreator/atrox/block/SpookyframeBlock.class
-  net/mcreator/atrox/block/SpookyleavesBlock.class
-  net/mcreator/atrox/block/SpookyrackBlock.class
-  net/mcreator/atrox/block/SpookywoodButtonBlock.class
-  net/mcreator/atrox/block/SpookywoodFenceBlock.class
-  net/mcreator/atrox/block/SpookywoodFenceGateBlock.class
-  net/mcreator/atrox/block/SpookywoodLogBlock.class
-  net/mcreator/atrox/block/SpookywoodPlanksBlock.class
-  net/mcreator/atrox/block/SpookywoodPressurePlateBlock.class
-  net/mcreator/atrox/block/SpookywoodSlabBlock.class
-  net/mcreator/atrox/block/SpookywoodStairsBlock.class
-  net/mcreator/atrox/block/SpookywoodWoodBlock.class
-  net/mcreator/atrox/block/WizardrytableBlock.class
-  net/mcreator/atrox/client/
-  net/mcreator/atrox/client/model/
-  net/mcreator/atrox/client/model/ModelManspook.class
-  net/mcreator/atrox/client/model/Modelcircle.class
-  net/mcreator/atrox/client/model/ModelmodelweepingangelJAVA.class
-  net/mcreator/atrox/client/model/Modelspookyboat.class
-  net/mcreator/atrox/client/particle/
-  net/mcreator/atrox/client/particle/PortalparticeParticle$PortalparticeParticleProvider.class
-  net/mcreator/atrox/client/particle/PortalparticeParticle.class
-  net/mcreator/atrox/client/renderer/
-  net/mcreator/atrox/client/renderer/BoosartemisRenderer.class
-  net/mcreator/atrox/client/renderer/BoosshieldRenderer.class
-  net/mcreator/atrox/client/renderer/SpookyBoatRenderer.class
-  net/mcreator/atrox/client/renderer/SpookyroamerRenderer.class
-  net/mcreator/atrox/client/renderer/ThegreatangelRenderer.class
-  net/mcreator/atrox/entity/
-  net/mcreator/atrox/entity/BoosartemisEntity$1.class
-  net/mcreator/atrox/entity/BoosartemisEntity.class
-  net/mcreator/atrox/entity/BoosshieldEntity.class
-  net/mcreator/atrox/entity/BoossmallfireballprojectileEntity.class
-  net/mcreator/atrox/entity/SpookyBoatEntity.class
-  net/mcreator/atrox/entity/SpookyroamerEntity$1.class
-  net/mcreator/atrox/entity/SpookyroamerEntity.class
-  net/mcreator/atrox/entity/ThegreatangelEntity$1.class
-  net/mcreator/atrox/entity/ThegreatangelEntity.class
-  net/mcreator/atrox/entity/model/
-  net/mcreator/atrox/entity/model/ThegreatangelModel.class
-  net/mcreator/atrox/fluid/
-  net/mcreator/atrox/fluid/AcidFluid$Flowing.class
-  net/mcreator/atrox/fluid/AcidFluid$Source.class
-  net/mcreator/atrox/fluid/AcidFluid.class
-  net/mcreator/atrox/fluid/types/
-  net/mcreator/atrox/fluid/types/AcidFluidType$1.class
-  net/mcreator/atrox/fluid/types/AcidFluidType.class
-  net/mcreator/atrox/init/
-  net/mcreator/atrox/init/AtroxModBlocks.class
-  net/mcreator/atrox/init/AtroxModEntities.class
-  net/mcreator/atrox/init/AtroxModEntityRenderers.class
-  net/mcreator/atrox/init/AtroxModFluidTypes.class
-  net/mcreator/atrox/init/AtroxModFluids$FluidsClientSideHandler.class
-  net/mcreator/atrox/init/AtroxModFluids.class
-  net/mcreator/atrox/init/AtroxModItems.class
-  net/mcreator/atrox/init/AtroxModMobEffects.class
-  net/mcreator/atrox/init/AtroxModModels.class
-  net/mcreator/atrox/init/AtroxModParticleTypes.class
-  net/mcreator/atrox/init/AtroxModParticles.class
-  net/mcreator/atrox/init/AtroxModPotions.class
-  net/mcreator/atrox/init/AtroxModTabs.class
-  net/mcreator/atrox/init/AtroxModTrades.class
-  net/mcreator/atrox/init/AtroxModVillagerProfessions$ProfessionPoiType.class
-  net/mcreator/atrox/init/AtroxModVillagerProfessions.class
-  net/mcreator/atrox/init/EntityAnimationFactory.class
-  net/mcreator/atrox/item/
-  net/mcreator/atrox/item/AcidItem.class
-  net/mcreator/atrox/item/BoatspawnerItem.class
-  net/mcreator/atrox/item/BoossmallfireballItem.class
-  net/mcreator/atrox/item/SlinkstoneItem.class
-  net/mcreator/atrox/item/SlinkstonearmorArmorItem$1.class
-  net/mcreator/atrox/item/SlinkstonearmorArmorItem$Boots.class
-  net/mcreator/atrox/item/SlinkstonearmorArmorItem$Chestplate.class
-  net/mcreator/atrox/item/SlinkstonearmorArmorItem$Helmet.class
-  net/mcreator/atrox/item/SlinkstonearmorArmorItem$Leggings.class
-  net/mcreator/atrox/item/SlinkstonearmorArmorItem.class
-  net/mcreator/atrox/item/SlinkstonetoolsAxeItem$1.class
-  net/mcreator/atrox/item/SlinkstonetoolsAxeItem.class
-  net/mcreator/atrox/item/SlinkstonetoolsHoeItem$1.class
-  net/mcreator/atrox/item/SlinkstonetoolsHoeItem.class
-  net/mcreator/atrox/item/SlinkstonetoolsPickaxeItem$1.class
-  net/mcreator/atrox/item/SlinkstonetoolsPickaxeItem.class
-  net/mcreator/atrox/item/SlinkstonetoolsShovelItem$1.class
-  net/mcreator/atrox/item/SlinkstonetoolsShovelItem.class
-  net/mcreator/atrox/item/SlinkstonetoolsSwordItem$1.class
-  net/mcreator/atrox/item/SlinkstonetoolsSwordItem.class
-  net/mcreator/atrox/item/SpookstoneDustItem.class
-  net/mcreator/atrox/item/SpookydimensionItem.class
-  net/mcreator/atrox/item/StonestickItem.class
-  net/mcreator/atrox/network/
-  net/mcreator/atrox/network/AtroxModVariables$1.class
-  net/mcreator/atrox/network/AtroxModVariables$EventBusVariableHandlers.class
-  net/mcreator/atrox/network/AtroxModVariables$PlayerVariables.class
-  net/mcreator/atrox/network/AtroxModVariables$PlayerVariablesProvider.class
-  net/mcreator/atrox/network/AtroxModVariables$PlayerVariablesSyncMessage.class
-  net/mcreator/atrox/network/AtroxModVariables.class
-  net/mcreator/atrox/potion/
-  net/mcreator/atrox/potion/AcidicMobEffect.class
-  net/mcreator/atrox/procedures/
-  net/mcreator/atrox/procedures/AcidMobplayerCollidesBlockProcedure.class
-  net/mcreator/atrox/procedures/BoatspawnerRightclickedOnBlockProcedure.class
-  net/mcreator/atrox/procedures/BoosartemisiaProcedure$1.class
-  net/mcreator/atrox/procedures/BoosartemisiaProcedure$2.class
-  net/mcreator/atrox/procedures/BoosartemisiaProcedure$3.class
-  net/mcreator/atrox/procedures/BoosartemisiaProcedure$4.class
-  net/mcreator/atrox/procedures/BoosartemisiaProcedure$5.class
-  net/mcreator/atrox/procedures/BoosartemisiaProcedure$6.class
-  net/mcreator/atrox/procedures/BoosartemisiaProcedure.class
-  net/mcreator/atrox/procedures/BoosartemisoninitialentityspawnProcedure.class
-  net/mcreator/atrox/procedures/BoosartemisprojectilehitslivingentityProcedure.class
-  net/mcreator/atrox/procedures/BoosdashProcedure.class
-  net/mcreator/atrox/procedures/BoosdisperseProcedure.class
-  net/mcreator/atrox/procedures/BoosfireballProcedure$1.class
-  net/mcreator/atrox/procedures/BoosfireballProcedure$2.class
-  net/mcreator/atrox/procedures/BoosfireballProcedure$3.class
-  net/mcreator/atrox/procedures/BoosfireballProcedure.class
-  net/mcreator/atrox/procedures/BoosfractureProcedure.class
-  net/mcreator/atrox/procedures/BoosfracturedartemisProcedure.class
-  net/mcreator/atrox/procedures/BoosfracturedbeamProcedure.class
-  net/mcreator/atrox/procedures/BoosfracturedbeamteleportProcedure.class
-  net/mcreator/atrox/procedures/BoosfractureddispersionProcedure.class
-  net/mcreator/atrox/procedures/BoosfracturedteleportartemisProcedure.class
-  net/mcreator/atrox/procedures/BoosfracturedteleportexecutionProcedure.class
-  net/mcreator/atrox/procedures/BoosfractureteleportProcedure.class
-  net/mcreator/atrox/procedures/BoosmeleeProcedure.class
-  net/mcreator/atrox/procedures/BoosonentitytickupdateProcedure.class
-  net/mcreator/atrox/procedures/BoosregenerationProcedure.class
-  net/mcreator/atrox/procedures/BoossecondphaseProcedure.class
-  net/mcreator/atrox/procedures/BoosshielddefenceProcedure$1.class
-  net/mcreator/atrox/procedures/BoosshielddefenceProcedure.class
-  net/mcreator/atrox/procedures/BoosshieldentitydiesProcedure.class
-  net/mcreator/atrox/procedures/BoosshieldonentitytickupdateProcedure$1.class
-  net/mcreator/atrox/procedures/BoosshieldonentitytickupdateProcedure$2.class
-  net/mcreator/atrox/procedures/BoosshieldonentitytickupdateProcedure$3.class
-  net/mcreator/atrox/procedures/BoosshieldonentitytickupdateProcedure$4.class
-  net/mcreator/atrox/procedures/BoosshieldonentitytickupdateProcedure$5.class
-  net/mcreator/atrox/procedures/BoosshieldonentitytickupdateProcedure$6.class
-  net/mcreator/atrox/procedures/BoosshieldonentitytickupdateProcedure.class
-  net/mcreator/atrox/procedures/BoossmallfireballprojectilehitslivingentityProcedure.class
-  net/mcreator/atrox/procedures/BoossmallfireballwhileprojectileflyingtickProcedure.class
-  net/mcreator/atrox/procedures/BoosstatechangerProcedure.class
-  net/mcreator/atrox/procedures/BoossummonProcedure.class
-  net/mcreator/atrox/procedures/BoosteleportProcedure.class
-  net/mcreator/atrox/procedures/BoosteleportattackProcedure$1.class
-  net/mcreator/atrox/procedures/BoosteleportattackProcedure$2.class
-  net/mcreator/atrox/procedures/BoosteleportattackProcedure$3.class
-  net/mcreator/atrox/procedures/BoosteleportattackProcedure.class
-  net/mcreator/atrox/procedures/PlayerplateEntityCollidesInTheBlockProcedure.class
-  net/mcreator/atrox/procedures/SpookyBoatEntityDiesProcedure.class
-  net/mcreator/atrox/procedures/SpookyBoatOnEntityTickUpdateProcedure.class
-  net/mcreator/atrox/procedures/SpookydimensionPlayerEntersDimensionProcedure.class
-  net/mcreator/atrox/procedures/WeepingAngelprocedureProcedure.class
-  net/mcreator/atrox/recipes/
-  net/mcreator/atrox/recipes/brewing/
-  net/mcreator/atrox/recipes/brewing/AcidpotionrecipeBrewingRecipe.class
-  net/mcreator/atrox/world/
-  net/mcreator/atrox/world/dimension/
-  net/mcreator/atrox/world/dimension/SpookydimensionDimension$SpookydimensionSpecialEffectsHandler$1.class
-  net/mcreator/atrox/world/dimension/SpookydimensionDimension$SpookydimensionSpecialEffectsHandler.class
-  net/mcreator/atrox/world/dimension/SpookydimensionDimension.class
-  net/mcreator/atrox/world/features/
-  net/mcreator/atrox/world/features/treedecorators/
-  net/mcreator/atrox/world/features/treedecorators/SpookyworldFruitDecorator$1.class
-  net/mcreator/atrox/world/features/treedecorators/SpookyworldFruitDecorator.class
-  net/mcreator/atrox/world/features/treedecorators/SpookyworldLeaveDecorator$1.class
-  net/mcreator/atrox/world/features/treedecorators/SpookyworldLeaveDecorator.class
-  net/mcreator/atrox/world/features/treedecorators/SpookyworldTrunkDecorator$1.class
-  net/mcreator/atrox/world/features/treedecorators/SpookyworldTrunkDecorator.class
-  net/mcreator/atrox/world/teleporter/
-  net/mcreator/atrox/world/teleporter/SpookydimensionPortalShape.class
-  net/mcreator/atrox/world/teleporter/SpookydimensionTeleporter.class
   pack.mcmeta

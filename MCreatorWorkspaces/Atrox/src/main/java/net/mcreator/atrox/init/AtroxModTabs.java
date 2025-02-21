@@ -57,6 +57,7 @@ public class AtroxModTabs {
 				tabData.accept(AtroxModBlocks.SPOOKSTONE_SLAB.get().asItem());
 				tabData.accept(AtroxModItems.SPOOKSTONE_DUST.get());
 				tabData.accept(AtroxModBlocks.TRAPPEDSTONEPRESSUREPLATE.get().asItem());
+				tabData.accept(AtroxModItems.THEGREATANGEL_SPAWN_EGG.get());
 			})
 
 					.build());

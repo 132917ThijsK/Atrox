@@ -35,7 +35,7 @@
       "fixedValue": []
     },
     "glowCondition": {
-      "fixedValue": true
+      "fixedValue": false
     },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

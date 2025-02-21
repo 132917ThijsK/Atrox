@@ -7,7 +7,9 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.particles.SimpleParticleType;
+
+import net.mcreator.atrox.init.AtroxModParticleTypes;
 
 public class BoosonentitytickupdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -25,10 +27,11 @@ public class BoosonentitytickupdateProcedure {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, 60, 1, false, false));
 			if (world instanceof ServerLevel _level)
-				_level.sendParticles(ParticleTypes.WITCH, x, (y + 0.9), z, 25, 0.2, 0.9, 0.2, 0);
+				_level.sendParticles((SimpleParticleType) (AtroxModParticleTypes.PORTALPARTICE.get()), x, (y + 0.9), z, 25, 0.2, 0.9, 0.2, 0);
 		}
 		if ((entity.getPersistentData().getString("State")).equals("Idle")) {
 			if (entity.getPersistentData().getDouble("IA") == 20) {
+				BoosstatechangerProcedure.execute(entity);
 			}
 		}
 		if (!entity.getPersistentData().getBoolean("Phase")) {
