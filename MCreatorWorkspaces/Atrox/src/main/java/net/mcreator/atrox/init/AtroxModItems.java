@@ -26,6 +26,8 @@ import net.mcreator.atrox.item.SlinkstoneItem;
 import net.mcreator.atrox.item.BoossmallfireballItem;
 import net.mcreator.atrox.item.BoatspawnerItem;
 import net.mcreator.atrox.item.AcidItem;
+import net.mcreator.atrox.block.display.GreatAltarPhase2DisplayItem;
+import net.mcreator.atrox.block.display.GreatAltarDisplayItem;
 import net.mcreator.atrox.AtroxMod;
 
 public class AtroxModItems {
@@ -69,6 +71,8 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> THEGREATANGEL_SPAWN_EGG = REGISTRY.register("thegreatangel_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.THEGREATANGEL, -4153271, -3424064, new Item.Properties()));
 	public static final RegistryObject<Item> BOOS_SMALL_FIREBALL = REGISTRY.register("boos_small_fireball", () -> new BoossmallfireballItem());
 	public static final RegistryObject<Item> BOOSSHIELD_SPAWN_EGG = REGISTRY.register("boosshield_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.BOOSSHIELD, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> GREAT_ALTAR = REGISTRY.register(AtroxModBlocks.GREAT_ALTAR.getId().getPath(), () -> new GreatAltarDisplayItem(AtroxModBlocks.GREAT_ALTAR.get(), new Item.Properties()));
+	public static final RegistryObject<Item> GREAT_ALTAR_PHASE_2 = REGISTRY.register(AtroxModBlocks.GREAT_ALTAR_PHASE_2.getId().getPath(), () -> new GreatAltarPhase2DisplayItem(AtroxModBlocks.GREAT_ALTAR_PHASE_2.get(), new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

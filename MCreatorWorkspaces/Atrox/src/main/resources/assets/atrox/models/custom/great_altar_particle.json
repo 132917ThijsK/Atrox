@@ -1,0 +1,7 @@
+
+{
+  "parent": "atrox:displaysettings/altar",
+  "textures": {
+    "particle": "atrox:block/stone"
+  }
+}

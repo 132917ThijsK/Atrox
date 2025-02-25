@@ -27,6 +27,7 @@ import net.mcreator.atrox.init.AtroxModFluids;
 import net.mcreator.atrox.init.AtroxModFluidTypes;
 import net.mcreator.atrox.init.AtroxModEntities;
 import net.mcreator.atrox.init.AtroxModBlocks;
+import net.mcreator.atrox.init.AtroxModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,7 +50,7 @@ public class AtroxMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		AtroxModBlocks.REGISTRY.register(bus);
-
+		AtroxModBlockEntities.REGISTRY.register(bus);
 		AtroxModItems.REGISTRY.register(bus);
 		AtroxModEntities.REGISTRY.register(bus);
 

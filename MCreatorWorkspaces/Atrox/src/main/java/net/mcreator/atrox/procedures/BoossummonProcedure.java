@@ -6,7 +6,6 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -15,6 +14,8 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
+
+import net.mcreator.atrox.init.AtroxModEntities;
 
 public class BoossummonProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -37,7 +38,7 @@ public class BoossummonProcedure {
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = EntityType.BLAZE.spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+				Entity entityToSpawn = AtroxModEntities.WEEPING_ANGEL.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
 				if (entityToSpawn != null) {
 					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 				}
@@ -47,7 +48,7 @@ public class BoossummonProcedure {
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = EntityType.BLAZE.spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+				Entity entityToSpawn = AtroxModEntities.WEEPING_ANGEL.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
 				if (entityToSpawn != null) {
 					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 				}

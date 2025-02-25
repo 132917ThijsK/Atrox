@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "atrox:custom/great_altar_phase_2_particle"
+    },
+    "facing=east": {
+      "model": "atrox:custom/great_altar_phase_2_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "atrox:custom/great_altar_phase_2_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "atrox:custom/great_altar_phase_2_particle",
+      "y": 270
+    }
+  }
+}

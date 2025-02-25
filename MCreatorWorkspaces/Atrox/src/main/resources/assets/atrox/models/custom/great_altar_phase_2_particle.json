@@ -1,0 +1,7 @@
+
+{
+  "parent": "atrox:displaysettings/altar2displaysettings",
+  "textures": {
+    "particle": "atrox:block/stonephase2"
+  }
+}

@@ -1,0 +1,70 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 20.625,
+			"bones": {
+				"Igniter": {
+					"rotation": {
+						"4.8333": {
+							"vector": [0, 0, 0],
+							"easing": "easeInOutQuad"
+						},
+						"9.0": {
+							"vector": [-25, 360, 0],
+							"easing": "easeInOutQuad"
+						},
+						"11.4167": {
+							"vector": [-90, 360, 0],
+							"easing": "easeInOutQuad"
+						}
+					},
+					"position": {
+						"1.0": {
+							"vector": [0, 0, 0]
+						},
+						"3.0": {
+							"vector": [0, -1.5, 0],
+							"easing": "easeInOutQuad"
+						},
+						"4.0": {
+							"vector": [0, -1.5, 0]
+						},
+						"7.0": {
+							"vector": [0, 0.5, 0],
+							"easing": "easeInOutQuad"
+						},
+						"20.0": {
+							"vector": [0, 45, 0],
+							"easing": "easeInOutQuad"
+						}
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"Altarbutton": {
+					"position": {
+						"1.0": {
+							"vector": [0, 0, 0]
+						},
+						"3.0": {
+							"vector": [0, -1.49, 0],
+							"easing": "easeInOutQuad"
+						}
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				}
+			},
+			"particle_effects": {
+				"16.875": {
+					"effect": "particles"
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
