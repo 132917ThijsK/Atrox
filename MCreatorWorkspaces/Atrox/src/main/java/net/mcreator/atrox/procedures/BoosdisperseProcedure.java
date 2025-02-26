@@ -48,6 +48,30 @@ public class BoosdisperseProcedure {
 				world.addParticle((SimpleParticleType) (AtroxModParticleTypes.PORTALPARTICE.get()), x, y, z, (Mth.nextDouble(RandomSource.create(), 0.85, 0.45)), (Mth.nextDouble(RandomSource.create(), 0.85, 0.45)),
 						(Mth.nextDouble(RandomSource.create(), 0.85, 0.45)));
 			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
 		}
 		if (entity.getPersistentData().getDouble("IA") == 100) {
 			if (world instanceof Level _level) {
@@ -60,6 +84,30 @@ public class BoosdisperseProcedure {
 			for (int index1 = 0; index1 < 25; index1++) {
 				world.addParticle((SimpleParticleType) (AtroxModParticleTypes.PORTALPARTICE.get()), x, y, z, (Mth.nextDouble(RandomSource.create(), -0.85, -0.45)), (Mth.nextDouble(RandomSource.create(), -0.85, -0.45)),
 						(Mth.nextDouble(RandomSource.create(), -0.85, -0.45)));
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
 			}
 		}
 		if (entity.getPersistentData().getDouble("IA") == 150) {
@@ -74,6 +122,30 @@ public class BoosdisperseProcedure {
 				world.addParticle((SimpleParticleType) (AtroxModParticleTypes.PORTALPARTICE.get()), x, y, z, (Mth.nextDouble(RandomSource.create(), 0.85, 0.45)), (Mth.nextDouble(RandomSource.create(), -0.85, -0.45)),
 						(Mth.nextDouble(RandomSource.create(), -0.85, -0.45)));
 			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
 		}
 		if (entity.getPersistentData().getDouble("IA") == 200) {
 			if (world instanceof Level _level) {
@@ -87,12 +159,48 @@ public class BoosdisperseProcedure {
 				world.addParticle((SimpleParticleType) (AtroxModParticleTypes.PORTALPARTICE.get()), x, y, z, (Mth.nextDouble(RandomSource.create(), -0.85, -0.45)), (Mth.nextDouble(RandomSource.create(), 0.85, 0.45)),
 						(Mth.nextDouble(RandomSource.create(), 0.85, 0.45)));
 			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
 		}
 		if (entity.getPersistentData().getDouble("IA") == 300) {
 			entity.getPersistentData().putBoolean("CanDie", true);
 			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.FELL_OUT_OF_WORLD)), 9999);
 			if (world instanceof Level _level && !_level.isClientSide())
-				_level.explode(null, x, y, z, 5, Level.ExplosionInteraction.MOB);
+				_level.explode(null, x, y, z, 18, Level.ExplosionInteraction.MOB);
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
 			if (world instanceof ServerLevel _level) {
 				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
 				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));

@@ -10,6 +10,18 @@
     "textureLeggings": "slinkstonearmor_leggings",
     "enableBoots": true,
     "textureBoots": "slinkstonearmor_boots",
+    "onHelmetTick": {
+      "name": "SlinkstonearmorArmorTickEvent"
+    },
+    "onBodyTick": {
+      "name": "SlinkstonearmorArmorTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "SlinkstonearmorArmorTickEvent"
+    },
+    "onBootsTick": {
+      "name": "SlinkstonearmorArmorTickEvent"
+    },
     "creativeTabs": [
       {
         "value": "COMBAT"

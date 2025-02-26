@@ -1,4 +1,16 @@
 {
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-02-26 11:10:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-02-26 11:10:37 +0100"
+    },
+    "done": false
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_helmet": "2025-02-26 11:10:51 +0100"
@@ -11,27 +23,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2025-02-26 11:10:35 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_helmet": "2025-02-26 11:10:51 +0100"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2025-02-26 11:10:37 +0100"
-    },
-    "done": false
-  },
   "atrox:notsogreatangel": {
     "criteria": {
       "notsogreatangel_0": "2025-02-26 11:11:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-02-26 12:34:22 +0100"
+    },
+    "done": true
+  },
+  "atrox:tablet_to_everything": {
+    "criteria": {
+      "tablet_to_everything_0": "2025-02-26 13:40:00 +0100"
     },
     "done": true
   },

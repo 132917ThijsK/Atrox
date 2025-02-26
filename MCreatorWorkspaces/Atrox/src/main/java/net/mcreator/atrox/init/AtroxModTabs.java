@@ -22,9 +22,10 @@ import net.mcreator.atrox.AtroxMod;
 public class AtroxModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AtroxMod.MODID);
 	public static final RegistryObject<CreativeModeTab> SPOOKY = REGISTRY.register("spooky",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.atrox.spooky")).icon(() -> new ItemStack(AtroxModItems.SPOOKYDIMENSION.get())).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.atrox.spooky")).icon(() -> new ItemStack(AtroxModItems.CREATIVE_TAB_ICON.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(AtroxModItems.SPOOKYDIMENSION.get());
 				tabData.accept(AtroxModBlocks.SPOOKYRACK.get().asItem());
+				tabData.accept(AtroxModItems.ACID_BUCKET.get());
 				tabData.accept(AtroxModBlocks.SPOOKYLEAVES.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_WOOD.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_LOG.get().asItem());
@@ -33,19 +34,20 @@ public class AtroxModTabs {
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_SLAB.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_FENCE.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_FENCE_GATE.get().asItem());
-				tabData.accept(AtroxModBlocks.SPOOKYWOOD_PRESSURE_PLATE.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_BUTTON.get().asItem());
-				tabData.accept(AtroxModItems.ACID_BUCKET.get());
+				tabData.accept(AtroxModBlocks.SPOOKYWOOD_PRESSURE_PLATE.get().asItem());
+				tabData.accept(AtroxModBlocks.TRAPPEDSTONEPRESSUREPLATE.get().asItem());
 				tabData.accept(AtroxModItems.WEEPING_ANGEL_SPAWN_EGG.get());
+				tabData.accept(AtroxModItems.THEGREATANGEL_SPAWN_EGG.get());
 				tabData.accept(AtroxModBlocks.WIZARDRYTABLE.get().asItem());
 				tabData.accept(AtroxModItems.BOATSPAWNER.get());
 				tabData.accept(AtroxModBlocks.SPOOKYFRAME.get().asItem());
-				tabData.accept(AtroxModItems.SLINKSTONE.get());
 				tabData.accept(AtroxModBlocks.SLINKSTONE_ORE.get().asItem());
+				tabData.accept(AtroxModItems.SLINKSTONE.get());
 				tabData.accept(AtroxModBlocks.SLINKSTONE_BLOCK.get().asItem());
+				tabData.accept(AtroxModItems.SLINKSTONETOOLS_SWORD.get());
 				tabData.accept(AtroxModItems.SLINKSTONETOOLS_PICKAXE.get());
 				tabData.accept(AtroxModItems.SLINKSTONETOOLS_AXE.get());
-				tabData.accept(AtroxModItems.SLINKSTONETOOLS_SWORD.get());
 				tabData.accept(AtroxModItems.SLINKSTONETOOLS_SHOVEL.get());
 				tabData.accept(AtroxModItems.SLINKSTONETOOLS_HOE.get());
 				tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_HELMET.get());
@@ -56,22 +58,27 @@ public class AtroxModTabs {
 				tabData.accept(AtroxModBlocks.SPOOKSTONE_STAIRS.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKSTONE_SLAB.get().asItem());
 				tabData.accept(AtroxModItems.SPOOKSTONE_DUST.get());
-				tabData.accept(AtroxModBlocks.TRAPPEDSTONEPRESSUREPLATE.get().asItem());
-				tabData.accept(AtroxModItems.THEGREATANGEL_SPAWN_EGG.get());
-			})
-
-					.build());
+			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 
+			tabData.accept(AtroxModBlocks.SPOOKYWOOD_WOOD.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKYWOOD_LOG.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKYWOOD_PLANKS.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKYWOOD_STAIRS.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKYWOOD_SLAB.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKYWOOD_FENCE.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKYWOOD_FENCE_GATE.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKYWOOD_BUTTON.get().asItem());
 			tabData.accept(AtroxModBlocks.SPOOKYWOOD_PRESSURE_PLATE.get().asItem());
-			tabData.accept(AtroxModBlocks.SLINKSTONE_BLOCK.get().asItem());
 			tabData.accept(AtroxModBlocks.TRAPPEDSTONEPRESSUREPLATE.get().asItem());
+			tabData.accept(AtroxModBlocks.SLINKSTONE_BLOCK.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 
+			tabData.accept(AtroxModBlocks.SPOOKYWOOD_BUTTON.get().asItem());
 			tabData.accept(AtroxModBlocks.SPOOKYWOOD_PRESSURE_PLATE.get().asItem());
 			tabData.accept(AtroxModBlocks.TRAPPEDSTONEPRESSUREPLATE.get().asItem());
 
@@ -96,6 +103,10 @@ public class AtroxModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 
 			tabData.accept(AtroxModBlocks.SPOOKYFRAME.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKYRACK.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKYLEAVES.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKYWOOD_WOOD.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKYWOOD_LOG.get().asItem());
 			tabData.accept(AtroxModBlocks.SLINKSTONE_ORE.get().asItem());
 			tabData.accept(AtroxModBlocks.SPOOKSTONE.get().asItem());
 			tabData.accept(AtroxModBlocks.SPOOKSTONE_STAIRS.get().asItem());

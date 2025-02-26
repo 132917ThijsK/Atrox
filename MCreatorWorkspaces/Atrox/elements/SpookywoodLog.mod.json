@@ -45,6 +45,12 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:Spooky"
+      },
+      {
+        "value": "DECORATIONS"
+      },
+      {
+        "value": "BUILDING_BLOCKS"
       }
     ],
     "destroyTool": "axe",

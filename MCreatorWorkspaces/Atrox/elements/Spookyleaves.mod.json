@@ -46,6 +46,9 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:Spooky"
+      },
+      {
+        "value": "DECORATIONS"
       }
     ],
     "destroyTool": "Not specified",

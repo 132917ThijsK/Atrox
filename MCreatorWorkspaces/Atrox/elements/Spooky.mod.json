@@ -4,8 +4,8 @@
   "definition": {
     "name": "Atrox",
     "icon": {
-      "value": "CUSTOM:Spookydimension"
+      "value": "CUSTOM:CreativeTabIcon"
     },
-    "showSearch": false
+    "showSearch": true
   }
 }

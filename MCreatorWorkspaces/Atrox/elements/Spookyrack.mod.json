@@ -45,6 +45,9 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:Spooky"
+      },
+      {
+        "value": "DECORATIONS"
       }
     ],
     "destroyTool": "pickaxe",

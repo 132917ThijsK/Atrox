@@ -23,6 +23,7 @@ import net.mcreator.atrox.item.SlinkstonetoolsHoeItem;
 import net.mcreator.atrox.item.SlinkstonetoolsAxeItem;
 import net.mcreator.atrox.item.SlinkstonearmorArmorItem;
 import net.mcreator.atrox.item.SlinkstoneItem;
+import net.mcreator.atrox.item.CreativeTabIconItem;
 import net.mcreator.atrox.item.BoossmallfireballItem;
 import net.mcreator.atrox.item.BoatspawnerItem;
 import net.mcreator.atrox.item.AcidItem;
@@ -73,6 +74,7 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> BOOSSHIELD_SPAWN_EGG = REGISTRY.register("boosshield_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.BOOSSHIELD, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> GREAT_ALTAR = REGISTRY.register(AtroxModBlocks.GREAT_ALTAR.getId().getPath(), () -> new GreatAltarDisplayItem(AtroxModBlocks.GREAT_ALTAR.get(), new Item.Properties()));
 	public static final RegistryObject<Item> GREAT_ALTAR_PHASE_2 = REGISTRY.register(AtroxModBlocks.GREAT_ALTAR_PHASE_2.getId().getPath(), () -> new GreatAltarPhase2DisplayItem(AtroxModBlocks.GREAT_ALTAR_PHASE_2.get(), new Item.Properties()));
+	public static final RegistryObject<Item> CREATIVE_TAB_ICON = REGISTRY.register("creative_tab_icon", () -> new CreativeTabIconItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
