@@ -9,11 +9,7 @@
     "states": [],
     "name": "Angels Small Strike",
     "rarity": "COMMON",
-    "creativeTabs": [
-      {
-        "value": "COMBAT"
-      }
-    ],
+    "creativeTabs": [],
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 72000,

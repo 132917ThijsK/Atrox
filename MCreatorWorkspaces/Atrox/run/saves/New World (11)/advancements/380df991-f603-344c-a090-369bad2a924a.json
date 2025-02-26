@@ -1,0 +1,46 @@
+{
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2025-02-26 11:04:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_helmet": "2025-02-26 11:04:21 +0100"
+    },
+    "done": true
+  },
+  "atrox:thatwasspooky": {
+    "criteria": {
+      "thatwasspooky_0": "2025-02-26 11:02:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-02-26 11:02:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_helmet": "2025-02-26 11:04:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2025-02-26 11:04:11 +0100",
+      "minecraft:plains": "2025-02-26 11:02:24 +0100"
+    },
+    "done": false
+  },
+  "atrox:notsogreatangel": {
+    "criteria": {
+      "notsogreatangel_0": "2025-02-26 11:04:39 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

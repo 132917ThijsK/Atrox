@@ -82,7 +82,6 @@ public class AtroxModTabs {
 			tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_CHESTPLATE.get());
 			tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_LEGGINGS.get());
 			tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_BOOTS.get());
-			tabData.accept(AtroxModItems.BOOS_SMALL_FIREBALL.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 

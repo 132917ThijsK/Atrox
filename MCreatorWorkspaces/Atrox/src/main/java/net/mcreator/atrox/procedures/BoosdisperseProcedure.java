@@ -5,6 +5,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.LightningBolt;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
@@ -42,16 +44,12 @@ public class BoosdisperseProcedure {
 					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.totem.use")), SoundSource.NEUTRAL, 4, 1, false);
 				}
 			}
-			if (world instanceof Level _level && !_level.isClientSide())
-				_level.explode(null, x, y, z, 4, Level.ExplosionInteraction.MOB);
 			for (int index0 = 0; index0 < 25; index0++) {
 				world.addParticle((SimpleParticleType) (AtroxModParticleTypes.PORTALPARTICE.get()), x, y, z, (Mth.nextDouble(RandomSource.create(), 0.85, 0.45)), (Mth.nextDouble(RandomSource.create(), 0.85, 0.45)),
 						(Mth.nextDouble(RandomSource.create(), 0.85, 0.45)));
 			}
 		}
 		if (entity.getPersistentData().getDouble("IA") == 100) {
-			if (world instanceof Level _level && !_level.isClientSide())
-				_level.explode(null, x, y, z, 8, Level.ExplosionInteraction.MOB);
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.totem.use")), SoundSource.NEUTRAL, 4, 1);
@@ -65,8 +63,6 @@ public class BoosdisperseProcedure {
 			}
 		}
 		if (entity.getPersistentData().getDouble("IA") == 150) {
-			if (world instanceof Level _level && !_level.isClientSide())
-				_level.explode(null, x, y, z, 12, Level.ExplosionInteraction.MOB);
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.totem.use")), SoundSource.NEUTRAL, 4, 1);
@@ -80,8 +76,6 @@ public class BoosdisperseProcedure {
 			}
 		}
 		if (entity.getPersistentData().getDouble("IA") == 200) {
-			if (world instanceof Level _level && !_level.isClientSide())
-				_level.explode(null, x, y, z, 20, Level.ExplosionInteraction.MOB);
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.totem.use")), SoundSource.NEUTRAL, 4, 1);
@@ -96,12 +90,30 @@ public class BoosdisperseProcedure {
 		}
 		if (entity.getPersistentData().getDouble("IA") == 300) {
 			entity.getPersistentData().putBoolean("CanDie", true);
+			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.FELL_OUT_OF_WORLD)), 9999);
+			if (world instanceof Level _level && !_level.isClientSide())
+				_level.explode(null, x, y, z, 5, Level.ExplosionInteraction.MOB);
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+				entityToSpawn.setVisualOnly(true);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			AtroxModVariables.MapVariables.get(world).GreatAngelDies = true;
+			AtroxModVariables.MapVariables.get(world).syncData(world);
 		}
 		AtroxMod.LOGGER.debug("DISPERSE");
-		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.FELL_OUT_OF_WORLD)), 9999);
-		if (world instanceof Level _level && !_level.isClientSide())
-			_level.explode(null, x, y, z, 25, Level.ExplosionInteraction.MOB);
-		AtroxModVariables.MapVariables.get(world).GreatAngelDies = true;
-		AtroxModVariables.MapVariables.get(world).syncData(world);
 	}
 }
