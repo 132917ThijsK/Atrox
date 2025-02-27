@@ -69,7 +69,7 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> SPOOKSTONE_SLAB = block(AtroxModBlocks.SPOOKSTONE_SLAB);
 	public static final RegistryObject<Item> SPOOKSTONE_DUST = REGISTRY.register("spookstone_dust", () -> new SpookstoneDustItem());
 	public static final RegistryObject<Item> TRAPPEDSTONEPRESSUREPLATE = block(AtroxModBlocks.TRAPPEDSTONEPRESSUREPLATE);
-	public static final RegistryObject<Item> THEGREATANGEL_SPAWN_EGG = REGISTRY.register("thegreatangel_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.THEGREATANGEL, -4153271, -3424064, new Item.Properties()));
+	public static final RegistryObject<Item> THEGREATANGEL_SPAWN_EGG = REGISTRY.register("thegreatangel_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.THEGREATANGEL, -13382656, -3424064, new Item.Properties()));
 	public static final RegistryObject<Item> BOOS_SMALL_FIREBALL = REGISTRY.register("boos_small_fireball", () -> new BoossmallfireballItem());
 	public static final RegistryObject<Item> BOOSSHIELD_SPAWN_EGG = REGISTRY.register("boosshield_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.BOOSSHIELD, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> GREAT_ALTAR = REGISTRY.register(AtroxModBlocks.GREAT_ALTAR.getId().getPath(), () -> new GreatAltarDisplayItem(AtroxModBlocks.GREAT_ALTAR.get(), new Item.Properties()));

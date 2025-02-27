@@ -16,8 +16,8 @@ import net.minecraft.core.BlockPos;
 
 public class SpookyframeBlock extends Block {
 	public SpookyframeBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1f, 10f).lightLevel(s -> 3).noOcclusion().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(5f, 10f).lightLevel(s -> 3).requiresCorrectToolForDrops().noOcclusion().hasPostProcess((bs, br, bp) -> true)
+				.emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

@@ -34,11 +34,11 @@
       }
     ],
     "customProperties": [],
-    "name": "Spookyframe",
+    "name": "Haunted Frame",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
+    "hardness": 5.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -50,13 +50,13 @@
         "value": "DECORATIONS"
       }
     ],
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
@@ -106,7 +106,7 @@
     },
     "luminance": 3,
     "unbreakable": false,
-    "vanillaToolTier": "NONE",
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

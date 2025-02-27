@@ -129,6 +129,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onStartToDestroy": {
+      "name": "PlayerplatePlayerStartsToDestroy"
+    },
     "onEntityCollides": {
       "name": "PlayerplateEntityCollidesInTheBlock"
     },

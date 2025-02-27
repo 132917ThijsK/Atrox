@@ -1,103 +1,161 @@
-[26Feb2025 16:09:18.323] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\msi\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[26Feb2025 16:09:18.332] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[26Feb2025 16:09:18.455] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[26Feb2025 16:09:18.512] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[26Feb2025 16:09:18.569] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[26Feb2025 16:09:18.645] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/msi/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[26Feb2025 16:09:18.661] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon RX 5700 GL version 4.6.0 Core Profile Context 24.5.1.240502, ATI Technologies Inc.
-[26Feb2025 16:09:18.887] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\msi\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[26Feb2025 16:09:18.890] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\msi\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[26Feb2025 16:09:18.893] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\msi\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[26Feb2025 16:09:18.895] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\msi\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[26Feb2025 16:09:19.014] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[26Feb2025 16:09:20.080] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[26Feb2025 16:09:20.082] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\msi\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[26Feb2025 16:09:20.346] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using D:\132917\Atrox\MCreatorWorkspaces\Atrox/build/createSrgToMcp/output.srg
-[26Feb2025 16:09:23.284] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 97 milliseconds
-[26Feb2025 16:09:24.583] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/msi/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[26Feb2025 16:09:24.583] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/msi/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[26Feb2025 16:09:24.608] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[26Feb2025 16:09:24.617] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[26Feb2025 16:09:24.749] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[26Feb2025 16:09:24.947] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[26Feb2025 16:09:24.948] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[26Feb2025 16:09:25.816] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[26Feb2025 16:09:26.044] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[26Feb2025 16:09:26.243] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[26Feb2025 16:09:26.258] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[26Feb2025 16:09:26.420] [Worker-Main-11/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture atrox:block/powerleft with size 6x6 limits mip level from 2 to 1
-[26Feb2025 16:09:26.421] [Worker-Main-11/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture atrox:item/spookyboatinvmodel with size 793x780 limits mip level from 1 to 0
-[26Feb2025 16:09:26.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
-[26Feb2025 16:09:27.382] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model atrox:great_altar_phase_2#inventory:
+[27Feb2025 15:40:58.678] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\thijs\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[27Feb2025 15:40:58.682] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[27Feb2025 15:40:58.789] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[27Feb2025 15:40:58.873] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[27Feb2025 15:40:59.057] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[27Feb2025 15:40:59.153] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/thijs/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[27Feb2025 15:40:59.179] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 2060/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.36, NVIDIA Corporation
+[27Feb2025 15:40:59.429] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\thijs\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[27Feb2025 15:40:59.432] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\thijs\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[27Feb2025 15:40:59.434] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\thijs\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[27Feb2025 15:40:59.438] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\thijs\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[27Feb2025 15:40:59.563] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[27Feb2025 15:41:00.643] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[27Feb2025 15:41:00.645] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\thijs\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[27Feb2025 15:41:00.956] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using D:\Atrox\MCreatorWorkspaces\Atrox\MCreatorWorkspaces\Atrox/build/createSrgToMcp/output.srg
+[27Feb2025 15:41:01.692] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[27Feb2025 15:41:04.210] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 139 milliseconds
+[27Feb2025 15:41:05.613] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/thijs/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[27Feb2025 15:41:05.613] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/thijs/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[27Feb2025 15:41:05.627] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[27Feb2025 15:41:05.631] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[27Feb2025 15:41:05.723] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[27Feb2025 15:41:05.970] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[27Feb2025 15:41:05.974] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[27Feb2025 15:41:06.855] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[27Feb2025 15:41:07.113] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[27Feb2025 15:41:07.253] [Worker-Main-11/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[27Feb2025 15:41:07.294] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[27Feb2025 15:41:07.455] [Worker-Main-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture atrox:block/powerleft with size 6x6 limits mip level from 2 to 1
+[27Feb2025 15:41:07.455] [Worker-Main-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture atrox:item/spookyboatinvmodel with size 793x780 limits mip level from 1 to 0
+[27Feb2025 15:41:07.718] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[27Feb2025 15:41:08.577] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model atrox:great_altar_phase_2#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/stone
-[26Feb2025 16:09:27.382] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model atrox:wizardrytable#:
+[27Feb2025 15:41:08.577] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model atrox:wizardrytable#:
     minecraft:textures/atlas/blocks.png:atrox:block/
-[26Feb2025 16:09:27.382] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model atrox:great_altar#inventory:
+[27Feb2025 15:41:08.577] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model atrox:great_altar#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/stone
-[26Feb2025 16:09:27.382] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model atrox:boos_small_fireball#inventory:
+[27Feb2025 15:41:08.578] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model atrox:boos_small_fireball#inventory:
     minecraft:textures/atlas/blocks.png:atrox:item/boos_fireball
-[26Feb2025 16:09:27.382] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model atrox:wizardrytable#inventory:
+[27Feb2025 15:41:08.578] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model atrox:wizardrytable#inventory:
     minecraft:textures/atlas/blocks.png:atrox:block/
-[26Feb2025 16:09:28.292] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[26Feb2025 16:09:28.293] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[26Feb2025 16:09:28.349] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Realtek Digital Output (Realtek(R) Audio)
-[26Feb2025 16:09:28.350] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[26Feb2025 16:09:28.444] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x2 minecraft:textures/atlas/blocks.png-atlas
-[26Feb2025 16:09:28.452] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[26Feb2025 16:09:28.453] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[26Feb2025 16:09:28.453] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[26Feb2025 16:09:28.453] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[26Feb2025 16:09:28.463] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[26Feb2025 16:09:28.463] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[26Feb2025 16:09:28.463] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[26Feb2025 16:09:28.465] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[26Feb2025 16:09:28.568] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[26Feb2025 16:09:28.617] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[26Feb2025 16:09:28.619] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[26Feb2025 16:09:28.619] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[26Feb2025 16:09:28.865] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[26Feb2025 16:09:34.320] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[26Feb2025 16:09:35.415] [Worker-Main-15/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag curios:charm as it is missing following references: atrox:ghostbauble (from main)
-[26Feb2025 16:09:35.727] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[26Feb2025 16:09:35.756] [Render thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement atrox:ghostbaubleequipped: Expected item to be an item, was unknown string 'atrox:ghostbauble'
-[26Feb2025 16:09:35.802] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1276 advancements
-[26Feb2025 16:09:36.178] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[26Feb2025 16:09:36.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[26Feb2025 16:09:36.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[26Feb2025 16:09:38.703] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Feb2025 16:09:38.739] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Feb2025 16:09:38.739] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Feb2025 16:09:38.739] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Feb2025 16:09:38.958] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[26Feb2025 16:09:39.355] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[26Feb2025 16:09:39.365] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2408 ms
-[26Feb2025 16:09:39.442] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 16, from 10
-[26Feb2025 16:09:39.443] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[26Feb2025 16:09:39.537] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[26Feb2025 16:09:40.029] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[26Feb2025 16:09:40.089] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:fc4d4f96] logged in with entity id 137 at (320.2280393802157, 63.0, 210.68096352128276)
-[26Feb2025 16:09:40.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[26Feb2025 16:09:40.542] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 58 advancements
-[26Feb2025 16:09:49.561] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
-[26Feb2025 16:09:49.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by Weeping angel
-[26Feb2025 16:09:49.569] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by Weeping angel
-[26Feb2025 16:10:08.206] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[26Feb2025 16:10:08.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[26Feb2025 16:10:08.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[26Feb2025 16:10:08.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[26Feb2025 16:10:08.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/atrox:spookydimension
-[26Feb2025 16:10:08.859] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[26Feb2025 16:10:08.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[26Feb2025 16:10:08.875] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[26Feb2025 16:10:08.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[26Feb2025 16:10:08.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[26Feb2025 16:10:08.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[26Feb2025 16:10:09.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[26Feb2025 16:10:09.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[26Feb2025 16:10:09.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[26Feb2025 16:10:09.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/atrox:spookydimension
-[26Feb2025 16:10:09.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (14)): All chunks are saved
-[26Feb2025 16:10:09.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[26Feb2025 16:10:09.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[26Feb2025 16:10:09.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spookydimension): All chunks are saved
-[26Feb2025 16:10:09.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[27Feb2025 15:41:09.580] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[27Feb2025 15:41:09.580] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[27Feb2025 15:41:09.626] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on VG27B (NVIDIA High Definition Audio)
+[27Feb2025 15:41:09.626] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[27Feb2025 15:41:09.753] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x2 minecraft:textures/atlas/blocks.png-atlas
+[27Feb2025 15:41:09.769] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[27Feb2025 15:41:09.770] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[27Feb2025 15:41:09.770] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[27Feb2025 15:41:09.771] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[27Feb2025 15:41:09.776] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[27Feb2025 15:41:09.776] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[27Feb2025 15:41:09.776] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[27Feb2025 15:41:09.777] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[27Feb2025 15:41:09.873] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[27Feb2025 15:41:09.914] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[27Feb2025 15:41:09.916] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[27Feb2025 15:41:09.916] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[27Feb2025 15:41:10.073] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[27Feb2025 15:41:16.878] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[27Feb2025 15:41:18.103] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag curios:charm as it is missing following references: atrox:ghostbauble (from main)
+[27Feb2025 15:41:18.456] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[27Feb2025 15:41:18.489] [Render thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement atrox:ghostbaubleequipped: Expected item to be an item, was unknown string 'atrox:ghostbauble'
+[27Feb2025 15:41:18.554] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1276 advancements
+[27Feb2025 15:41:19.769] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[27Feb2025 15:41:20.447] [Worker-Main-11/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag curios:charm as it is missing following references: atrox:ghostbauble (from main)
+[27Feb2025 15:41:20.633] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[27Feb2025 15:41:20.634] [Render thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement atrox:ghostbaubleequipped: Expected item to be an item, was unknown string 'atrox:ghostbauble'
+[27Feb2025 15:41:20.658] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1276 advancements
+[27Feb2025 15:41:21.072] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[27Feb2025 15:41:21.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[27Feb2025 15:41:22.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[27Feb2025 15:41:24.486] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Feb2025 15:41:24.504] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Feb2025 15:41:24.522] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Feb2025 15:41:24.522] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Feb2025 15:41:24.539] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Feb2025 15:41:24.734] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Feb2025 15:41:25.219] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[27Feb2025 15:41:25.489] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[27Feb2025 15:41:25.558] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3341 ms
+[27Feb2025 15:41:25.657] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 16, from 10
+[27Feb2025 15:41:25.659] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[27Feb2025 15:41:25.740] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[27Feb2025 15:41:26.058] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[27Feb2025 15:41:26.093] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:7555ce5b] logged in with entity id 257 at (31.234280204096553, 8.0, -30.66146544041305)
+[27Feb2025 15:41:26.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[27Feb2025 15:41:26.910] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 31 advancements
+[27Feb2025 15:41:28.308] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:41:28.336] [Render thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:41:28.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[27Feb2025 15:41:28.914] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
+[27Feb2025 15:41:34.951] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:41:34.957] [Render thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:41:47.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[27Feb2025 15:41:47.127] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[27Feb2025 15:41:54.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Weeping Vines] to Dev]
+[27Feb2025 15:41:54.272] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 1 [Weeping Vines] to Dev
+[27Feb2025 15:42:08.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Weeping angel Spawn Egg] to Dev]
+[27Feb2025 15:42:08.310] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 1 [Weeping angel Spawn Egg] to Dev
+[27Feb2025 15:42:15.405] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:42:15.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by Weeping angel
+[27Feb2025 15:42:15.415] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev was slain by Weeping angel
+[27Feb2025 15:42:20.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Weeping angel Spawn Egg] to Dev]
+[27Feb2025 15:42:20.904] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 1 [Weeping angel Spawn Egg] to Dev
+[27Feb2025 15:42:39.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[27Feb2025 15:42:39.684] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
+[27Feb2025 15:42:54.914] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:42:54.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed The Great Angel]
+[27Feb2025 15:42:54.922] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed The Great Angel
+[27Feb2025 15:42:57.405] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:42:59.900] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:43:02.400] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:43:04.899] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:43:09.378] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:43:09.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed The Great Angel]
+[27Feb2025 15:43:09.380] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed The Great Angel
+[27Feb2025 15:43:14.347] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:43:14.349] [Render thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:43:16.748] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:43:16.750] [Render thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:43:24.344] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:43:24.347] [Render thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:43:24.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [The not so Great Angel]
+[27Feb2025 15:43:24.436] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [The not so Great Angel]
+[27Feb2025 15:43:24.438] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 33 advancements
+[27Feb2025 15:43:31.645] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:43:31.650] [Render thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:43:33.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[27Feb2025 15:43:33.238] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[27Feb2025 15:43:35.196] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:43:35.200] [Render thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:43:55.597] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:43:55.602] [Render thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:44:54.800] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:44:54.804] [Render thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:45:32.215] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:45:32.229] [Render thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:45:37.749] [Server thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:45:37.762] [Render thread/INFO] [net.mcreator.atrox.AtroxMod/]: BOOSSECONDPHASE
+[27Feb2025 15:45:42.740] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[27Feb2025 15:45:42.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[27Feb2025 15:45:42.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/atrox:spookydimension
+[27Feb2025 15:45:42.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[27Feb2025 15:45:42.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[27Feb2025 15:45:43.400] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[27Feb2025 15:45:43.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[27Feb2025 15:45:43.410] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[27Feb2025 15:45:43.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[27Feb2025 15:45:43.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[27Feb2025 15:45:43.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[27Feb2025 15:45:43.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[27Feb2025 15:45:44.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/atrox:spookydimension
+[27Feb2025 15:45:44.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[27Feb2025 15:45:44.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[27Feb2025 15:45:44.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (15)): All chunks are saved
+[27Feb2025 15:45:44.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spookydimension): All chunks are saved
+[27Feb2025 15:45:44.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[27Feb2025 15:45:44.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[27Feb2025 15:45:44.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[27Feb2025 15:45:47.555] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

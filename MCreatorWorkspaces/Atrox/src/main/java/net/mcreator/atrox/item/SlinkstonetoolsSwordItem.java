@@ -21,7 +21,7 @@ public class SlinkstonetoolsSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 3.5f;
+				return 3f;
 			}
 
 			public int getLevel() {

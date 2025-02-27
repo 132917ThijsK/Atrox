@@ -28,7 +28,7 @@ public abstract class SlinkstonearmorArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{3, 8, 9, 3}[type.getSlot().getIndex()];
+				return new int[]{3, 5, 7, 3}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -53,7 +53,7 @@ public abstract class SlinkstonearmorArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 1.5f;
 			}
 
 			@Override

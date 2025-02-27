@@ -10,10 +10,12 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.PressurePlateBlock;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.atrox.procedures.PlayerplatePlayerStartsToDestroyProcedure;
 import net.mcreator.atrox.procedures.PlayerplateEntityCollidesInTheBlockProcedure;
 
 public class PlayerplateBlock extends PressurePlateBlock {
@@ -30,6 +32,12 @@ public class PlayerplateBlock extends PressurePlateBlock {
 	@Override
 	public BlockPathTypes getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
 		return BlockPathTypes.BLOCKED;
+	}
+
+	@Override
+	public void attack(BlockState blockstate, Level world, BlockPos pos, Player entity) {
+		super.attack(blockstate, world, pos, entity);
+		PlayerplatePlayerStartsToDestroyProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

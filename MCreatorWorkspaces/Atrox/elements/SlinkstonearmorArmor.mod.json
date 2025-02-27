@@ -101,11 +101,11 @@
     },
     "maxDamage": 23,
     "damageValueHelmet": 3,
-    "damageValueBody": 9,
-    "damageValueLeggings": 8,
+    "damageValueBody": 7,
+    "damageValueLeggings": 5,
     "damageValueBoots": 3,
     "enchantability": 14,
-    "toughness": 0.0,
+    "toughness": 1.5,
     "knockbackResistance": 0.0,
     "equipSound": {
       "value": ""

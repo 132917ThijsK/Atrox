@@ -21,7 +21,7 @@ public class SlinkstonetoolsPickaxeItem extends PickaxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 3f;
+				return 2.5f;
 			}
 
 			public int getLevel() {

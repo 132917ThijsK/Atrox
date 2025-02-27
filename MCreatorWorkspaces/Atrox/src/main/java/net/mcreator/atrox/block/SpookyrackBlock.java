@@ -14,7 +14,7 @@ import net.minecraft.core.BlockPos;
 
 public class SpookyrackBlock extends Block {
 	public SpookyrackBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.DEEPSLATE).strength(5f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(5f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override

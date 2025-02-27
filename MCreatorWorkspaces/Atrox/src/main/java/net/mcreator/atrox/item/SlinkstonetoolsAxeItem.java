@@ -21,7 +21,7 @@ public class SlinkstonetoolsAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 6f;
+				return 5.5f;
 			}
 
 			public int getLevel() {
