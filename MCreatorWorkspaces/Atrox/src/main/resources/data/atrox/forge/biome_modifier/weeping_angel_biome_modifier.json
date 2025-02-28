@@ -3,7 +3,7 @@
   "biomes": "atrox:spookyworld",
   "spawners": {
     "type": "atrox:weeping_angel",
-    "weight": 1,
+    "weight": 10,
     "minCount": 1,
     "maxCount": 1
   }

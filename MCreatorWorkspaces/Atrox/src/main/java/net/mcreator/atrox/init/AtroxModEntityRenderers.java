@@ -14,6 +14,7 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import net.mcreator.atrox.client.renderer.ThegreatangelRenderer;
 import net.mcreator.atrox.client.renderer.SpookyroamerRenderer;
 import net.mcreator.atrox.client.renderer.SpookyBoatRenderer;
+import net.mcreator.atrox.client.renderer.CrackedAngelRenderer;
 import net.mcreator.atrox.client.renderer.BoosshieldRenderer;
 import net.mcreator.atrox.client.renderer.BoosartemisRenderer;
 
@@ -27,5 +28,6 @@ public class AtroxModEntityRenderers {
 		event.registerEntityRenderer(AtroxModEntities.BOOSSMALLFIREBALLPROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(AtroxModEntities.BOOSSHIELD.get(), BoosshieldRenderer::new);
 		event.registerEntityRenderer(AtroxModEntities.BOOSARTEMIS.get(), BoosartemisRenderer::new);
+		event.registerEntityRenderer(AtroxModEntities.CRACKED_ANGEL.get(), CrackedAngelRenderer::new);
 	}
 }

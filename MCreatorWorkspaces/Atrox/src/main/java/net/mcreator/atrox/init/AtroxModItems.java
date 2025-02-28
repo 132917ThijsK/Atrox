@@ -75,6 +75,7 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> GREAT_ALTAR = REGISTRY.register(AtroxModBlocks.GREAT_ALTAR.getId().getPath(), () -> new GreatAltarDisplayItem(AtroxModBlocks.GREAT_ALTAR.get(), new Item.Properties()));
 	public static final RegistryObject<Item> GREAT_ALTAR_PHASE_2 = REGISTRY.register(AtroxModBlocks.GREAT_ALTAR_PHASE_2.getId().getPath(), () -> new GreatAltarPhase2DisplayItem(AtroxModBlocks.GREAT_ALTAR_PHASE_2.get(), new Item.Properties()));
 	public static final RegistryObject<Item> CREATIVE_TAB_ICON = REGISTRY.register("creative_tab_icon", () -> new CreativeTabIconItem());
+	public static final RegistryObject<Item> CRACKED_ANGEL_SPAWN_EGG = REGISTRY.register("cracked_angel_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.CRACKED_ANGEL, -13421773, -10066330, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -58,6 +58,7 @@ public class AtroxModTabs {
 				tabData.accept(AtroxModBlocks.SPOOKSTONE_STAIRS.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKSTONE_SLAB.get().asItem());
 				tabData.accept(AtroxModItems.SPOOKSTONE_DUST.get());
+				tabData.accept(AtroxModItems.CRACKED_ANGEL_SPAWN_EGG.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -92,8 +93,10 @@ public class AtroxModTabs {
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 
+			tabData.accept(AtroxModItems.WEEPING_ANGEL_SPAWN_EGG.get());
 			tabData.accept(AtroxModItems.THEGREATANGEL_SPAWN_EGG.get());
 			tabData.accept(AtroxModItems.BOOSSHIELD_SPAWN_EGG.get());
+			tabData.accept(AtroxModItems.CRACKED_ANGEL_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 

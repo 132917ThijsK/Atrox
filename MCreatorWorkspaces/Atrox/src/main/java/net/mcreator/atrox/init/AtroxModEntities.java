@@ -19,6 +19,7 @@ import net.minecraft.world.entity.Entity;
 import net.mcreator.atrox.entity.ThegreatangelEntity;
 import net.mcreator.atrox.entity.SpookyroamerEntity;
 import net.mcreator.atrox.entity.SpookyBoatEntity;
+import net.mcreator.atrox.entity.CrackedAngelEntity;
 import net.mcreator.atrox.entity.BoossmallfireballprojectileEntity;
 import net.mcreator.atrox.entity.BoosshieldEntity;
 import net.mcreator.atrox.entity.BoosartemisEntity;
@@ -46,6 +47,8 @@ public class AtroxModEntities {
 			EntityType.Builder.<BoosartemisEntity>of(BoosartemisEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BoosartemisEntity::new)
 
 					.sized(0.05f, 0.05f));
+	public static final RegistryObject<EntityType<CrackedAngelEntity>> CRACKED_ANGEL = register("cracked_angel", EntityType.Builder.<CrackedAngelEntity>of(CrackedAngelEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(1).setUpdateInterval(3).setCustomClientFactory(CrackedAngelEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -59,6 +62,7 @@ public class AtroxModEntities {
 			ThegreatangelEntity.init();
 			BoosshieldEntity.init();
 			BoosartemisEntity.init();
+			CrackedAngelEntity.init();
 		});
 	}
 
@@ -69,5 +73,6 @@ public class AtroxModEntities {
 		event.put(THEGREATANGEL.get(), ThegreatangelEntity.createAttributes().build());
 		event.put(BOOSSHIELD.get(), BoosshieldEntity.createAttributes().build());
 		event.put(BOOSARTEMIS.get(), BoosartemisEntity.createAttributes().build());
+		event.put(CRACKED_ANGEL.get(), CrackedAngelEntity.createAttributes().build());
 	}
 }
