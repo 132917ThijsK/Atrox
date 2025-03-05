@@ -2467,7 +2467,6 @@
     },
     {
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_092026
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_092026
       "name": "Dungeonloottable",
       "type": "loottable",
       "compiles": true,
@@ -2479,8 +2478,6 @@
         ]
       }
 ========
-========
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322
       "name": "AngelicSword",
       "type": "tool",
       "compiles": true,
@@ -2533,9 +2530,6 @@
         ]
       },
       "path": "~/Items-blocks"
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_092026
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322
-========
 >>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322
     }
   ],
@@ -2703,10 +2697,6 @@
       "advancements.thatsnew.title": "That is, new?",
       "item.atrox.boosshield_spawn_egg": "Angels Shield Spawn Egg",
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_092026
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_092026
-========
-      "item.atrox.slinkstone_sword": "Slinkstone Sword",
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322
 ========
       "item.atrox.slinkstone_sword": "Slinkstone Sword",
 >>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322

@@ -1359,16 +1359,11 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bosssmallfireball",
+      "registry_name": "boos_small_fireball",
       "metadata": {
         "files": [
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
           "src/main/java/net/mcreator/atrox/item/BoossmallfireballItem.java",
           "src/main/resources/assets/atrox/models/item/boos_small_fireball.json"
-========
-          "src/main/resources/assets/atrox/models/item/bosssmallfireball.json",
-          "src/main/java/net/mcreator/atrox/item/BoossmallfireballItem.java"
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_135418
         ]
       },
       "path": "~/Boss"
@@ -1378,7 +1373,7 @@
       "type": "projectile",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bosssmallfireballprojectile",
+      "registry_name": "boossmallfireballprojectile",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/entity/BoossmallfireballprojectileEntity.java"
@@ -1391,7 +1386,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bosssmallfireballprojectilehitslivingentity",
+      "registry_name": "boossmallfireballprojectilehitslivingentity",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoossmallfireballprojectilehitslivingentityProcedure.java"
@@ -1414,7 +1409,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossteleportattack",
+      "registry_name": "boosteleportattack",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosteleportattackProcedure.java"
@@ -1449,7 +1444,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossteleport",
+      "registry_name": "boosteleport",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosteleportProcedure.java"
@@ -1484,7 +1479,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossregeneration",
+      "registry_name": "boosregeneration",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosregenerationProcedure.java"
@@ -1519,7 +1514,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossshielddefence",
+      "registry_name": "boosshielddefence",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosshielddefenceProcedure.java"
@@ -1558,10 +1553,10 @@
       "type": "livingentity",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossshield",
+      "registry_name": "boosshield",
       "metadata": {
         "files": [
-          "src/main/resources/assets/atrox/models/item/bossshield_spawn_egg.json",
+          "src/main/resources/assets/atrox/models/item/boosshield_spawn_egg.json",
           "src/main/java/net/mcreator/atrox/entity/BoosshieldEntity.java",
           "src/main/java/net/mcreator/atrox/client/renderer/BoosshieldRenderer.java"
         ]
@@ -1573,7 +1568,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossshieldentitydies",
+      "registry_name": "boosshieldentitydies",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosshieldentitydiesProcedure.java"
@@ -1592,7 +1587,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossshieldonentitytickupdate",
+      "registry_name": "boosshieldonentitytickupdate",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosshieldonentitytickupdateProcedure.java"
@@ -1627,7 +1622,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bosssummon",
+      "registry_name": "boossummon",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoossummonProcedure.java"
@@ -1662,7 +1657,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bosssmallfireballwhileprojectileflyingtick",
+      "registry_name": "boossmallfireballwhileprojectileflyingtick",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoossmallfireballwhileprojectileflyingtickProcedure.java"
@@ -1697,7 +1692,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossfireball",
+      "registry_name": "boosfireball",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosfireballProcedure.java"
@@ -1720,7 +1715,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossdash",
+      "registry_name": "boosdash",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosdashProcedure.java"
@@ -1739,7 +1734,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossmelee",
+      "registry_name": "boosmelee",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosmeleeProcedure.java"
@@ -1758,7 +1753,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossstatechanger",
+      "registry_name": "boosstatechanger",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosstatechangerProcedure.java"
@@ -1777,7 +1772,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossonentitytickupdate",
+      "registry_name": "boosonentitytickupdate",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosonentitytickupdateProcedure.java"
@@ -1812,7 +1807,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossartemisoninitialentityspawn",
+      "registry_name": "boosartemisoninitialentityspawn",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosartemisoninitialentityspawnProcedure.java"
@@ -1831,7 +1826,7 @@
       "type": "livingentity",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossartemis",
+      "registry_name": "boosartemis",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/entity/BoosartemisEntity.java",
@@ -1845,7 +1840,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossdisperse",
+      "registry_name": "boosdisperse",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosdisperseProcedure.java"
@@ -1880,7 +1875,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossfracturedbeamteleport",
+      "registry_name": "boosfracturedbeamteleport",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosfracturedbeamteleportProcedure.java"
@@ -1915,7 +1910,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossfracturedteleportartemis",
+      "registry_name": "boosfracturedteleportartemis",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosfracturedteleportartemisProcedure.java"
@@ -1950,7 +1945,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossfractureddispersion",
+      "registry_name": "boosfractureddispersion",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosfractureddispersionProcedure.java"
@@ -1985,7 +1980,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossfracturedteleportexecution",
+      "registry_name": "boosfracturedteleportexecution",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosfracturedteleportexecutionProcedure.java"
@@ -2020,7 +2015,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossfractureteleport",
+      "registry_name": "boosfractureteleport",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosfractureteleportProcedure.java"
@@ -2055,7 +2050,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossfracturedbeam",
+      "registry_name": "boosfracturedbeam",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosfracturedbeamProcedure.java"
@@ -2090,7 +2085,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossfracturedartemis",
+      "registry_name": "boosfracturedartemis",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosfracturedartemisProcedure.java"
@@ -2125,7 +2120,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bossartemisprojectilehitslivingentity",
+      "registry_name": "boosartemisprojectilehitslivingentity",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/BoosartemisprojectilehitslivingentityProcedure.java"
@@ -2417,7 +2412,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "weeping_angel_entity_is_hurt",
+      "registry_name": "spookyroamer_entity_is_hurt",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/atrox/procedures/SpookyroamerEntityIsHurtProcedure.java"
@@ -2472,7 +2467,6 @@
     },
     {
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
       "name": "Dungeonloottable",
       "type": "loottable",
       "compiles": true,
@@ -2500,8 +2494,6 @@
       },
       "path": "~/Mobs"
 ========
-========
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_135418
       "name": "AngelicSword",
       "type": "tool",
       "compiles": true,
@@ -2554,10 +2546,7 @@
         ]
       },
       "path": "~/Items-blocks"
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
 >>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322
-========
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_135418
     }
   ],
   "variable_elements": [
@@ -2696,11 +2685,8 @@
       "SpookstoneSlab",
       "SpookstoneDust",
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
       "CrackedAngel"
 ========
-========
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_135418
       "AngelicStone",
       "AngelicSword",
       "SlinkstonetoolsPickaxe",
@@ -2708,10 +2694,7 @@
       "SlinkstonetoolsSword",
       "SlinkstonetoolsShovel",
       "SlinkstonetoolsHoe"
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
 >>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322
-========
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_135418
     ],
     "DECORATIONS": [
       "Spookyframe",
@@ -2732,23 +2715,15 @@
       "item.atrox.boatspawner": "Spooky Boat",
       "block.atrox.spookywood_log": "Spooky Log",
       "advancements.thatsnew.title": "That is, new?",
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
       "item.atrox.boosshield_spawn_egg": "Angels Shield Spawn Egg",
-========
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_135418
       "item.atrox.slinkstone_sword": "Slinkstone Sword",
       "item.atrox.creative_tab_icon": "Creative Tab Icon",
       "death.attack.spookypoison": "%1$s was envenomed by acid",
       "block.atrox.slinkstone_block": "Block of Slinkstone",
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
-========
-      "entity.atrox.bossartemis": "Angels Artemis",
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_135418
       "item.atrox.slinkstonearmor_armor_chestplate": "Slinkstone Chestplate",
       "item.atrox.thegreatangel_spawn_egg": "The Great Angel Spawn Egg",
       "biome.atrox.spookyworld": "Spookyworld",
       "item.minecraft.lingering_potion.effect.acidpotion": "Lingering Potion of Acid",
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
       "entity.atrox.boosartemis": "Angels Artemis",
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
       "item.atrox.cracked_angel_spawn_egg": "Cracked Weeping angel Spawn Egg",
@@ -2756,9 +2731,6 @@
       "item.atrox.angelic_sword": "Angelic Sword",
 >>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322
       "entity.atrox.boosshield": "Angels Shield",
-========
-      "item.atrox.angelic_sword": "Angelic Sword",
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_135418
       "block.atrox.spookywood_slab": "Spooky Slab",
       "block.atrox.acid": "Acid",
       "advancements.notsogreatangel.title": "The not so Great Angel",
@@ -2766,7 +2738,6 @@
       "advancements.thatwasspooky.descr": "Enter the spooky dimension.",
       "item.atrox.stonestick": "Stone stick",
       "item.atrox.ghostbauble": "Spooky Charm",
-      "entity.atrox.bossshield": "Angels Shield",
       "advancements.achiementacid.descr": "Optain a Bucket of Acid",
       "block.atrox.wizardrytable": "Wizardry table",
       "entity.atrox.spooky_boat": "Spooky Boat",
@@ -2775,10 +2746,7 @@
       "entity.atrox.thegreatangel": "The Great Angel",
       "item.atrox.weeping_angel_spawn_egg": "Weeping angel Spawn Egg",
       "item.minecraft.potion.effect.acidpotion": "Potion of Acid",
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
       "item.atrox.boos_small_fireball": "Angels Small Strike",
-========
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_135418
       "item.atrox.angelic_stone": "Angelic Stone",
       "item.atrox.acid_bucket": "Acid Bucket",
       "block.atrox.spookywood_fence_gate": "Spooky Fence Gate",
@@ -2787,22 +2755,15 @@
       "advancements.ghostbaubleequipped.title": "#OfficallyHaunted",
       "item.atrox.spooky_boat_spawn_egg": "Spooky Boat Spawn Egg",
       "item.atrox.slinkstone_pickaxe": "Slinkstone Pickaxe",
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
-========
-      "item.atrox.bossshield_spawn_egg": "Angels Shield Spawn Egg",
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_135418
       "item.atrox.slinkstone_hoe": "Slinkstone Hoe",
       "block.atrox.great_altar_phase_2": "Great Altar",
       "block.atrox.spookyframe": "Haunted Frame",
       "death.attack.spookypoison.item": "%1$s was killed by %2$s using %3$s",
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
       "item.atrox.slinkstonetools_axe": "Slinkstone Axe",
       "entity.atrox.cracked_angel": "Cracked Weeping angel",
 ========
 >>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322
-========
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_135418
       "block.atrox.spookywood_pressure_plate": "Spooky Pressure Plate",
       "block.atrox.spookstone_stairs": "Spookstone",
       "advancements.thatwasspooky.title": "That was spooky",
@@ -2813,7 +2774,6 @@
       "block.atrox.spookywood_fence": "Spooky Fence",
       "item.minecraft.tipped_arrow.effect.acidpotion": "Arrow of Acid",
       "item.atrox.spookydimension": "Skull Tablet",
-      "item.atrox.bosssmallfireball": "Angels Small Strike",
       "item.atrox.slinkstonearmor_armor_leggings": "Slinkstone Leggings",
       "block.atrox.spookywood_planks": "Spooky Planks",
       "item.minecraft.splash_potion.effect.acidpotion": "Splash Potion of Acid",

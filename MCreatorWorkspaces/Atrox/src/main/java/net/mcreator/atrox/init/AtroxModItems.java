@@ -79,12 +79,7 @@ public class AtroxModItems {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 	public static final RegistryObject<Item> CRACKED_ANGEL_SPAWN_EGG = REGISTRY.register("cracked_angel_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.CRACKED_ANGEL, -13421773, -10066330, new Item.Properties()));
-=======
-	public static final RegistryObject<Item> ANGELIC_SWORD = REGISTRY.register("angelic_sword", () -> new AngelicSwordItem());
-	public static final RegistryObject<Item> ANGELIC_STONE = REGISTRY.register("angelic_stone", () -> new AngelicStoneItem());
->>>>>>> Stashed changes
 =======
 	public static final RegistryObject<Item> ANGELIC_SWORD = REGISTRY.register("angelic_sword", () -> new AngelicSwordItem());
 	public static final RegistryObject<Item> ANGELIC_STONE = REGISTRY.register("angelic_stone", () -> new AngelicStoneItem());

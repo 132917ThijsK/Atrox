@@ -1,7 +1,6 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 [28Feb2025 10:12:12.555] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\msi\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
 [28Feb2025 10:12:12.560] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
 [28Feb2025 10:12:12.600] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
@@ -324,8 +323,6 @@
 [28Feb2025 10:12:19.658] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
 [28Feb2025 10:12:19.659] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
 =======
-=======
->>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -654,9 +651,6 @@
 [05Mar2025 14:22:24.530] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -691,13 +685,8 @@ java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 [28Feb2025 10:12:19.660] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
 [28Feb2025 10:12:19.661] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
-=======
-[05Mar2025 14:22:24.530] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
-[05Mar2025 14:22:24.532] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
->>>>>>> Stashed changes
 =======
 [05Mar2025 14:22:24.530] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
 [05Mar2025 14:22:24.532] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
@@ -738,7 +727,6 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -967,8 +955,6 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 [05Mar2025 14:22:24.533] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
 [05Mar2025 14:22:24.533] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
 [05Mar2025 14:22:24.533] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 8573157376 bytes (maybe)
@@ -1191,9 +1177,6 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [05Mar2025 14:22:26.081] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1304,7 +1287,6 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
     "1.21.4-recommended": "54.1.0"
   }
 }
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -1565,15 +1547,6 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
     minecraft:textures/atlas/blocks.png:atrox:item/boos_fireball
 [05Mar2025 14:22:27.124] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model atrox:wizardrytable#:
     minecraft:textures/atlas/blocks.png:atrox:block/
-=======
-[05Mar2025 14:22:26.082] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.0
-[05Mar2025 14:22:27.124] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model atrox:great_altar_phase_2#inventory:
-    minecraft:textures/atlas/blocks.png:minecraft:item/stone
-[05Mar2025 14:22:27.124] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model atrox:bosssmallfireball#inventory:
-    minecraft:textures/atlas/blocks.png:atrox:item/boos_fireball
-[05Mar2025 14:22:27.124] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model atrox:wizardrytable#:
-    minecraft:textures/atlas/blocks.png:atrox:block/
->>>>>>> Stashed changes
 =======
 [05Mar2025 14:22:26.082] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.0
 [05Mar2025 14:22:27.124] [Worker-Main-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model atrox:great_altar_phase_2#inventory:
@@ -1931,9 +1904,6 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [05Mar2025 14:23:37.964] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

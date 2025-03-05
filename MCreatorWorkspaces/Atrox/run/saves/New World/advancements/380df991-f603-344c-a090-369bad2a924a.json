@@ -4,11 +4,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
       "unlock_right_away": "2025-02-28 09:42:15 +0100"
-=======
-      "unlock_right_away": "2025-03-05 13:59:10 +0100"
->>>>>>> Stashed changes
 =======
       "unlock_right_away": "2025-03-05 13:59:10 +0100"
 >>>>>>> Stashed changes
@@ -23,7 +19,6 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -88,20 +83,6 @@
     "done": true
   },
   "minecraft:recipes/transportation/mangrove_boat": {
-=======
-      "minecraft:river": "2025-03-05 13:59:20 +0100",
-      "minecraft:forest": "2025-03-05 13:59:11 +0100",
-      "minecraft:plains": "2025-03-05 13:59:21 +0100"
-    },
-    "done": false
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2025-03-05 13:59:46 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2025-03-05 14:00:01 +0100"
     },
@@ -114,12 +95,6 @@
     "done": true
   },
   "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2025-03-05 14:00:01 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/bamboo_raft": {
 >>>>>>> Stashed changes
     "criteria": {
       "in_water": "2025-03-05 14:00:01 +0100"
@@ -128,41 +103,15 @@
   },
 <<<<<<< Updated upstream
   "minecraft:recipes/transportation/acacia_boat": {
-=======
-  "minecraft:recipes/transportation/spruce_boat": {
->>>>>>> Stashed changes
-    "criteria": {
-      "in_water": "2025-03-05 14:00:01 +0100"
-    },
-    "done": true
-  },
-<<<<<<< Updated upstream
-  "minecraft:recipes/transportation/cherry_boat": {
->>>>>>> Stashed changes
-=======
-  "minecraft:recipes/transportation/birch_boat": {
->>>>>>> Stashed changes
-    "criteria": {
-      "in_water": "2025-03-05 14:00:01 +0100"
-    },
-    "done": true
-  },
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  "minecraft:recipes/transportation/acacia_boat": {
 >>>>>>> Stashed changes
 =======
   "minecraft:recipes/transportation/bamboo_raft": {
 >>>>>>> Stashed changes
-=======
-  "minecraft:recipes/transportation/oak_boat": {
->>>>>>> Stashed changes
     "criteria": {
       "in_water": "2025-03-05 14:00:01 +0100"
     },
     "done": true
   },
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
   "minecraft:recipes/transportation/acacia_boat": {
@@ -172,15 +121,11 @@
 =======
   "minecraft:recipes/transportation/spruce_boat": {
 >>>>>>> Stashed changes
-=======
-  "minecraft:recipes/transportation/jungle_boat": {
->>>>>>> Stashed changes
     "criteria": {
       "in_water": "2025-03-05 14:00:01 +0100"
     },
     "done": true
   },
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
   "minecraft:recipes/transportation/cherry_boat": {
@@ -251,11 +196,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2025-03-05 14:00:01 +0100"
->>>>>>> Stashed changes
-=======
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2025-03-05 14:00:01 +0100"

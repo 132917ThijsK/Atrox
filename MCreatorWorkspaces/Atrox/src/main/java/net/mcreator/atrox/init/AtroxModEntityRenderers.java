@@ -28,16 +28,10 @@ public class AtroxModEntityRenderers {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 		event.registerEntityRenderer(AtroxModEntities.BOOSSMALLFIREBALLPROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(AtroxModEntities.BOOSSHIELD.get(), BoosshieldRenderer::new);
 		event.registerEntityRenderer(AtroxModEntities.BOOSARTEMIS.get(), BoosartemisRenderer::new);
 		event.registerEntityRenderer(AtroxModEntities.CRACKED_ANGEL.get(), CrackedAngelRenderer::new);
-=======
-		event.registerEntityRenderer(AtroxModEntities.BOSSSMALLFIREBALLPROJECTILE.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(AtroxModEntities.BOSSSHIELD.get(), BoosshieldRenderer::new);
-		event.registerEntityRenderer(AtroxModEntities.BOSSARTEMIS.get(), BoosartemisRenderer::new);
->>>>>>> Stashed changes
 =======
 		event.registerEntityRenderer(AtroxModEntities.BOSSSMALLFIREBALLPROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(AtroxModEntities.BOSSSHIELD.get(), BoosshieldRenderer::new);
