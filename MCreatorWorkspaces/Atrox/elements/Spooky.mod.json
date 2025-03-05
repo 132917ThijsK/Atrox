@@ -6,6 +6,6 @@
     "icon": {
       "value": "CUSTOM:CreativeTabIcon"
     },
-    "showSearch": true
+    "showSearch": false
   }
 }

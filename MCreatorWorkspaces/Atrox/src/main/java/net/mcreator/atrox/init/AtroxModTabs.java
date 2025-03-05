@@ -25,6 +25,7 @@ public class AtroxModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.atrox.spooky")).icon(() -> new ItemStack(AtroxModItems.CREATIVE_TAB_ICON.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(AtroxModItems.SPOOKYDIMENSION.get());
 				tabData.accept(AtroxModBlocks.SPOOKYRACK.get().asItem());
+				tabData.accept(AtroxModBlocks.SPOOKYFRAME.get().asItem());
 				tabData.accept(AtroxModItems.ACID_BUCKET.get());
 				tabData.accept(AtroxModBlocks.SPOOKYLEAVES.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_WOOD.get().asItem());
@@ -32,16 +33,15 @@ public class AtroxModTabs {
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_PLANKS.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_STAIRS.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_SLAB.get().asItem());
+				tabData.accept(AtroxModItems.BOATSPAWNER.get());
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_FENCE.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_FENCE_GATE.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_BUTTON.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKYWOOD_PRESSURE_PLATE.get().asItem());
 				tabData.accept(AtroxModBlocks.TRAPPEDSTONEPRESSUREPLATE.get().asItem());
 				tabData.accept(AtroxModItems.WEEPING_ANGEL_SPAWN_EGG.get());
+				tabData.accept(AtroxModItems.CRACKED_ANGEL_SPAWN_EGG.get());
 				tabData.accept(AtroxModItems.THEGREATANGEL_SPAWN_EGG.get());
-				tabData.accept(AtroxModBlocks.WIZARDRYTABLE.get().asItem());
-				tabData.accept(AtroxModItems.BOATSPAWNER.get());
-				tabData.accept(AtroxModBlocks.SPOOKYFRAME.get().asItem());
 				tabData.accept(AtroxModItems.ANGELIC_STONE.get());
 				tabData.accept(AtroxModItems.ANGELIC_SWORD.get());
 				tabData.accept(AtroxModBlocks.SLINKSTONE_ORE.get().asItem());
@@ -60,8 +60,10 @@ public class AtroxModTabs {
 				tabData.accept(AtroxModBlocks.SPOOKSTONE_STAIRS.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKSTONE_SLAB.get().asItem());
 				tabData.accept(AtroxModItems.SPOOKSTONE_DUST.get());
-				tabData.accept(AtroxModItems.CRACKED_ANGEL_SPAWN_EGG.get());
-			}).withSearchBar().build());
+				tabData.accept(AtroxModBlocks.WIZARDRYTABLE.get().asItem());
+			})
+
+					.build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
