@@ -457,9 +457,9 @@
       "registry_name": "weeping_angel",
       "metadata": {
         "files": [
-          "src/main/resources/data/atrox/forge/biome_modifier/weeping_angel_biome_modifier.json",
-          "src/main/java/net/mcreator/atrox/entity/SpookyroamerEntity.java",
           "src/main/java/net/mcreator/atrox/client/renderer/SpookyroamerRenderer.java",
+          "src/main/java/net/mcreator/atrox/entity/SpookyroamerEntity.java",
+          "src/main/resources/data/atrox/forge/biome_modifier/weeping_angel_biome_modifier.json",
           "src/main/resources/assets/atrox/models/item/weeping_angel_spawn_egg.json"
         ]
       },
@@ -2296,7 +2296,7 @@
           }
         ]
       },
-      "path": "~/Items-blocks"
+      "path": "~/Boss"
     },
     {
       "name": "GreatAltar",
@@ -2318,7 +2318,7 @@
           "src/main/resources/assets/atrox/models/item/great_altar.json"
         ]
       },
-      "path": "~/Items-blocks"
+      "path": "~/Boss"
     },
     {
       "name": "GreatAltarPhase2",
@@ -2340,7 +2340,7 @@
           "src/main/java/net/mcreator/atrox/block/model/GreatAltarPhase2DisplayModel.java"
         ]
       },
-      "path": "~/Items-blocks"
+      "path": "~/Boss"
     },
     {
       "name": "TabletToEverything",
@@ -2466,7 +2466,6 @@
       "path": "~/Items-blocks"
     },
     {
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_093956
       "name": "Dungeonloottable",
       "type": "loottable",
       "compiles": true,
@@ -2493,72 +2492,6 @@
         ]
       },
       "path": "~/Mobs"
-========
-      "name": "AngelicSword",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "angelic_sword",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/atrox/item/AngelicSwordItem.java",
-          "src/main/resources/assets/atrox/models/item/angelic_sword.json"
-        ]
-      },
-      "path": "~/Items-blocks"
-    },
-    {
-      "name": "AngelicStone",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "angelic_stone",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/atrox/models/item/angelic_stone.json",
-          "src/main/java/net/mcreator/atrox/item/AngelicStoneItem.java"
-        ]
-      },
-      "path": "~/Items-blocks"
-    },
-    {
-      "name": "AngelicSwordRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "angelic_sword_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/atrox/recipes/angelic_sword_recipe.json"
-        ]
-      },
-      "path": "~/Items-blocks"
-    },
-    {
-      "name": "Thegreatangeltable",
-      "type": "loottable",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "thegreatangeltable",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/atrox/loot_tables/entities/thegreatangeltable.json"
-        ]
-      },
-      "path": "~/Items-blocks"
-    },
-    {
-      "name": "Xs",
-      "type": "overlay",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "xs",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/atrox/client/screens/XsOverlay.java"
-        ]
-      }
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_133752
     }
   ],
   "variable_elements": [
@@ -2642,7 +2575,6 @@
       "~CUSTOM:SpookywoodStairs"
     ],
     "ITEMS:minecraft:swords": [
-      "~CUSTOM:AngelicSword",
       "~CUSTOM:SlinkstonetoolsSword"
     ],
     "ITEMS:minecraft:shovels": [
@@ -2701,12 +2633,7 @@
       "SpookstoneStairs",
       "SpookstoneSlab",
       "SpookstoneDust",
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_093956
       "CrackedAngel"
-========
-      "AngelicStone",
-      "AngelicSword"
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_133752
     ],
     "DECORATIONS": [
       "Spookyframe",
@@ -2737,11 +2664,7 @@
       "biome.atrox.spookyworld": "Spookyworld",
       "item.minecraft.lingering_potion.effect.acidpotion": "Lingering Potion of Acid",
       "entity.atrox.boosartemis": "Angels Artemis",
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_093956
       "item.atrox.cracked_angel_spawn_egg": "Weeping angel Spawn Egg",
-========
-      "item.atrox.angelic_sword": "Angelic Sword",
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_133752
       "entity.atrox.boosshield": "Angels Shield",
       "block.atrox.spookywood_slab": "Spooky Slab",
       "block.atrox.acid": "Acid",
@@ -2760,7 +2683,6 @@
       "item.atrox.weeping_angel_spawn_egg": "Weeping angel Spawn Egg",
       "item.minecraft.potion.effect.acidpotion": "Potion of Acid",
       "item.atrox.boos_small_fireball": "Angels Small Strike",
-      "item.atrox.angelic_stone": "Angelic Stone",
       "item.atrox.acid_bucket": "Acid Bucket",
       "block.atrox.spookywood_fence_gate": "Spooky Fence Gate",
       "block.atrox.spookstone_slab": "Spookstone",
