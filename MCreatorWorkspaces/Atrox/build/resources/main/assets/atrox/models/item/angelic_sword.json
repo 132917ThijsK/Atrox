@@ -1,0 +1,7 @@
+{
+  "parent": "atrox:custom/angelicsword",
+  "textures": {
+    "1": "atrox:block/angelicsword",
+    "particle": "atrox:item/angelicsword"
+  }
+}

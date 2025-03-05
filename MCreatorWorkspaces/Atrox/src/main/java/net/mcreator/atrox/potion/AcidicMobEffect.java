@@ -1,8 +1,12 @@
 
 package net.mcreator.atrox.potion;
 
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffect;
+
+import java.util.List;
+import java.util.ArrayList;
 
 public class AcidicMobEffect extends MobEffect {
 	public AcidicMobEffect() {
@@ -12,6 +16,12 @@ public class AcidicMobEffect extends MobEffect {
 	@Override
 	public boolean isInstantenous() {
 		return true;
+	}
+
+	@Override
+	public List<ItemStack> getCurativeItems() {
+		ArrayList<ItemStack> cures = new ArrayList<ItemStack>();
+		return cures;
 	}
 
 	@Override

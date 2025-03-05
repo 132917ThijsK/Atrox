@@ -2295,8 +2295,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Boss"
+      }
     },
     {
       "name": "GreatAltar",
@@ -2317,8 +2316,7 @@
           "src/main/java/net/mcreator/atrox/block/model/GreatAltarBlockModel.java",
           "src/main/resources/assets/atrox/models/item/great_altar.json"
         ]
-      },
-      "path": "~/Boss"
+      }
     },
     {
       "name": "GreatAltarPhase2",
@@ -2339,8 +2337,7 @@
           "src/main/resources/assets/atrox/models/item/great_altar_phase_2.json",
           "src/main/java/net/mcreator/atrox/block/model/GreatAltarPhase2DisplayModel.java"
         ]
-      },
-      "path": "~/Boss"
+      }
     },
     {
       "name": "TabletToEverything",
@@ -2475,7 +2472,8 @@
         "files": [
           "src/main/resources/data/atrox/loot_tables/chests/dungeonloottable.json"
         ]
-      }
+      },
+      "path": "~/Structures"
     },
     {
       "name": "CrackedAngel",
@@ -2492,6 +2490,56 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "AngelicSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angelic_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/atrox/item/AngelicSwordItem.java",
+          "src/main/resources/assets/atrox/models/item/angelic_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "AngelicStone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angelic_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/atrox/models/item/angelic_stone.json",
+          "src/main/java/net/mcreator/atrox/item/AngelicStoneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AngelicSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angelic_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/atrox/recipes/angelic_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TheGreatAngelTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_great_angel_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/atrox/loot_tables/entities/the_great_angel_table.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2575,6 +2623,7 @@
       "~CUSTOM:SpookywoodStairs"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:AngelicSword",
       "~CUSTOM:SlinkstonetoolsSword"
     ],
     "ITEMS:minecraft:shovels": [
@@ -2633,7 +2682,9 @@
       "SpookstoneStairs",
       "SpookstoneSlab",
       "SpookstoneDust",
-      "CrackedAngel"
+      "CrackedAngel",
+      "AngelicSword",
+      "AngelicStone"
     ],
     "DECORATIONS": [
       "Spookyframe",
@@ -2664,7 +2715,8 @@
       "biome.atrox.spookyworld": "Spookyworld",
       "item.minecraft.lingering_potion.effect.acidpotion": "Lingering Potion of Acid",
       "entity.atrox.boosartemis": "Angels Artemis",
-      "item.atrox.cracked_angel_spawn_egg": "Weeping angel Spawn Egg",
+      "item.atrox.cracked_angel_spawn_egg": "Cracked Weeping angel Spawn Egg",
+      "item.atrox.angelic_sword": "Angelic Sword",
       "entity.atrox.boosshield": "Angels Shield",
       "block.atrox.spookywood_slab": "Spooky Slab",
       "block.atrox.acid": "Acid",
@@ -2683,6 +2735,7 @@
       "item.atrox.weeping_angel_spawn_egg": "Weeping angel Spawn Egg",
       "item.minecraft.potion.effect.acidpotion": "Potion of Acid",
       "item.atrox.boos_small_fireball": "Angels Small Strike",
+      "item.atrox.angelic_stone": "Angelic Stone",
       "item.atrox.acid_bucket": "Acid Bucket",
       "block.atrox.spookywood_fence_gate": "Spooky Fence Gate",
       "block.atrox.spookstone_slab": "Spookstone",
@@ -2694,7 +2747,7 @@
       "block.atrox.spookyframe": "Haunted Frame",
       "death.attack.spookypoison.item": "%1$s was killed by %2$s using %3$s",
       "item.atrox.slinkstonetools_axe": "Slinkstone Axe",
-      "entity.atrox.cracked_angel": "Weeping angel",
+      "entity.atrox.cracked_angel": "Cracked Weeping angel",
       "block.atrox.spookywood_pressure_plate": "Spooky Pressure Plate",
       "block.atrox.spookstone_stairs": "Spookstone",
       "advancements.thatwasspooky.title": "That was spooky",

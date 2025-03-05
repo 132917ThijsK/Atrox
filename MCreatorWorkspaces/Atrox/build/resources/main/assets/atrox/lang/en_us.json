@@ -14,6 +14,7 @@
   "item.minecraft.lingering_potion.effect.acidpotion": "Lingering Potion of Acid",
   "entity.atrox.boosartemis": "Angels Artemis",
   "item.atrox.cracked_angel_spawn_egg": "Cracked Weeping angel Spawn Egg",
+  "item.atrox.angelic_sword": "Angelic Sword",
   "entity.atrox.boosshield": "Angels Shield",
   "block.atrox.spookywood_slab": "Spooky Slab",
   "block.atrox.acid": "Acid",
@@ -32,9 +33,11 @@
   "item.atrox.weeping_angel_spawn_egg": "Weeping angel Spawn Egg",
   "item.minecraft.potion.effect.acidpotion": "Potion of Acid",
   "item.atrox.boos_small_fireball": "Angels Small Strike",
+  "item.atrox.angelic_stone": "Angelic Stone",
   "item.atrox.acid_bucket": "Acid Bucket",
   "block.atrox.spookywood_fence_gate": "Spooky Fence Gate",
   "block.atrox.spookstone_slab": "Spookstone",
+  "advancements.checkifplayer.descr": "checks if entity is a player",
   "item.atrox.slinkstonearmor_armor_helmet": "Slinkstone Helmet",
   "advancements.ghostbaubleequipped.title": "#OfficallyHaunted",
   "item.atrox.spooky_boat_spawn_egg": "Spooky Boat Spawn Egg",
@@ -72,6 +75,7 @@
   "advancements.ghostbaubleequipped.descr": "Obtain and Equip the Spooky Bauble",
   "block.atrox.spookyleaves": "Spooky Leaves",
   "fluid.atrox.acid": "Acid",
+  "advancements.checkifplayer.title": "checkifplayer",
   "item_group.atrox.spooky": "Atrox",
   "item.atrox.spookstone_dust": "Spookstone Dust"
 }

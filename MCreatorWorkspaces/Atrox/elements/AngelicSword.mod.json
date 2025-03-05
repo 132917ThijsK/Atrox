@@ -1,0 +1,42 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "angelicsword",
+    "customModelName": "angelicsword:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Angelic Sword",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Spooky"
+      },
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "efficiency": 6.5,
+    "attackSpeed": 1.6,
+    "enchantability": 22,
+    "damageVsEntity": 10.0,
+    "usageCount": 2031,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:AngelicStone"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

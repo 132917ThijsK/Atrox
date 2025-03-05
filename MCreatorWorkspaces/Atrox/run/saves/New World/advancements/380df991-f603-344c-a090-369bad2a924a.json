@@ -29,5 +29,17 @@
     },
     "done": true
   },
+  "atrox:checkifplayer": {
+    "criteria": {
+      "checkifplayer_0": "2025-03-05 15:23:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-03-05 15:24:24 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

@@ -1,0 +1,25 @@
+{
+  "_fv": 69,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "checkifplayer",
+    "achievementDescription": "checks if entity is a player",
+    "achievementIcon": {
+      "value": "CUSTOM:Boossmallfireball"
+    },
+    "background": "Default",
+    "disableDisplay": true,
+    "showPopup": false,
+    "announceToChat": false,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"tick\"></block></next></block></xml>"
+  }
+}

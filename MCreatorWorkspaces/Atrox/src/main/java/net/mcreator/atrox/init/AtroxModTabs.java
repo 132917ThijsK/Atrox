@@ -42,6 +42,8 @@ public class AtroxModTabs {
 				tabData.accept(AtroxModBlocks.WIZARDRYTABLE.get().asItem());
 				tabData.accept(AtroxModItems.BOATSPAWNER.get());
 				tabData.accept(AtroxModBlocks.SPOOKYFRAME.get().asItem());
+				tabData.accept(AtroxModItems.ANGELIC_STONE.get());
+				tabData.accept(AtroxModItems.ANGELIC_SWORD.get());
 				tabData.accept(AtroxModBlocks.SLINKSTONE_ORE.get().asItem());
 				tabData.accept(AtroxModItems.SLINKSTONE.get());
 				tabData.accept(AtroxModBlocks.SLINKSTONE_BLOCK.get().asItem());
@@ -85,6 +87,7 @@ public class AtroxModTabs {
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 
+			tabData.accept(AtroxModItems.ANGELIC_SWORD.get());
 			tabData.accept(AtroxModItems.SLINKSTONETOOLS_SWORD.get());
 			tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_HELMET.get());
 			tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_CHESTPLATE.get());
@@ -94,12 +97,13 @@ public class AtroxModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 
 			tabData.accept(AtroxModItems.WEEPING_ANGEL_SPAWN_EGG.get());
+			tabData.accept(AtroxModItems.CRACKED_ANGEL_SPAWN_EGG.get());
 			tabData.accept(AtroxModItems.THEGREATANGEL_SPAWN_EGG.get());
 			tabData.accept(AtroxModItems.BOOSSHIELD_SPAWN_EGG.get());
-			tabData.accept(AtroxModItems.CRACKED_ANGEL_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
+			tabData.accept(AtroxModItems.ANGELIC_STONE.get());
 			tabData.accept(AtroxModItems.SLINKSTONE.get());
 			tabData.accept(AtroxModItems.STONESTICK.get());
 

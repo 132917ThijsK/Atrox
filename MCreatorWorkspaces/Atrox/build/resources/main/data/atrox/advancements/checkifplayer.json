@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "checkifplayer_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

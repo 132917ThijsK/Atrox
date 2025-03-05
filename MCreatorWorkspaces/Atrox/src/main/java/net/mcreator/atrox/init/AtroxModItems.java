@@ -26,6 +26,8 @@ import net.mcreator.atrox.item.SlinkstoneItem;
 import net.mcreator.atrox.item.CreativeTabIconItem;
 import net.mcreator.atrox.item.BoossmallfireballItem;
 import net.mcreator.atrox.item.BoatspawnerItem;
+import net.mcreator.atrox.item.AngelicSwordItem;
+import net.mcreator.atrox.item.AngelicStoneItem;
 import net.mcreator.atrox.item.AcidItem;
 import net.mcreator.atrox.block.display.GreatAltarPhase2DisplayItem;
 import net.mcreator.atrox.block.display.GreatAltarDisplayItem;
@@ -76,6 +78,8 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> GREAT_ALTAR_PHASE_2 = REGISTRY.register(AtroxModBlocks.GREAT_ALTAR_PHASE_2.getId().getPath(), () -> new GreatAltarPhase2DisplayItem(AtroxModBlocks.GREAT_ALTAR_PHASE_2.get(), new Item.Properties()));
 	public static final RegistryObject<Item> CREATIVE_TAB_ICON = REGISTRY.register("creative_tab_icon", () -> new CreativeTabIconItem());
 	public static final RegistryObject<Item> CRACKED_ANGEL_SPAWN_EGG = REGISTRY.register("cracked_angel_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.CRACKED_ANGEL, -13421773, -10066330, new Item.Properties()));
+	public static final RegistryObject<Item> ANGELIC_SWORD = REGISTRY.register("angelic_sword", () -> new AngelicSwordItem());
+	public static final RegistryObject<Item> ANGELIC_STONE = REGISTRY.register("angelic_stone", () -> new AngelicStoneItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "atrox:angelic_stone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "atrox:entities/the_great_angel_table"
+}
