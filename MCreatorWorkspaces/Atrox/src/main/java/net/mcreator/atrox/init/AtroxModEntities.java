@@ -74,9 +74,14 @@ public class AtroxModEntities {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		event.put(BOOSSHIELD.get(), BoosshieldEntity.createAttributes().build());
 		event.put(BOOSARTEMIS.get(), BoosartemisEntity.createAttributes().build());
 		event.put(CRACKED_ANGEL.get(), CrackedAngelEntity.createAttributes().build());
+=======
+		event.put(BOSSSHIELD.get(), BoosshieldEntity.createAttributes().build());
+		event.put(BOSSARTEMIS.get(), BoosartemisEntity.createAttributes().build());
+>>>>>>> Stashed changes
 =======
 		event.put(BOSSSHIELD.get(), BoosshieldEntity.createAttributes().build());
 		event.put(BOSSARTEMIS.get(), BoosartemisEntity.createAttributes().build());

@@ -1,7 +1,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 {"stats":{"minecraft:used":{"atrox:spookyframe":16,"atrox:cracked_angel_spawn_egg":69,"atrox:weeping_angel_spawn_egg":6,"atrox:spookydimension":1},"minecraft:killed_by":{"atrox:weeping_angel":1},"minecraft:custom":{"minecraft:jump":60,"minecraft:open_chest":2,"minecraft:time_since_rest":83,"minecraft:deaths":1,"minecraft:leave_game":5,"minecraft:play_time":18090,"minecraft:sprint_one_cm":6985,"minecraft:damage_taken":260,"minecraft:time_since_death":45,"minecraft:walk_one_cm":66986,"minecraft:sneak_time":18,"minecraft:total_world_time":18315,"minecraft:fall_one_cm":627,"minecraft:fly_one_cm":38297}},"DataVersion":3465}
+=======
+{"stats":{"minecraft:killed":{"atrox:spooky_boat":11},"minecraft:picked_up":{"atrox:boatspawner":11},"minecraft:custom":{"minecraft:jump":48,"minecraft:time_since_rest":5207,"minecraft:damage_dealt":660,"minecraft:leave_game":5,"minecraft:play_time":5207,"minecraft:sprint_one_cm":3168,"minecraft:time_since_death":5207,"minecraft:walk_on_water_one_cm":5051,"minecraft:walk_one_cm":7194,"minecraft:sneak_time":9,"minecraft:walk_under_water_one_cm":175,"minecraft:total_world_time":5642,"minecraft:mob_kills":11,"minecraft:fly_one_cm":27360},"minecraft:used":{"atrox:angelic_sword":8,"atrox:slinkstone_sword":2,"atrox:boatspawner":22}},"DataVersion":3465}
+>>>>>>> Stashed changes
 =======
 {"stats":{"minecraft:killed":{"atrox:spooky_boat":11},"minecraft:picked_up":{"atrox:boatspawner":11},"minecraft:custom":{"minecraft:jump":48,"minecraft:time_since_rest":5207,"minecraft:damage_dealt":660,"minecraft:leave_game":5,"minecraft:play_time":5207,"minecraft:sprint_one_cm":3168,"minecraft:time_since_death":5207,"minecraft:walk_on_water_one_cm":5051,"minecraft:walk_one_cm":7194,"minecraft:sneak_time":9,"minecraft:walk_under_water_one_cm":175,"minecraft:total_world_time":5642,"minecraft:mob_kills":11,"minecraft:fly_one_cm":27360},"minecraft:used":{"atrox:angelic_sword":8,"atrox:slinkstone_sword":2,"atrox:boatspawner":22}},"DataVersion":3465}
 >>>>>>> Stashed changes
