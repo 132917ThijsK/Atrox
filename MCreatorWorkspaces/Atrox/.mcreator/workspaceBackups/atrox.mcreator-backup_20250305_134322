@@ -2467,13 +2467,9 @@
     },
     {
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_092026
 =======
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_094126
->>>>>>> Stashed changes
-=======
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
 >>>>>>> Stashed changes
       "name": "Dungeonloottable",
       "type": "loottable",
@@ -2486,10 +2482,7 @@
         ]
       }
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
     },
     {
       "name": "CrackedAngel",
@@ -2506,9 +2499,6 @@
         ]
       },
       "path": "~/Mobs"
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 ========
       "name": "AngelicSword",
@@ -2702,14 +2692,8 @@
       "SpookstoneSlab",
       "SpookstoneDust",
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_094126
-      "CrackedAngel"
-========
->>>>>>> Stashed changes
-=======
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
       "CrackedAngel"
 ========
 >>>>>>> Stashed changes
@@ -2721,10 +2705,6 @@
       "SlinkstonetoolsShovel",
       "SlinkstonetoolsHoe"
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322
->>>>>>> Stashed changes
 =======
 >>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322
 >>>>>>> Stashed changes
@@ -2750,7 +2730,6 @@
       "advancements.thatsnew.title": "That is, new?",
       "item.atrox.boosshield_spawn_egg": "Angels Shield Spawn Egg",
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_092026
 =======
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_094126
@@ -2758,9 +2737,6 @@
 ========
       "item.atrox.slinkstone_sword": "Slinkstone Sword",
 >>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322
-=======
-      "item.atrox.slinkstone_sword": "Slinkstone Sword",
->>>>>>> Stashed changes
       "item.atrox.creative_tab_icon": "Creative Tab Icon",
       "death.attack.spookypoison": "%1$s was envenomed by acid",
       "block.atrox.slinkstone_block": "Block of Slinkstone",
@@ -2770,18 +2746,10 @@
       "item.minecraft.lingering_potion.effect.acidpotion": "Lingering Potion of Acid",
       "entity.atrox.boosartemis": "Angels Artemis",
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
       "item.atrox.angelic_sword": "Angelic Sword",
 =======
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_094126
       "item.atrox.cracked_angel_spawn_egg": "Weeping angel Spawn Egg",
-========
-      "item.atrox.angelic_sword": "Angelic Sword",
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322
->>>>>>> Stashed changes
-=======
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
-      "item.atrox.cracked_angel_spawn_egg": "Cracked Weeping angel Spawn Egg",
 ========
       "item.atrox.angelic_sword": "Angelic Sword",
 >>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322
@@ -2816,18 +2784,10 @@
       "block.atrox.spookyframe": "Haunted Frame",
       "death.attack.spookypoison.item": "%1$s was killed by %2$s using %3$s",
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_094126
       "item.atrox.slinkstonetools_axe": "Slinkstone Axe",
       "entity.atrox.cracked_angel": "Weeping angel",
-========
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322
->>>>>>> Stashed changes
-=======
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_101213
-      "item.atrox.slinkstonetools_axe": "Slinkstone Axe",
-      "entity.atrox.cracked_angel": "Cracked Weeping angel",
 ========
 >>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_134322
 >>>>>>> Stashed changes

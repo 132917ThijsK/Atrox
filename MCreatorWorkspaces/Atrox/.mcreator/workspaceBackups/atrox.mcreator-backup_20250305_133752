@@ -2467,13 +2467,9 @@
     },
     {
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_091956
 =======
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_093956
->>>>>>> Stashed changes
-=======
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_100843
 >>>>>>> Stashed changes
       "name": "Dungeonloottable",
       "type": "loottable",
@@ -2484,10 +2480,7 @@
         "files": [
           "src/main/resources/data/atrox/loot_tables/chests/dungeonloottable.json"
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
         ]
       }
     },
@@ -2506,9 +2499,6 @@
         ]
       },
       "path": "~/Mobs"
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 ========
       "name": "AngelicSword",
@@ -2574,15 +2564,9 @@
         "files": [
           "src/main/java/net/mcreator/atrox/client/screens/XsOverlay.java"
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 >>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_133752
         ]
       }
-=======
-        ]
-      }
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_133752
->>>>>>> Stashed changes
 =======
         ]
       }
@@ -2731,22 +2715,15 @@
       "SpookstoneSlab",
       "SpookstoneDust",
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
       "AngelicStone",
       "AngelicSword"
 =======
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_093956
-=======
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_100843
->>>>>>> Stashed changes
       "CrackedAngel"
 ========
       "AngelicStone",
       "AngelicSword"
 >>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_133752
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
     ],
     "DECORATIONS": [
@@ -2779,18 +2756,10 @@
       "item.minecraft.lingering_potion.effect.acidpotion": "Lingering Potion of Acid",
       "entity.atrox.boosartemis": "Angels Artemis",
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
       "item.atrox.angelic_sword": "Angelic Sword",
 =======
 <<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_093956
       "item.atrox.cracked_angel_spawn_egg": "Weeping angel Spawn Egg",
-========
-      "item.atrox.angelic_sword": "Angelic Sword",
->>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_133752
->>>>>>> Stashed changes
-=======
-<<<<<<<< Updated upstream:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250228_100843
-      "item.atrox.cracked_angel_spawn_egg": "Cracked Weeping angel Spawn Egg",
 ========
       "item.atrox.angelic_sword": "Angelic Sword",
 >>>>>>>> Stashed changes:MCreatorWorkspaces/Atrox/.mcreator/workspaceBackups/atrox.mcreator-backup_20250305_133752
@@ -2826,12 +2795,8 @@
       "death.attack.spookypoison.item": "%1$s was killed by %2$s using %3$s",
       "item.atrox.slinkstonetools_axe": "Slinkstone Axe",
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
       "entity.atrox.cracked_angel": "Weeping angel",
->>>>>>> Stashed changes
-=======
-      "entity.atrox.cracked_angel": "Cracked Weeping angel",
 >>>>>>> Stashed changes
       "block.atrox.spookywood_pressure_plate": "Spooky Pressure Plate",
       "block.atrox.spookstone_stairs": "Spookstone",
