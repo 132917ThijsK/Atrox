@@ -100,8 +100,12 @@ public class AtroxModTabs {
 			tabData.accept(AtroxModItems.THEGREATANGEL_SPAWN_EGG.get());
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			tabData.accept(AtroxModItems.BOOSSHIELD_SPAWN_EGG.get());
 			tabData.accept(AtroxModItems.CRACKED_ANGEL_SPAWN_EGG.get());
+=======
+			tabData.accept(AtroxModItems.BOSSSHIELD_SPAWN_EGG.get());
+>>>>>>> Stashed changes
 =======
 			tabData.accept(AtroxModItems.BOSSSHIELD_SPAWN_EGG.get());
 >>>>>>> Stashed changes
