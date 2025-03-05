@@ -26,6 +26,8 @@ import net.mcreator.atrox.item.SlinkstoneItem;
 import net.mcreator.atrox.item.CreativeTabIconItem;
 import net.mcreator.atrox.item.BoossmallfireballItem;
 import net.mcreator.atrox.item.BoatspawnerItem;
+import net.mcreator.atrox.item.AngelicSwordItem;
+import net.mcreator.atrox.item.AngelicStoneItem;
 import net.mcreator.atrox.item.AcidItem;
 import net.mcreator.atrox.block.display.GreatAltarPhase2DisplayItem;
 import net.mcreator.atrox.block.display.GreatAltarDisplayItem;
@@ -48,17 +50,16 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> ACID_BUCKET = REGISTRY.register("acid_bucket", () -> new AcidItem());
 	public static final RegistryObject<Item> WEEPING_ANGEL_SPAWN_EGG = REGISTRY.register("weeping_angel_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.WEEPING_ANGEL, -10066330, -13421773, new Item.Properties()));
 	public static final RegistryObject<Item> WIZARDRYTABLE = block(AtroxModBlocks.WIZARDRYTABLE);
-	public static final RegistryObject<Item> SPOOKY_BOAT_SPAWN_EGG = REGISTRY.register("spooky_boat_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.SPOOKY_BOAT, -14605279, -14600681, new Item.Properties()));
 	public static final RegistryObject<Item> BOATSPAWNER = REGISTRY.register("boatspawner", () -> new BoatspawnerItem());
 	public static final RegistryObject<Item> SPOOKYFRAME = block(AtroxModBlocks.SPOOKYFRAME);
 	public static final RegistryObject<Item> SLINKSTONE = REGISTRY.register("slinkstone", () -> new SlinkstoneItem());
 	public static final RegistryObject<Item> SLINKSTONE_ORE = block(AtroxModBlocks.SLINKSTONE_ORE);
 	public static final RegistryObject<Item> SLINKSTONE_BLOCK = block(AtroxModBlocks.SLINKSTONE_BLOCK);
-	public static final RegistryObject<Item> SLINKSTONETOOLS_PICKAXE = REGISTRY.register("slinkstonetools_pickaxe", () -> new SlinkstonetoolsPickaxeItem());
-	public static final RegistryObject<Item> SLINKSTONETOOLS_AXE = REGISTRY.register("slinkstonetools_axe", () -> new SlinkstonetoolsAxeItem());
-	public static final RegistryObject<Item> SLINKSTONETOOLS_SWORD = REGISTRY.register("slinkstonetools_sword", () -> new SlinkstonetoolsSwordItem());
-	public static final RegistryObject<Item> SLINKSTONETOOLS_SHOVEL = REGISTRY.register("slinkstonetools_shovel", () -> new SlinkstonetoolsShovelItem());
-	public static final RegistryObject<Item> SLINKSTONETOOLS_HOE = REGISTRY.register("slinkstonetools_hoe", () -> new SlinkstonetoolsHoeItem());
+	public static final RegistryObject<Item> SLINKSTONE_PICKAXE = REGISTRY.register("slinkstone_pickaxe", () -> new SlinkstonetoolsPickaxeItem());
+	public static final RegistryObject<Item> SLINKSTONE_AXE = REGISTRY.register("slinkstone_axe", () -> new SlinkstonetoolsAxeItem());
+	public static final RegistryObject<Item> SLINKSTONE_SWORD = REGISTRY.register("slinkstone_sword", () -> new SlinkstonetoolsSwordItem());
+	public static final RegistryObject<Item> SLINKSTONE_SHOVEL = REGISTRY.register("slinkstone_shovel", () -> new SlinkstonetoolsShovelItem());
+	public static final RegistryObject<Item> SLINKSTONE_HOE = REGISTRY.register("slinkstone_hoe", () -> new SlinkstonetoolsHoeItem());
 	public static final RegistryObject<Item> STONESTICK = REGISTRY.register("stonestick", () -> new StonestickItem());
 	public static final RegistryObject<Item> SLINKSTONEARMOR_ARMOR_HELMET = REGISTRY.register("slinkstonearmor_armor_helmet", () -> new SlinkstonearmorArmorItem.Helmet());
 	public static final RegistryObject<Item> SLINKSTONEARMOR_ARMOR_CHESTPLATE = REGISTRY.register("slinkstonearmor_armor_chestplate", () -> new SlinkstonearmorArmorItem.Chestplate());
@@ -70,12 +71,17 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> SPOOKSTONE_DUST = REGISTRY.register("spookstone_dust", () -> new SpookstoneDustItem());
 	public static final RegistryObject<Item> TRAPPEDSTONEPRESSUREPLATE = block(AtroxModBlocks.TRAPPEDSTONEPRESSUREPLATE);
 	public static final RegistryObject<Item> THEGREATANGEL_SPAWN_EGG = REGISTRY.register("thegreatangel_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.THEGREATANGEL, -13382656, -3424064, new Item.Properties()));
-	public static final RegistryObject<Item> BOOS_SMALL_FIREBALL = REGISTRY.register("boos_small_fireball", () -> new BoossmallfireballItem());
-	public static final RegistryObject<Item> BOOSSHIELD_SPAWN_EGG = REGISTRY.register("boosshield_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.BOOSSHIELD, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> BOSSSMALLFIREBALL = REGISTRY.register("bosssmallfireball", () -> new BoossmallfireballItem());
+	public static final RegistryObject<Item> BOSSSHIELD_SPAWN_EGG = REGISTRY.register("bossshield_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.BOSSSHIELD, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> GREAT_ALTAR = REGISTRY.register(AtroxModBlocks.GREAT_ALTAR.getId().getPath(), () -> new GreatAltarDisplayItem(AtroxModBlocks.GREAT_ALTAR.get(), new Item.Properties()));
 	public static final RegistryObject<Item> GREAT_ALTAR_PHASE_2 = REGISTRY.register(AtroxModBlocks.GREAT_ALTAR_PHASE_2.getId().getPath(), () -> new GreatAltarPhase2DisplayItem(AtroxModBlocks.GREAT_ALTAR_PHASE_2.get(), new Item.Properties()));
 	public static final RegistryObject<Item> CREATIVE_TAB_ICON = REGISTRY.register("creative_tab_icon", () -> new CreativeTabIconItem());
+<<<<<<< Updated upstream
 	public static final RegistryObject<Item> CRACKED_ANGEL_SPAWN_EGG = REGISTRY.register("cracked_angel_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.CRACKED_ANGEL, -13421773, -10066330, new Item.Properties()));
+=======
+	public static final RegistryObject<Item> ANGELIC_SWORD = REGISTRY.register("angelic_sword", () -> new AngelicSwordItem());
+	public static final RegistryObject<Item> ANGELIC_STONE = REGISTRY.register("angelic_stone", () -> new AngelicStoneItem());
+>>>>>>> Stashed changes
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -18,17 +18,17 @@ public class AtroxModTrades {
 	@SubscribeEvent
 	public static void registerTrades(VillagerTradesEvent event) {
 		if (event.getType() == AtroxModVillagerProfessions.WIZARD.get()) {
-			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 4), new ItemStack(Blocks.SOUL_SAND, 4), new ItemStack(AtroxModBlocks.SPOOKYFRAME.get(), 6), 5, 15, 0.5f));
-			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Items.EMERALD, 12), new ItemStack(Blocks.SOUL_SAND, 8), new ItemStack(AtroxModItems.SPOOKYDIMENSION.get()), 2, 60, 1f));
-			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(Items.EMERALD, 2),
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 2), new ItemStack(Blocks.SOUL_SAND), new ItemStack(AtroxModBlocks.SPOOKYFRAME.get(), 6), 5, 15, 0.5f));
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Items.EMERALD, 6), new ItemStack(Blocks.SOUL_SAND, 2), new ItemStack(AtroxModItems.SPOOKYDIMENSION.get()), 2, 60, 1f));
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(Items.EMERALD),
 
 					new ItemStack(AtroxModBlocks.SPOOKYWOOD_LOG.get(), 2), 10, 15, 0.05f));
-			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.FEATHER, 4),
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.FEATHER, 2),
 
 					new ItemStack(Items.EMERALD, 2), 10, 10, 0.05f));
-			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(Items.STRING, 10),
+			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(Items.STRING, 5),
 
-					new ItemStack(Items.EMERALD, 6), 10, 10, 0.05f));
+					new ItemStack(Items.EMERALD, 2), 10, 10, 0.05f));
 		}
 	}
 }

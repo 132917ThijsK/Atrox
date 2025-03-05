@@ -31,7 +31,7 @@ public class BoosshieldEntity extends Monster {
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.WHITE, ServerBossEvent.BossBarOverlay.PROGRESS);
 
 	public BoosshieldEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(AtroxModEntities.BOOSSHIELD.get(), world);
+		this(AtroxModEntities.BOSSSHIELD.get(), world);
 	}
 
 	public BoosshieldEntity(EntityType<BoosshieldEntity> type, Level world) {

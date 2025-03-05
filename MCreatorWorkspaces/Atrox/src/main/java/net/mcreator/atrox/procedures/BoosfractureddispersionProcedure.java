@@ -30,7 +30,7 @@ public class BoosfractureddispersionProcedure {
 		if (!((entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null) == null)) {
 			if (entity.getPersistentData().getDouble("IA") == 30) {
 				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = AtroxModEntities.BOOSSHIELD.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+					Entity entityToSpawn = AtroxModEntities.BOSSSHIELD.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
 					if (entityToSpawn != null) {
 					}
 				}

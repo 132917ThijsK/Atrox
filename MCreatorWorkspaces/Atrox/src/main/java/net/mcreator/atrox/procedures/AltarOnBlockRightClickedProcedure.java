@@ -55,6 +55,9 @@ public class AltarOnBlockRightClickedProcedure {
 				}
 				world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			});
+			AtroxMod.queueServerWork(1200, () -> {
+				world.setBlock(BlockPos.containing(x, y, z), AtroxModBlocks.GREAT_ALTAR.get().defaultBlockState(), 3);
+			});
 		}
 	}
 }

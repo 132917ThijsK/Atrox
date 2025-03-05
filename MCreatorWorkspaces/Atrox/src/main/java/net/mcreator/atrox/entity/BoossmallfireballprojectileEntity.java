@@ -30,7 +30,7 @@ public class BoossmallfireballprojectileEntity extends AbstractArrow implements 
 	public static final ItemStack PROJECTILE_ITEM = new ItemStack(Blocks.AIR);
 
 	public BoossmallfireballprojectileEntity(PlayMessages.SpawnEntity packet, Level world) {
-		super(AtroxModEntities.BOOSSMALLFIREBALLPROJECTILE.get(), world);
+		super(AtroxModEntities.BOSSSMALLFIREBALLPROJECTILE.get(), world);
 	}
 
 	public BoossmallfireballprojectileEntity(EntityType<? extends BoossmallfireballprojectileEntity> type, Level world) {
@@ -90,7 +90,7 @@ public class BoossmallfireballprojectileEntity extends AbstractArrow implements 
 	}
 
 	public static BoossmallfireballprojectileEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
-		BoossmallfireballprojectileEntity entityarrow = new BoossmallfireballprojectileEntity(AtroxModEntities.BOOSSMALLFIREBALLPROJECTILE.get(), entity, world);
+		BoossmallfireballprojectileEntity entityarrow = new BoossmallfireballprojectileEntity(AtroxModEntities.BOSSSMALLFIREBALLPROJECTILE.get(), entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
 		entityarrow.setCritArrow(true);
@@ -103,7 +103,7 @@ public class BoossmallfireballprojectileEntity extends AbstractArrow implements 
 	}
 
 	public static BoossmallfireballprojectileEntity shoot(LivingEntity entity, LivingEntity target) {
-		BoossmallfireballprojectileEntity entityarrow = new BoossmallfireballprojectileEntity(AtroxModEntities.BOOSSMALLFIREBALLPROJECTILE.get(), entity, entity.level());
+		BoossmallfireballprojectileEntity entityarrow = new BoossmallfireballprojectileEntity(AtroxModEntities.BOSSSMALLFIREBALLPROJECTILE.get(), entity, entity.level());
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();

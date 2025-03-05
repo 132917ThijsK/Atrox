@@ -38,12 +38,12 @@ public class AtroxModEntities {
 			EntityType.Builder.<ThegreatangelEntity>of(ThegreatangelEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ThegreatangelEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<BoossmallfireballprojectileEntity>> BOOSSMALLFIREBALLPROJECTILE = register("boossmallfireballprojectile",
+	public static final RegistryObject<EntityType<BoossmallfireballprojectileEntity>> BOSSSMALLFIREBALLPROJECTILE = register("bosssmallfireballprojectile",
 			EntityType.Builder.<BoossmallfireballprojectileEntity>of(BoossmallfireballprojectileEntity::new, MobCategory.MISC).setCustomClientFactory(BoossmallfireballprojectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<BoosshieldEntity>> BOOSSHIELD = register("boosshield", EntityType.Builder.<BoosshieldEntity>of(BoosshieldEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+	public static final RegistryObject<EntityType<BoosshieldEntity>> BOSSSHIELD = register("bossshield", EntityType.Builder.<BoosshieldEntity>of(BoosshieldEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 			.setUpdateInterval(3).setCustomClientFactory(BoosshieldEntity::new).fireImmune().sized(0.4f, 0.7f));
-	public static final RegistryObject<EntityType<BoosartemisEntity>> BOOSARTEMIS = register("boosartemis",
+	public static final RegistryObject<EntityType<BoosartemisEntity>> BOSSARTEMIS = register("bossartemis",
 			EntityType.Builder.<BoosartemisEntity>of(BoosartemisEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BoosartemisEntity::new)
 
 					.sized(0.05f, 0.05f));
@@ -71,8 +71,13 @@ public class AtroxModEntities {
 		event.put(WEEPING_ANGEL.get(), SpookyroamerEntity.createAttributes().build());
 		event.put(SPOOKY_BOAT.get(), SpookyBoatEntity.createAttributes().build());
 		event.put(THEGREATANGEL.get(), ThegreatangelEntity.createAttributes().build());
+<<<<<<< Updated upstream
 		event.put(BOOSSHIELD.get(), BoosshieldEntity.createAttributes().build());
 		event.put(BOOSARTEMIS.get(), BoosartemisEntity.createAttributes().build());
 		event.put(CRACKED_ANGEL.get(), CrackedAngelEntity.createAttributes().build());
+=======
+		event.put(BOSSSHIELD.get(), BoosshieldEntity.createAttributes().build());
+		event.put(BOSSARTEMIS.get(), BoosartemisEntity.createAttributes().build());
+>>>>>>> Stashed changes
 	}
 }

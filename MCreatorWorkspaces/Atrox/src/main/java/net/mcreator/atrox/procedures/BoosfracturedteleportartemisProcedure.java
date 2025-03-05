@@ -46,7 +46,7 @@ public class BoosfracturedteleportartemisProcedure {
 			for (int index0 = 0; index0 < (int) Chain; index0++) {
 				AtroxMod.queueServerWork((int) ChainWait, () -> {
 					if (world instanceof ServerLevel _level) {
-						Entity entityToSpawn = AtroxModEntities.BOOSARTEMIS.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+						Entity entityToSpawn = AtroxModEntities.BOSSARTEMIS.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
 						if (entityToSpawn != null) {
 							entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 						}
@@ -60,7 +60,7 @@ public class BoosfracturedteleportartemisProcedure {
 			for (int index1 = 0; index1 < (int) Chain; index1++) {
 				AtroxMod.queueServerWork((int) ChainWait, () -> {
 					if (world instanceof ServerLevel _level) {
-						Entity entityToSpawn = AtroxModEntities.BOOSARTEMIS.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+						Entity entityToSpawn = AtroxModEntities.BOSSARTEMIS.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
 						if (entityToSpawn != null) {
 							entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 						}
@@ -74,7 +74,7 @@ public class BoosfracturedteleportartemisProcedure {
 			for (int index2 = 0; index2 < (int) Chain; index2++) {
 				AtroxMod.queueServerWork((int) ChainWait, () -> {
 					if (world instanceof ServerLevel _level) {
-						Entity entityToSpawn = AtroxModEntities.BOOSARTEMIS.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+						Entity entityToSpawn = AtroxModEntities.BOSSARTEMIS.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
 						if (entityToSpawn != null) {
 							entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 						}
@@ -88,7 +88,7 @@ public class BoosfracturedteleportartemisProcedure {
 			for (int index3 = 0; index3 < (int) Chain; index3++) {
 				AtroxMod.queueServerWork((int) ChainWait, () -> {
 					if (world instanceof ServerLevel _level) {
-						Entity entityToSpawn = AtroxModEntities.BOOSARTEMIS.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+						Entity entityToSpawn = AtroxModEntities.BOSSARTEMIS.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
 						if (entityToSpawn != null) {
 							entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 						}

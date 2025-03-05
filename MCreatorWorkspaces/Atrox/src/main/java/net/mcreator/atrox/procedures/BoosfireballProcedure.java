@@ -28,7 +28,7 @@ public class BoosfireballProcedure {
 						if (!projectileLevel.isClientSide()) {
 							Projectile _entityToSpawn = new Object() {
 								public Projectile getArrow(Level level, float damage, int knockback) {
-									AbstractArrow entityToSpawn = new BoossmallfireballprojectileEntity(AtroxModEntities.BOOSSMALLFIREBALLPROJECTILE.get(), level);
+									AbstractArrow entityToSpawn = new BoossmallfireballprojectileEntity(AtroxModEntities.BOSSSMALLFIREBALLPROJECTILE.get(), level);
 									entityToSpawn.setBaseDamage(damage);
 									entityToSpawn.setKnockback(knockback);
 									entityToSpawn.setSilent(true);
@@ -56,7 +56,7 @@ public class BoosfireballProcedure {
 						if (!projectileLevel.isClientSide()) {
 							Projectile _entityToSpawn = new Object() {
 								public Projectile getArrow(Level level, float damage, int knockback) {
-									AbstractArrow entityToSpawn = new BoossmallfireballprojectileEntity(AtroxModEntities.BOOSSMALLFIREBALLPROJECTILE.get(), level);
+									AbstractArrow entityToSpawn = new BoossmallfireballprojectileEntity(AtroxModEntities.BOSSSMALLFIREBALLPROJECTILE.get(), level);
 									entityToSpawn.setBaseDamage(damage);
 									entityToSpawn.setKnockback(knockback);
 									entityToSpawn.setSilent(true);
@@ -84,7 +84,7 @@ public class BoosfireballProcedure {
 						if (!projectileLevel.isClientSide()) {
 							Projectile _entityToSpawn = new Object() {
 								public Projectile getArrow(Level level, float damage, int knockback) {
-									AbstractArrow entityToSpawn = new BoossmallfireballprojectileEntity(AtroxModEntities.BOOSSMALLFIREBALLPROJECTILE.get(), level);
+									AbstractArrow entityToSpawn = new BoossmallfireballprojectileEntity(AtroxModEntities.BOSSSMALLFIREBALLPROJECTILE.get(), level);
 									entityToSpawn.setBaseDamage(damage);
 									entityToSpawn.setKnockback(knockback);
 									entityToSpawn.setSilent(true);

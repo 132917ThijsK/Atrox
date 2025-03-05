@@ -12,11 +12,11 @@
             "price1": {
               "value": "Items.EMERALD"
             },
-            "countPrice1": 4,
+            "countPrice1": 2,
             "price2": {
               "value": "Blocks.SOUL_SAND"
             },
-            "countPrice2": 4,
+            "countPrice2": 1,
             "offer": {
               "value": "CUSTOM:Spookyframe"
             },
@@ -30,11 +30,11 @@
             "price1": {
               "value": "Items.EMERALD"
             },
-            "countPrice1": 12,
+            "countPrice1": 6,
             "price2": {
               "value": "Blocks.SOUL_SAND"
             },
-            "countPrice2": 8,
+            "countPrice2": 2,
             "offer": {
               "value": "CUSTOM:Spookydimension"
             },
@@ -48,7 +48,7 @@
             "price1": {
               "value": "Items.EMERALD"
             },
-            "countPrice1": 2,
+            "countPrice1": 1,
             "price2": {
               "value": ""
             },
@@ -66,7 +66,7 @@
             "price1": {
               "value": "Items.FEATHER"
             },
-            "countPrice1": 4,
+            "countPrice1": 2,
             "price2": {
               "value": ""
             },
@@ -84,7 +84,7 @@
             "price1": {
               "value": "Items.STRING"
             },
-            "countPrice1": 10,
+            "countPrice1": 5,
             "price2": {
               "value": ""
             },
@@ -92,7 +92,7 @@
             "offer": {
               "value": "Items.EMERALD"
             },
-            "countOffer": 6,
+            "countOffer": 2,
             "level": 4,
             "maxTrades": 10,
             "xp": 10,

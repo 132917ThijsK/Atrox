@@ -42,7 +42,7 @@ import javax.annotation.Nullable;
 
 public class BoosartemisEntity extends Monster {
 	public BoosartemisEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(AtroxModEntities.BOOSARTEMIS.get(), world);
+		this(AtroxModEntities.BOSSARTEMIS.get(), world);
 	}
 
 	public BoosartemisEntity(EntityType<BoosartemisEntity> type, Level world) {

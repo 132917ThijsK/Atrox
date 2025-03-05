@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "atrox:angelic_stone"
+    },
+    "b": {
+      "item": "atrox:stonestick"
+    }
+  },
+  "result": {
+    "item": "atrox:angelic_sword",
+    "count": 1
+  }
+}

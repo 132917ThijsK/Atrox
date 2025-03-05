@@ -25,9 +25,15 @@ public class AtroxModEntityRenderers {
 		event.registerEntityRenderer(AtroxModEntities.WEEPING_ANGEL.get(), SpookyroamerRenderer::new);
 		event.registerEntityRenderer(AtroxModEntities.SPOOKY_BOAT.get(), SpookyBoatRenderer::new);
 		event.registerEntityRenderer(AtroxModEntities.THEGREATANGEL.get(), ThegreatangelRenderer::new);
+<<<<<<< Updated upstream
 		event.registerEntityRenderer(AtroxModEntities.BOOSSMALLFIREBALLPROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(AtroxModEntities.BOOSSHIELD.get(), BoosshieldRenderer::new);
 		event.registerEntityRenderer(AtroxModEntities.BOOSARTEMIS.get(), BoosartemisRenderer::new);
 		event.registerEntityRenderer(AtroxModEntities.CRACKED_ANGEL.get(), CrackedAngelRenderer::new);
+=======
+		event.registerEntityRenderer(AtroxModEntities.BOSSSMALLFIREBALLPROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(AtroxModEntities.BOSSSHIELD.get(), BoosshieldRenderer::new);
+		event.registerEntityRenderer(AtroxModEntities.BOSSARTEMIS.get(), BoosartemisRenderer::new);
+>>>>>>> Stashed changes
 	}
 }

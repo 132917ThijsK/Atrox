@@ -42,14 +42,16 @@ public class AtroxModTabs {
 				tabData.accept(AtroxModBlocks.WIZARDRYTABLE.get().asItem());
 				tabData.accept(AtroxModItems.BOATSPAWNER.get());
 				tabData.accept(AtroxModBlocks.SPOOKYFRAME.get().asItem());
+				tabData.accept(AtroxModItems.ANGELIC_STONE.get());
+				tabData.accept(AtroxModItems.ANGELIC_SWORD.get());
 				tabData.accept(AtroxModBlocks.SLINKSTONE_ORE.get().asItem());
 				tabData.accept(AtroxModItems.SLINKSTONE.get());
 				tabData.accept(AtroxModBlocks.SLINKSTONE_BLOCK.get().asItem());
-				tabData.accept(AtroxModItems.SLINKSTONETOOLS_SWORD.get());
-				tabData.accept(AtroxModItems.SLINKSTONETOOLS_PICKAXE.get());
-				tabData.accept(AtroxModItems.SLINKSTONETOOLS_AXE.get());
-				tabData.accept(AtroxModItems.SLINKSTONETOOLS_SHOVEL.get());
-				tabData.accept(AtroxModItems.SLINKSTONETOOLS_HOE.get());
+				tabData.accept(AtroxModItems.SLINKSTONE_SWORD.get());
+				tabData.accept(AtroxModItems.SLINKSTONE_PICKAXE.get());
+				tabData.accept(AtroxModItems.SLINKSTONE_AXE.get());
+				tabData.accept(AtroxModItems.SLINKSTONE_SHOVEL.get());
+				tabData.accept(AtroxModItems.SLINKSTONE_HOE.get());
 				tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_HELMET.get());
 				tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_CHESTPLATE.get());
 				tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_LEGGINGS.get());
@@ -85,7 +87,8 @@ public class AtroxModTabs {
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 
-			tabData.accept(AtroxModItems.SLINKSTONETOOLS_SWORD.get());
+			tabData.accept(AtroxModItems.ANGELIC_SWORD.get());
+			tabData.accept(AtroxModItems.SLINKSTONE_SWORD.get());
 			tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_HELMET.get());
 			tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_CHESTPLATE.get());
 			tabData.accept(AtroxModItems.SLINKSTONEARMOR_ARMOR_LEGGINGS.get());
@@ -95,12 +98,17 @@ public class AtroxModTabs {
 
 			tabData.accept(AtroxModItems.WEEPING_ANGEL_SPAWN_EGG.get());
 			tabData.accept(AtroxModItems.THEGREATANGEL_SPAWN_EGG.get());
+<<<<<<< Updated upstream
 			tabData.accept(AtroxModItems.BOOSSHIELD_SPAWN_EGG.get());
 			tabData.accept(AtroxModItems.CRACKED_ANGEL_SPAWN_EGG.get());
+=======
+			tabData.accept(AtroxModItems.BOSSSHIELD_SPAWN_EGG.get());
+>>>>>>> Stashed changes
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
 			tabData.accept(AtroxModItems.SLINKSTONE.get());
+			tabData.accept(AtroxModItems.ANGELIC_STONE.get());
 			tabData.accept(AtroxModItems.STONESTICK.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
@@ -118,10 +126,10 @@ public class AtroxModTabs {
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
-			tabData.accept(AtroxModItems.SLINKSTONETOOLS_PICKAXE.get());
-			tabData.accept(AtroxModItems.SLINKSTONETOOLS_AXE.get());
-			tabData.accept(AtroxModItems.SLINKSTONETOOLS_SHOVEL.get());
-			tabData.accept(AtroxModItems.SLINKSTONETOOLS_HOE.get());
+			tabData.accept(AtroxModItems.SLINKSTONE_PICKAXE.get());
+			tabData.accept(AtroxModItems.SLINKSTONE_AXE.get());
+			tabData.accept(AtroxModItems.SLINKSTONE_SHOVEL.get());
+			tabData.accept(AtroxModItems.SLINKSTONE_HOE.get());
 
 		}
 	}
