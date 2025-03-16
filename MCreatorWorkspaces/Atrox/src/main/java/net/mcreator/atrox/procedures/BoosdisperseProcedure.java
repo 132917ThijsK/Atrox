@@ -3,6 +3,7 @@ package net.mcreator.atrox.procedures;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.LightningBolt;
@@ -15,9 +16,12 @@ import net.minecraft.util.Mth;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.BlockPos;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
 
 import net.mcreator.atrox.network.AtroxModVariables;
 import net.mcreator.atrox.init.AtroxModParticleTypes;
@@ -221,6 +225,13 @@ public class BoosdisperseProcedure {
 			}
 			AtroxModVariables.MapVariables.get(world).GreatAngelDies = true;
 			AtroxModVariables.MapVariables.get(world).syncData(world);
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"loot give @a loot atrox:entities/the_great_angel_table");
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"recipe give @a atrox:angelic_sword_recipe");
+			AtroxMod.LOGGER.debug("Loot Table Called");
 		}
 		AtroxMod.LOGGER.debug("DISPERSE");
 	}
