@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "atrox:slinkstone"
+    },
+    "title": {
+      "translate": "advancements.slinkyslimy_stone.title"
+    },
+    "description": {
+      "translate": "advancements.slinkyslimy_stone.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "slinkyslimy_stone_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "atrox:slinkstone"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "atrox:thatsnew"
+}

@@ -13,7 +13,7 @@ public class SlinkstonetoolsSwordItem extends SwordItem {
 	public SlinkstonetoolsSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 1800;
+				return 1400;
 			}
 
 			public float getSpeed() {

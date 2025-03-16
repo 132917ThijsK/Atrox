@@ -16,7 +16,7 @@
             "item": {
               "value": "CUSTOM:AngelicStone"
             },
-            "weight": 1,
+            "weight": 100,
             "minCount": 2,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
