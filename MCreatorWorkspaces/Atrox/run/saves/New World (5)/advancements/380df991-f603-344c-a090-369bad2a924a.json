@@ -1,0 +1,33 @@
+{
+  "atrox:checkifplayer": {
+    "criteria": {
+      "checkifplayer_0": "2025-03-19 14:18:33 +0100"
+    },
+    "done": true
+  },
+  "atrox:thatwasspooky": {
+    "criteria": {
+      "thatwasspooky_0": "2025-03-19 14:18:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-03-19 14:18:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2025-03-19 14:18:34 +0100"
+    },
+    "done": false
+  },
+  "atrox:tablet_to_everything": {
+    "criteria": {
+      "tablet_to_everything_0": "2025-03-19 14:18:41 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

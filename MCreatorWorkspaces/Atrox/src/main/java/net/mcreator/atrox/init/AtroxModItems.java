@@ -11,6 +11,7 @@ import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.atrox.item.StonestickItem;
@@ -80,10 +81,17 @@ public class AtroxModItems {
 	public static final RegistryObject<Item> CRACKED_ANGEL_SPAWN_EGG = REGISTRY.register("cracked_angel_spawn_egg", () -> new ForgeSpawnEggItem(AtroxModEntities.CRACKED_ANGEL, -13421773, -10066330, new Item.Properties()));
 	public static final RegistryObject<Item> ANGELIC_SWORD = REGISTRY.register("angelic_sword", () -> new AngelicSwordItem());
 	public static final RegistryObject<Item> ANGELIC_STONE = REGISTRY.register("angelic_stone", () -> new AngelicStoneItem());
+	public static final RegistryObject<Item> SPOOKY_GRASS = block(AtroxModBlocks.SPOOKY_GRASS);
+	public static final RegistryObject<Item> SPOOKY_TALL_GRASS = doubleBlock(AtroxModBlocks.SPOOKY_TALL_GRASS);
+	public static final RegistryObject<Item> SPOOKY_SHORT_GRASS = block(AtroxModBlocks.SPOOKY_SHORT_GRASS);
 
 	// Start of user code block custom items
 	// End of user code block custom items
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties()));
 	}
 }

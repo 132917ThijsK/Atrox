@@ -20,7 +20,10 @@
     }
   },
   "rewards": {
-    "experience": 20
+    "experience": 20,
+    "loot": [
+      "atrox:entities/the_great_angel_table"
+    ]
   },
   "parent": "atrox:thatwasspooky"
 }

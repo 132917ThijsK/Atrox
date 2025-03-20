@@ -18,7 +18,7 @@
       "value": -15036902,
       "falpha": 0.0
     },
-    "canRespawnHere": false,
+    "canRespawnHere": true,
     "hasFog": true,
     "isDark": true,
     "doesWaterVaporize": true,

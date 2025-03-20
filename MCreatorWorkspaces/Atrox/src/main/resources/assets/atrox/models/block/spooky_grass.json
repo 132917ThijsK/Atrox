@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "atrox:block/spookygrass",
+    "particle": "atrox:block/spookygrass"
+  },
+  "render_type": "cutout"
+}

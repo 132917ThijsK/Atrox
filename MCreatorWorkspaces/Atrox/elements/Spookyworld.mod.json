@@ -10,17 +10,9 @@
       "value": "CUSTOM:Spookyrack"
     },
     "underwaterBlock": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:Spookyrack"
     },
     "airColor": {
-      "value": -16172791,
-      "falpha": 0.0
-    },
-    "waterColor": {
-      "value": -15036902,
-      "falpha": 0.0
-    },
-    "waterFogColor": {
       "value": -16172791,
       "falpha": 0.0
     },

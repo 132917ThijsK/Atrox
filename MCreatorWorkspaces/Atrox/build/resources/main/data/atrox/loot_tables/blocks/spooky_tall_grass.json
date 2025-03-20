@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "atrox:blocks/spooky_tall_grass",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "atrox:spooky_tall_grass",
+          "conditions": [
+            {
+              "block": "atrox:spooky_tall_grass",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

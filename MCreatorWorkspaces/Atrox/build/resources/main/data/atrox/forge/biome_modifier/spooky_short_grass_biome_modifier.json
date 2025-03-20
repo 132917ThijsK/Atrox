@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "atrox:spookyworld",
+  "features": "atrox:spooky_short_grass",
+  "step": "vegetal_decoration"
+}

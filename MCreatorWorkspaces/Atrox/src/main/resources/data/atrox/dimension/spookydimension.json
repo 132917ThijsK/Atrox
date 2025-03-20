@@ -203,7 +203,7 @@
                       {
                         "type": "minecraft:block",
                         "result_state": {
-                          "Name": "minecraft:air"
+                          "Name": "atrox:spookyrack"
                         }
                       }
                     ]

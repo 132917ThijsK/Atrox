@@ -24,6 +24,9 @@ import net.mcreator.atrox.block.SpookyrackBlock;
 import net.mcreator.atrox.block.SpookyleavesBlock;
 import net.mcreator.atrox.block.SpookyframeBlock;
 import net.mcreator.atrox.block.SpookydimensionPortalBlock;
+import net.mcreator.atrox.block.SpookyTallGrassBlock;
+import net.mcreator.atrox.block.SpookyShortGrassBlock;
+import net.mcreator.atrox.block.SpookyGrassBlock;
 import net.mcreator.atrox.block.SpookstoneStairsBlock;
 import net.mcreator.atrox.block.SpookstoneSlabBlock;
 import net.mcreator.atrox.block.SpookstoneBlock;
@@ -60,6 +63,9 @@ public class AtroxModBlocks {
 	public static final RegistryObject<Block> TRAPPEDSTONEPRESSUREPLATE = REGISTRY.register("trappedstonepressureplate", () -> new PlayerplateBlock());
 	public static final RegistryObject<Block> GREAT_ALTAR = REGISTRY.register("great_altar", () -> new GreatAltarBlock());
 	public static final RegistryObject<Block> GREAT_ALTAR_PHASE_2 = REGISTRY.register("great_altar_phase_2", () -> new GreatAltarPhase2Block());
+	public static final RegistryObject<Block> SPOOKY_GRASS = REGISTRY.register("spooky_grass", () -> new SpookyGrassBlock());
+	public static final RegistryObject<Block> SPOOKY_TALL_GRASS = REGISTRY.register("spooky_tall_grass", () -> new SpookyTallGrassBlock());
+	public static final RegistryObject<Block> SPOOKY_SHORT_GRASS = REGISTRY.register("spooky_short_grass", () -> new SpookyShortGrassBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

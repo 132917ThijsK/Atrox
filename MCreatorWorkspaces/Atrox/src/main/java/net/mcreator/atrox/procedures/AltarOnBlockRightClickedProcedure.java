@@ -58,6 +58,36 @@ public class AltarOnBlockRightClickedProcedure {
 			AtroxMod.queueServerWork(1200, () -> {
 				world.setBlock(BlockPos.containing(x, y, z), AtroxModBlocks.GREAT_ALTAR.get().defaultBlockState(), 3);
 			});
+			AtroxMod.queueServerWork(3000, () -> {
+				world.setBlock(BlockPos.containing(x, y - 1, z), AtroxModBlocks.SPOOKYDIMENSION_PORTAL.get().defaultBlockState(), 3);
+				AtroxMod.queueServerWork(3000, () -> {
+					world.setBlock(BlockPos.containing(x, y - 1, z), AtroxModBlocks.SPOOKYDIMENSION_PORTAL.get().defaultBlockState(), 3);
+					AtroxMod.queueServerWork(3000, () -> {
+						world.setBlock(BlockPos.containing(x, y - 1, z), AtroxModBlocks.SPOOKYDIMENSION_PORTAL.get().defaultBlockState(), 3);
+						AtroxMod.queueServerWork(3000, () -> {
+							world.setBlock(BlockPos.containing(x, y - 1, z), AtroxModBlocks.SPOOKYDIMENSION_PORTAL.get().defaultBlockState(), 3);
+							AtroxMod.queueServerWork(3000, () -> {
+								world.setBlock(BlockPos.containing(x, y - 1, z), AtroxModBlocks.SPOOKYDIMENSION_PORTAL.get().defaultBlockState(), 3);
+								AtroxMod.queueServerWork(3000, () -> {
+									world.setBlock(BlockPos.containing(x, y - 1, z), AtroxModBlocks.SPOOKYDIMENSION_PORTAL.get().defaultBlockState(), 3);
+									AtroxMod.queueServerWork(3000, () -> {
+										world.setBlock(BlockPos.containing(x, y - 1, z), AtroxModBlocks.SPOOKYDIMENSION_PORTAL.get().defaultBlockState(), 3);
+										AtroxMod.queueServerWork(3000, () -> {
+											world.setBlock(BlockPos.containing(x, y - 1, z), AtroxModBlocks.SPOOKYDIMENSION_PORTAL.get().defaultBlockState(), 3);
+											AtroxMod.queueServerWork(3000, () -> {
+												world.setBlock(BlockPos.containing(x, y - 1, z), AtroxModBlocks.SPOOKYDIMENSION_PORTAL.get().defaultBlockState(), 3);
+												AtroxMod.queueServerWork(3000, () -> {
+													world.setBlock(BlockPos.containing(x, y - 1, z), AtroxModBlocks.SPOOKYDIMENSION_PORTAL.get().defaultBlockState(), 3);
+												});
+											});
+										});
+									});
+								});
+							});
+						});
+					});
+				});
+			});
 		}
 	}
 }

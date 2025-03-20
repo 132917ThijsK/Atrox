@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "atrox:block/spooky_tall_grass"
+    },
+    "half=lower": {
+      "model": "atrox:block/spooky_tall_grass_bottom"
+    }
+  }
+}

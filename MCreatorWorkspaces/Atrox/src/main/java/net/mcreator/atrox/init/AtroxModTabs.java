@@ -121,6 +121,9 @@ public class AtroxModTabs {
 			tabData.accept(AtroxModBlocks.SPOOKSTONE_STAIRS.get().asItem());
 			tabData.accept(AtroxModBlocks.SPOOKSTONE_SLAB.get().asItem());
 			tabData.accept(AtroxModItems.SPOOKSTONE_DUST.get());
+			tabData.accept(AtroxModBlocks.SPOOKY_GRASS.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKY_TALL_GRASS.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKY_SHORT_GRASS.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

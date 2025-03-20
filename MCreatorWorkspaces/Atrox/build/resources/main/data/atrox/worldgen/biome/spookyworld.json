@@ -13,8 +13,8 @@
     "grass_color": 9470285,
     "sky_color": -16172791,
     "fog_color": -16172791,
-    "water_color": -15036902,
-    "water_fog_color": -16172791
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
   "spawners": {
     "monster": [],
