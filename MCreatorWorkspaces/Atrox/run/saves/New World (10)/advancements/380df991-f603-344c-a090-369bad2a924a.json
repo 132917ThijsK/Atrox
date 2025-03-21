@@ -1,0 +1,22 @@
+{
+  "atrox:checkifplayer": {
+    "criteria": {
+      "checkifplayer_0": "2025-03-21 10:22:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-03-21 10:22:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2025-03-21 10:22:21 +0100",
+      "minecraft:old_growth_birch_forest": "2025-03-21 10:22:09 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

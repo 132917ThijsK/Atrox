@@ -35,6 +35,9 @@
     "creativeTabs": [
       {
         "value": "DECORATIONS"
+      },
+      {
+        "value": "CUSTOM:Spooky"
       }
     ],
     "hardness": 0.0,
@@ -90,7 +93,7 @@
       }
     ],
     "generationType": "Grass",
-    "patchSize": 14,
+    "patchSize": 32,
     "generateAtAnyHeight": false
   }
 }

@@ -25,6 +25,9 @@ public class AtroxModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.atrox.spooky")).icon(() -> new ItemStack(AtroxModItems.CREATIVE_TAB_ICON.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(AtroxModItems.SPOOKYDIMENSION.get());
 				tabData.accept(AtroxModBlocks.SPOOKYRACK.get().asItem());
+				tabData.accept(AtroxModBlocks.SPOOKY_SHORT_GRASS.get().asItem());
+				tabData.accept(AtroxModBlocks.SPOOKY_GRASS.get().asItem());
+				tabData.accept(AtroxModBlocks.SPOOKY_TALL_GRASS.get().asItem());
 				tabData.accept(AtroxModBlocks.SPOOKYFRAME.get().asItem());
 				tabData.accept(AtroxModItems.ACID_BUCKET.get());
 				tabData.accept(AtroxModBlocks.SPOOKYLEAVES.get().asItem());
@@ -113,6 +116,9 @@ public class AtroxModTabs {
 
 			tabData.accept(AtroxModBlocks.SPOOKYFRAME.get().asItem());
 			tabData.accept(AtroxModBlocks.SPOOKYRACK.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKY_SHORT_GRASS.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKY_GRASS.get().asItem());
+			tabData.accept(AtroxModBlocks.SPOOKY_TALL_GRASS.get().asItem());
 			tabData.accept(AtroxModBlocks.SPOOKYLEAVES.get().asItem());
 			tabData.accept(AtroxModBlocks.SPOOKYWOOD_WOOD.get().asItem());
 			tabData.accept(AtroxModBlocks.SPOOKYWOOD_LOG.get().asItem());
@@ -121,9 +127,6 @@ public class AtroxModTabs {
 			tabData.accept(AtroxModBlocks.SPOOKSTONE_STAIRS.get().asItem());
 			tabData.accept(AtroxModBlocks.SPOOKSTONE_SLAB.get().asItem());
 			tabData.accept(AtroxModItems.SPOOKSTONE_DUST.get());
-			tabData.accept(AtroxModBlocks.SPOOKY_GRASS.get().asItem());
-			tabData.accept(AtroxModBlocks.SPOOKY_TALL_GRASS.get().asItem());
-			tabData.accept(AtroxModBlocks.SPOOKY_SHORT_GRASS.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

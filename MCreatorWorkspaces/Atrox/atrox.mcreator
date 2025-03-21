@@ -469,9 +469,9 @@
       "registry_name": "weeping_angel",
       "metadata": {
         "files": [
-          "src/main/resources/data/atrox/forge/biome_modifier/weeping_angel_biome_modifier.json",
-          "src/main/java/net/mcreator/atrox/entity/SpookyroamerEntity.java",
           "src/main/java/net/mcreator/atrox/client/renderer/SpookyroamerRenderer.java",
+          "src/main/java/net/mcreator/atrox/entity/SpookyroamerEntity.java",
+          "src/main/resources/data/atrox/forge/biome_modifier/weeping_angel_biome_modifier.json",
           "src/main/resources/assets/atrox/models/item/weeping_angel_spawn_egg.json"
         ]
       },
@@ -677,8 +677,8 @@
       "registry_name": "wizardshut",
       "metadata": {
         "files": [
-          "src/main/resources/data/atrox/worldgen/structure_set/wizardshut.json",
           "src/main/resources/data/atrox/worldgen/template_pool/wizardshut.json",
+          "src/main/resources/data/atrox/worldgen/structure_set/wizardshut.json",
           "src/main/resources/data/atrox/worldgen/structure/wizardshut.json"
         ]
       },
@@ -1358,10 +1358,10 @@
       "registry_name": "thegreatangel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/atrox/entity/model/ThegreatangelModel.java",
           "src/main/java/net/mcreator/atrox/client/renderer/ThegreatangelRenderer.java",
-          "src/main/resources/assets/atrox/models/item/thegreatangel_spawn_egg.json",
-          "src/main/java/net/mcreator/atrox/entity/ThegreatangelEntity.java"
+          "src/main/java/net/mcreator/atrox/entity/ThegreatangelEntity.java",
+          "src/main/java/net/mcreator/atrox/entity/model/ThegreatangelModel.java",
+          "src/main/resources/assets/atrox/models/item/thegreatangel_spawn_egg.json"
         ]
       },
       "path": "~/Boss"
@@ -1569,8 +1569,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/atrox/models/item/boosshield_spawn_egg.json",
-          "src/main/java/net/mcreator/atrox/entity/BoosshieldEntity.java",
-          "src/main/java/net/mcreator/atrox/client/renderer/BoosshieldRenderer.java"
+          "src/main/java/net/mcreator/atrox/client/renderer/BoosshieldRenderer.java",
+          "src/main/java/net/mcreator/atrox/entity/BoosshieldEntity.java"
         ]
       },
       "path": "~/Boss"
@@ -2498,10 +2498,10 @@
       "registry_name": "cracked_angel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/atrox/client/renderer/CrackedAngelRenderer.java",
+          "src/main/resources/assets/atrox/models/item/cracked_angel_spawn_egg.json",
           "src/main/java/net/mcreator/atrox/entity/CrackedAngelEntity.java",
           "src/main/resources/data/atrox/forge/biome_modifier/cracked_angel_biome_modifier.json",
-          "src/main/resources/assets/atrox/models/item/cracked_angel_spawn_egg.json"
+          "src/main/java/net/mcreator/atrox/client/renderer/CrackedAngelRenderer.java"
         ]
       },
       "path": "~/Mobs"
@@ -2861,11 +2861,15 @@
       "Spookyroamer",
       "CrackedAngel",
       "Thegreatangel",
-      "Boosshield"
+      "Boosshield",
+      "Boosartemis"
     ],
     "CUSTOM:Spooky": [
       "Spookydimension",
       "Spookyrack",
+      "SpookyShortGrass",
+      "SpookyGrass",
+      "SpookyTallGrass",
       "Spookyframe",
       "Acid",
       "Spookyleaves",
@@ -2908,6 +2912,9 @@
     "DECORATIONS": [
       "Spookyframe",
       "Spookyrack",
+      "SpookyShortGrass",
+      "SpookyGrass",
+      "SpookyTallGrass",
       "Spookyleaves",
       "SpookywoodWood",
       "SpookywoodLog",
@@ -2915,10 +2922,7 @@
       "Spookstone",
       "SpookstoneStairs",
       "SpookstoneSlab",
-      "SpookstoneDust",
-      "SpookyGrass",
-      "SpookyTallGrass",
-      "SpookyShortGrass"
+      "SpookstoneDust"
     ]
   },
   "language_map": {
