@@ -677,8 +677,8 @@
       "registry_name": "wizardshut",
       "metadata": {
         "files": [
-          "src/main/resources/data/atrox/worldgen/structure_set/wizardshut.json",
           "src/main/resources/data/atrox/worldgen/template_pool/wizardshut.json",
+          "src/main/resources/data/atrox/worldgen/structure_set/wizardshut.json",
           "src/main/resources/data/atrox/worldgen/structure/wizardshut.json"
         ]
       },
@@ -2861,7 +2861,8 @@
       "Spookyroamer",
       "CrackedAngel",
       "Thegreatangel",
-      "Boosshield"
+      "Boosshield",
+      "Boosartemis"
     ],
     "CUSTOM:Spooky": [
       "Spookydimension",

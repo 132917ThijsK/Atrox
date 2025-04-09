@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources"]
+incompatibleResourcePacks:["file/Atrox Title.zip"]
 lastServer:localhost:25463
 lang:en_us
 soundDevice:""
@@ -72,7 +72,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
