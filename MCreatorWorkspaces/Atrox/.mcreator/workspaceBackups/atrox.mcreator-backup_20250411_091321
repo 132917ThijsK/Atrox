@@ -1358,10 +1358,10 @@
       "registry_name": "thegreatangel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/atrox/client/renderer/ThegreatangelRenderer.java",
-          "src/main/java/net/mcreator/atrox/entity/ThegreatangelEntity.java",
           "src/main/java/net/mcreator/atrox/entity/model/ThegreatangelModel.java",
-          "src/main/resources/assets/atrox/models/item/thegreatangel_spawn_egg.json"
+          "src/main/java/net/mcreator/atrox/client/renderer/ThegreatangelRenderer.java",
+          "src/main/resources/assets/atrox/models/item/thegreatangel_spawn_egg.json",
+          "src/main/java/net/mcreator/atrox/entity/ThegreatangelEntity.java"
         ]
       },
       "path": "~/Boss"
@@ -1569,8 +1569,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/atrox/models/item/boosshield_spawn_egg.json",
-          "src/main/java/net/mcreator/atrox/client/renderer/BoosshieldRenderer.java",
-          "src/main/java/net/mcreator/atrox/entity/BoosshieldEntity.java"
+          "src/main/java/net/mcreator/atrox/entity/BoosshieldEntity.java",
+          "src/main/java/net/mcreator/atrox/client/renderer/BoosshieldRenderer.java"
         ]
       },
       "path": "~/Boss"
@@ -3054,7 +3054,7 @@
   "workspaceSettings": {
     "modid": "atrox",
     "modName": "Atrox",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "iMacJack",
     "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
